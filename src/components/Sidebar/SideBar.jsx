@@ -1,6 +1,7 @@
 import React from './node_modules/react';
 import { Route, Switch, Redirect } from "react-router";
 import './_sidebar.scss';
+import Categories from './Categories'
 
 class SideBar extends React.Component {
 
@@ -17,8 +18,8 @@ class SideBar extends React.Component {
 
         <Route exact path="/list" component={List}>List</Route>
         <Route path="categories" component={Categories}>Categories</Route>
-        <Route exact path="/" component={SubmitApi}>Submit an API</Route>
-        <Route exact path="/" component={About}>About</Route>
+        <Route exact path="/submit-api" component={SubmitApi}>Submit an API</Route>
+        <Route exact path="/about" component={About}>About</Route>
 
     </div>
     

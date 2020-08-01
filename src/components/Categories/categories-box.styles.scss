@@ -1,10 +1,23 @@
 //categories-box styles
 
-
 body {
   color: #2c3e50;
   background: #ecf0f1;
   padding: 0 1em 1em;
+}
+
+.category-window {
+
+  display: flex;
+  width: 25%;
+  height: 60%;
+  border-radius: 0px 25px 21px 0px;
+  -webkit-border-radius: 0px 25px 21px 0px;
+  -moz-border-radius: 0px 25px 21px 0px;
+  box-shadow: 8px 11px 27px 0px rgba(0,0,0,0.66);
+-webkit-box-shadow: 8px 11px 27px 0px rgba(0,0,0,0.66);
+-moz-box-shadow: 8px 11px 27px 0px rgba(0,0,0,0.66);
+
 }
 
 .platform-content-h1 {
