@@ -3,8 +3,13 @@
   border: none;
   border-radius: 25px;
   outline: none;
-  padding: 10px;
+  padding: 10px 25px;
   width: 25em;
-  line-height: 30px;
+  line-height: 22px;
   margin-bottom: 30px;
+}
+
+.search::placeholder {
+  color: #afafaf;
+  font-size: 1.25em;
 }
