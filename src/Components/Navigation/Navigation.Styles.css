@@ -3,6 +3,16 @@
   width: 200px;
 }
 
+.sidebar {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
 .app-title {
   display: flex;
   align-items: center;
@@ -12,16 +22,6 @@
   font-size: 1.5em;
   margin: 15px 8px;
   padding-left: 25px;
-}
-
-.sidebar {
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
 }
 
 .nav-item,
