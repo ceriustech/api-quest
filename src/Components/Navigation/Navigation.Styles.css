@@ -24,6 +24,22 @@
   padding-left: 25px;
 }
 
+.app-title-span_left {
+  color: var(--alt-color-primary);
+}
+
+.app-title-span_right {
+  color: var(--alt-color-secondary);
+}
+
+.icon-colors path:nth-child(odd) {
+  color: var(--alt-color-primary);
+}
+
+.icon-colors path:nth-child(even) {
+  color: var(--alt-color-secondary);
+}
+
 .nav-item,
 .link-item {
   display: flex;
@@ -35,7 +51,8 @@
   text-decoration: none;
 }
 
-.nav-item p,
-.link-item p {
+.link-item p,
+.nav-item p {
+  color: var(--text-primary);
   margin: 7px 0 0 5px;
 }

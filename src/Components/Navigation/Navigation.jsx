@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -16,8 +16,12 @@ const Navigation = () => {
     <div className="Navigation">
       <nav className="sidebar">
         <div className="app-title">
-          <h1>API Quest</h1>
+          <h1>
+            <span className="app-title-span_left">API</span>{" "}
+            <span className="app-title-span_right">Quest</span>
+          </h1>
           <DoubleArrowIcon
+            className="icon-colors"
             style={{
               width: "35px",
               height: "35px",

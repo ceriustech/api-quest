@@ -10,7 +10,7 @@ const HomePage = () => {
   const [categories, setCategories] = useState([]);
   const [search, setSearch] = useState("");
 
-  useEffect(() => {
+  const categoryList = useEffect(() => {
     axios
       .get(`https://api.publicapis.org/categories`)
       .then((response) => response.data)

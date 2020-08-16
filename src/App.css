@@ -1,11 +1,12 @@
 :root {
   font-size: 16px;
   font-family: "Open Sans";
-  --text-primary: #a5a5a5;
-  --text-secondary: #2d2b5e;
+  --text-primary: #848484;
+  --text-secondary: #110f48;
   --bg-primary: #f6f4fc;
   --bg-secondary: #2d2b5e;
-  --transition-speed: 600ms;
+  --alt-color-primary: #e63956;
+  --alt-color-secondary: #3cc0f8;
 }
 
 * {
