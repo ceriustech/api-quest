@@ -1,7 +1,7 @@
 .card-list {
   margin-top: 25px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   grid-gap: 10px;
 }
 
@@ -16,5 +16,16 @@
 .card-list p {
   color: var(--text-primary);
   line-height: 1.5;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
+}
+
+.card-list p:nth-child(odd) {
+  background-color: #fef5f7;
+  border-radius: 25px;
+  color: #e63956;
+  display: flex;
+  justify-content: center;
+  padding: 6px 0px 0 6px;
+  text-align: center;
+  width: 50%;
 }

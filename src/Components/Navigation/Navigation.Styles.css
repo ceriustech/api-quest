@@ -56,3 +56,7 @@
   color: var(--text-primary);
   margin: 7px 0 0 5px;
 }
+
+.nav-icon {
+  color: var(--text-secondary);
+}
