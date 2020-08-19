@@ -19,6 +19,12 @@ const HomePage = () => {
       });
   }, []);
 
+  useEffect(() => {
+    axios
+      .get("https://api.publicapis.org/entries?category=animals&https=true")
+      .then((response) => console.log(response.data));
+  }, []);
+
   const handleInputSearchChange = (e) => {
     e.preventDefault();
     setSearch(e.target.value);
