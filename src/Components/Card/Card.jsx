@@ -3,10 +3,11 @@ import React from "react";
 import ArrowLeftIcon from "@material-ui/icons/ArrowLeft";
 import "./Card.Styles.css";
 
-const Card = (props) => (
+const Card = ({ category, summaryText, icon: Icon }) => (
   <div className="card-container">
-    <h2>{props.category}</h2>
-    <p>Some info.</p>
+    <Icon />
+    <h2>{category}</h2>
+    <p>{summaryText}</p>
     <p>
       <span className="card-list-span_left">Click Here</span>{" "}
       <span className="card-list-span_right">
