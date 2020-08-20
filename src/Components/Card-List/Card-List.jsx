@@ -14,13 +14,17 @@ const CardList = (props) => {
           return null;
         }
 
-        const { icon, summaryText } = categoryinfo[category];
+        const { icon, summaryText, backgroundColor, iconColor } = categoryinfo[
+          category
+        ];
         return (
           <Card
             key={index}
             category={category}
             icon={icon}
             summaryText={summaryText}
+            backgroundColor={backgroundColor}
+            iconColor={iconColor}
           />
         );
       })}
