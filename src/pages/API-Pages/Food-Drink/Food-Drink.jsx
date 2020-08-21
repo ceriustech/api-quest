@@ -1,6 +1,6 @@
 import React from "react";
 
-const Animals = (props) => {
+const FoodDrink = (props) => {
   console.log(props);
   return (
     <div className="animals">
@@ -9,4 +9,4 @@ const Animals = (props) => {
   );
 };
 
-export default Animals;
+export default FoodDrink;
