@@ -1,12 +1,12 @@
 import React from "react";
 
-const Calendar = (props) => {
+const Business = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper business">
+      <h1>Business Page</h1>
     </div>
   );
 };
 
-export default Calendar;
+export default Business;

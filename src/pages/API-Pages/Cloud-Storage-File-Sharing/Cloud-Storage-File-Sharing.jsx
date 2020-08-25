@@ -3,8 +3,8 @@ import React from "react";
 const CloudStorageFileSharing = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper cloud-storage-file-sharing">
+      <h1>Cloud Storage File Sharing Page</h1>
     </div>
   );
 };

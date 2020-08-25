@@ -29,20 +29,20 @@ const Navigation = () => {
             }}
           />
         </div>
-        <Link className="home nav-item" to="/">
-          <HomeOutlinedIcon />
+        <Link className="home-link nav-item" to="/">
+          <HomeOutlinedIcon className="nav-icon" />
           <p>Home</p>
         </Link>
-        <div className="categories link-item">
-          <CategoryOutlinedIcon />
+        <div className="categories-link_container link-item">
+          <CategoryOutlinedIcon className="nav-icon" />
           <p>Categories</p>
         </div>
-        <Link className="about nav-item" to="/about">
-          <InfoOutlinedIcon />
+        <Link className="about-link nav-item" to="/about">
+          <InfoOutlinedIcon className="nav-icon" />
           <p>About</p>
         </Link>
-        <Link className="faq nav-item" to="/faq">
-          <HelpOutlineOutlinedIcon />
+        <Link className="faq-link nav-item" to="/faq">
+          <HelpOutlineOutlinedIcon className="nav-icon" />
           <p>FAQ</p>
         </Link>
       </nav>

@@ -3,8 +3,8 @@ import React from "react";
 const DocumentsProductivity = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper documents-productivity">
+      <h1>Documents Productivity Page</h1>
     </div>
   );
 };

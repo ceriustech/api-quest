@@ -3,8 +3,8 @@ import React from "react";
 const Geocoding = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper geocoding">
+      <h1>Geocoding Page</h1>
     </div>
   );
 };

@@ -19,13 +19,18 @@
   margin-bottom: 15px;
 }
 
-.card-list p:nth-child(4) {
+.card-list .card-link {
   background-color: #fef5f7;
   border-radius: 25px;
-  color: #e63956;
   display: flex;
   justify-content: center;
   padding: 6px 0px 0 6px;
-  text-align: center;
+  text-decoration: none;
   width: 35%;
+}
+
+.card-link_p {
+  color: #e63956 !important;
+  display: flex;
+  margin: 0 !important;
 }

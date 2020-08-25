@@ -3,8 +3,8 @@ import React from "react";
 const Personality = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper personality">
+      <h1>Personality Page</h1>
     </div>
   );
 };

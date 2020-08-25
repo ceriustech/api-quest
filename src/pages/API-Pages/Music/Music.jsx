@@ -3,8 +3,8 @@ import React from "react";
 const Music = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper music">
+      <h1>Music Page</h1>
     </div>
   );
 };

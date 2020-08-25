@@ -3,8 +3,8 @@ import React from "react";
 const DataValidation = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper data-validation">
+      <h1>Data Validation Page</h1>
     </div>
   );
 };

@@ -3,8 +3,8 @@ import React from "react";
 const Cryptocurrency = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper cryptocurrency">
+      <h1>Cryptocurrency Page</h1>
     </div>
   );
 };

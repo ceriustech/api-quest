@@ -3,8 +3,8 @@ import React from "react";
 const SportsFitness = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper sports-fitness">
+      <h1>Sports Fitness Page</h1>
     </div>
   );
 };

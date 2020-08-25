@@ -3,8 +3,8 @@ import React from "react";
 const FoodDrink = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper food-drink">
+      <h1>Food Drink Page</h1>
     </div>
   );
 };

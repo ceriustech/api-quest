@@ -3,8 +3,8 @@ import React from "react";
 const ContinuousIntegration = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper continuous-integration">
+      <h1>Continuous Integration Page</h1>
     </div>
   );
 };

@@ -33,7 +33,7 @@ const HomePage = () => {
   return (
     <div className="main-content_wrapper">
       <section className="main-content">
-        <h1>Welcome to API Quest</h1>
+        <h1 className="main-content_h1">Welcome to API Quest</h1>
         <SearchField handleChange={handleInputSearchChange} />
         <CardList
           categories={categories.filter(

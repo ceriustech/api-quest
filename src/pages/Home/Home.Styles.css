@@ -5,3 +5,13 @@
   position: relative;
   bottom: 60px;
 }
+
+.main-content {
+  font-size: 16px;
+}
+
+.main-content_h1 {
+  color: var(--text-tertiary);
+  font-size: 2.5em;
+  margin: 50px 0 10px 10px;
+}

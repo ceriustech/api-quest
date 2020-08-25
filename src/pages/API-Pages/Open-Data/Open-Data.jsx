@@ -3,8 +3,8 @@ import React from "react";
 const OpenData = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper open-data">
+      <h1>Open Data Page</h1>
     </div>
   );
 };

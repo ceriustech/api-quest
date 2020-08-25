@@ -6,7 +6,8 @@
   padding: 10px 25px;
   width: 25em;
   line-height: 22px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .search::placeholder {

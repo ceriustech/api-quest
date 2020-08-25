@@ -3,8 +3,8 @@ import React from "react";
 const ScienceMath = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper science-math">
+      <h1>Science Math Page</h1>
     </div>
   );
 };

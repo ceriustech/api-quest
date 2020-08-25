@@ -3,8 +3,8 @@ import React from "react";
 const CurrencyExchange = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper currency-exchange">
+      <h1>Currency Exchange Page</h1>
     </div>
   );
 };

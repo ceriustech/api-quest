@@ -27,8 +27,8 @@ const Card = ({
     <h2>{category}</h2>
     <p>{summaryText}</p>
 
-    <Link to={url}>
-      <p>
+    <Link to={url} className="card-link">
+      <p className="card-link_p">
         <span className="card-list-span_left">Click Here</span>
         <span className="card-list-span_right">
           <ArrowLeftIcon />

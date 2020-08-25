@@ -3,8 +3,8 @@ import React from "react";
 const TestAnalysis = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper test-analysis">
+      <h1>Test Analysis Page</h1>
     </div>
   );
 };

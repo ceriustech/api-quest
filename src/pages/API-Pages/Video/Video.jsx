@@ -3,8 +3,8 @@ import React from "react";
 const Video = (props) => {
   console.log(props);
   return (
-    <div className="animals">
-      <h1>Animals Page</h1>
+    <div className="main-content_wrapper video">
+      <h1>Video Page</h1>
     </div>
   );
 };
