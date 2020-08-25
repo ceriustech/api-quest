@@ -45,7 +45,8 @@
   display: flex;
   align-items: center;
   color: black;
-  padding: 16px 35px;
+  margin: 11px 0;
+  padding: 5px 35px;
   position: relative;
   top: 35px;
   text-decoration: none;
@@ -59,4 +60,26 @@
 
 .nav-icon {
   color: var(--text-secondary);
+}
+
+/** Nav Hover Styles **/
+.nav-item:hover {
+  border-right: 2px solid #e63956;
+}
+.nav-item:hover > .nav-icon {
+  color: #e63956;
+}
+.nav-item:hover > .nav-item_p {
+  color: #3b3888;
+}
+
+.link-item:hover {
+  border-right: 2px solid #e63956;
+  cursor: pointer;
+}
+.link-item:hover > .nav-icon {
+  color: #e63956;
+}
+.link-item:hover > .link-item_p {
+  color: #3b3888;
 }

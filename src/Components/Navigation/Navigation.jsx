@@ -31,19 +31,19 @@ const Navigation = () => {
         </div>
         <Link className="home-link nav-item" to="/">
           <HomeOutlinedIcon className="nav-icon" />
-          <p>Home</p>
+          <p className="nav-item_p">Home</p>
         </Link>
         <div className="categories-link_container link-item">
           <CategoryOutlinedIcon className="nav-icon" />
-          <p>Categories</p>
+          <p className="link-item_p">Categories</p>
         </div>
         <Link className="about-link nav-item" to="/about">
           <InfoOutlinedIcon className="nav-icon" />
-          <p>About</p>
+          <p className="nav-item_p">About</p>
         </Link>
         <Link className="faq-link nav-item" to="/faq">
           <HelpOutlineOutlinedIcon className="nav-icon" />
-          <p>FAQ</p>
+          <p className="nav-item_p">FAQ</p>
         </Link>
       </nav>
     </div>
