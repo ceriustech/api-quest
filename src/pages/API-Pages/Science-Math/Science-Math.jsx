@@ -4,7 +4,9 @@ const ScienceMath = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper science-math">
-      <h1>Science Math Page</h1>
+      <section className="category-content">
+        <h1>Science and Math Page</h1>
+      </section>
     </div>
   );
 };

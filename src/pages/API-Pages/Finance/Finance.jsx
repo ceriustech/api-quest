@@ -4,7 +4,9 @@ const Finance = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper finance">
-      <h1>Finance Page</h1>
+      <section className="category-content">
+        <h1>Finance Page</h1>
+      </section>
     </div>
   );
 };

@@ -4,7 +4,9 @@ const FoodDrink = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper food-drink">
-      <h1>Food Drink Page</h1>
+      <section className="category-content">
+        <h1>Food and Drink Page</h1>
+      </section>
     </div>
   );
 };

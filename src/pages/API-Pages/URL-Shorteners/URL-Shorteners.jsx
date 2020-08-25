@@ -4,7 +4,9 @@ const URLShorteners = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper url-shorteners">
-      <h1>URLShorteners Page</h1>
+      <section className="category-content">
+        <h1>URL Shorteners Page</h1>
+      </section>
     </div>
   );
 };

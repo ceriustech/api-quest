@@ -4,7 +4,9 @@ const CloudStorageFileSharing = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper cloud-storage-file-sharing">
-      <h1>Cloud Storage File Sharing Page</h1>
+      <section className="category-content">
+        <h1>Cloud Storage and File Sharing Page</h1>
+      </section>
     </div>
   );
 };

@@ -4,7 +4,9 @@ const Jobs = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper jobs">
-      <h1>Jobs Page</h1>
+      <section className="category-content">
+        <h1>Jobs Page</h1>
+      </section>
     </div>
   );
 };

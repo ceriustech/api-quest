@@ -55,7 +55,8 @@
 .link-item p,
 .nav-item p {
   color: var(--text-primary);
-  margin: 7px 0 0 5px;
+  margin: 5px 0 0 5px;
+  padding-bottom: 3px;
 }
 
 .nav-icon {
@@ -71,6 +72,7 @@
 }
 .nav-item:hover > .nav-item_p {
   color: #3b3888;
+  font-weight: 600;
 }
 
 .link-item:hover {
@@ -82,4 +84,5 @@
 }
 .link-item:hover > .link-item_p {
   color: #3b3888;
+  font-weight: 600;
 }

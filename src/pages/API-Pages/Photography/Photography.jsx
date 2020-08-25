@@ -4,7 +4,9 @@ const Photography = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper photography">
-      <h1>Photography Page</h1>
+      <section className="category-content">
+        <h1>Photography Page</h1>
+      </section>
     </div>
   );
 };

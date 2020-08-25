@@ -4,7 +4,9 @@ const Dictionaries = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper dictionaries">
-      <h1>Dictionaries Page</h1>
+      <section className="category-content">
+        <h1>Dictionaries Page</h1>
+      </section>
     </div>
   );
 };

@@ -4,7 +4,9 @@ const Transportation = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper transportation">
-      <h1>Transportation Page</h1>
+      <section className="category-content">
+        <h1>Transportation Page</h1>
+      </section>
     </div>
   );
 };

@@ -4,7 +4,9 @@ const OpenSourceProjects = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper open-source-projects">
-      <h1>Open Source Projects Page</h1>
+      <section className="category-content">
+        <h1>Open Source Projects Page</h1>
+      </section>
     </div>
   );
 };

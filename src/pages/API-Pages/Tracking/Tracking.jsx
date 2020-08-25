@@ -4,7 +4,9 @@ const Tracking = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper tracking">
-      <h1>Tracking Page</h1>
+      <section className="category-content">
+        <h1>Tracking Page</h1>
+      </section>
     </div>
   );
 };

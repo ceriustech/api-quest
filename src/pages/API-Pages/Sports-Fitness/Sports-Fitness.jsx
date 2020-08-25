@@ -4,7 +4,9 @@ const SportsFitness = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper sports-fitness">
-      <h1>Sports Fitness Page</h1>
+      <section className="category-content">
+        <h1>Sports and Fitness Page</h1>
+      </section>
     </div>
   );
 };

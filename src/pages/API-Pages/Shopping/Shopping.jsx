@@ -4,7 +4,9 @@ const Shopping = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper shopping">
-      <h1>Shopping Page</h1>
+      <section className="category-content">
+        <h1>Shopping Page</h1>
+      </section>
     </div>
   );
 };

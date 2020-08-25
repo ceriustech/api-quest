@@ -4,7 +4,9 @@ const News = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper news">
-      <h1>News Page</h1>
+      <section className="category-content">
+        <h1>News Page</h1>
+      </section>
     </div>
   );
 };

@@ -4,7 +4,9 @@ const Cryptocurrency = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper cryptocurrency">
-      <h1>Cryptocurrency Page</h1>
+      <section className="category-content">
+        <h1>Cryptocurrency Page</h1>
+      </section>
     </div>
   );
 };

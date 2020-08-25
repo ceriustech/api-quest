@@ -4,7 +4,9 @@ const Geocoding = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper geocoding">
-      <h1>Geocoding Page</h1>
+      <section className="category-content">
+        <h1>Geocoding Page</h1>
+      </section>
     </div>
   );
 };

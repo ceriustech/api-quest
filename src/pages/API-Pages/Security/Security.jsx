@@ -4,7 +4,9 @@ const Security = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper security">
-      <h1>Security Page</h1>
+      <section className="category-content">
+        <h1>Security Page</h1>
+      </section>
     </div>
   );
 };

@@ -4,7 +4,9 @@ const Patent = (props) => {
   console.log(props);
   return (
     <div className="main-content_wrapper patent">
-      <h1>Patent Page</h1>
+      <section className="category-content">
+        <h1>Patent Page</h1>
+      </section>
     </div>
   );
 };
