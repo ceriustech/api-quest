@@ -7,6 +7,7 @@ import Navigation from "../Components/Navigation/Navigation";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import FAQ from "../pages/FAQ/FAQ";
+import Contact from "../pages/Contact/Contact";
 import Animals from "../pages/API-Pages/Animals/Animals";
 import Anime from "../pages/API-Pages/Anime/Anime";
 import AntiMalware from "../pages/API-Pages/Anti-Malware/Anti-Malware";
@@ -59,69 +60,64 @@ const Routes = () => {
       <Navigation />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/faq" component={FAQ} />
-        <Route exact path="/animals" component={Animals} />
-        <Route exact path="/anime" component={Anime} />
-        <Route exact path="/anti-malware" component={AntiMalware} />
-        <Route exact path="/art-and-design" component={ArtDesign} />
-        <Route exact path="/books" component={Books} />
-        <Route exact path="/business" component={Business} />
-        <Route exact path="/calendar" component={Calendar} />
+        <Route path="/about" component={About} />
+        <Route path="/faq" component={FAQ} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/animals" component={Animals} />
+        <Route path="/anime" component={Anime} />
+        <Route path="/anti-malware" component={AntiMalware} />
+        <Route path="/art-and-design" component={ArtDesign} />
+        <Route path="/books" component={Books} />
+        <Route path="/business" component={Business} />
+        <Route path="/calendar" component={Calendar} />
         <Route
-          exact
           path="/cloud-storage-file-sharing"
           component={CloudStorageFileSharing}
         />
         <Route
-          exact
           path="/continuous-intergration"
           component={ContinuousIntegration}
         />
-        <Route exact path="/cryptocurrency" component={Cryptocurrency} />
-        <Route exact path="/currency-exchange" component={CurrencyExchange} />
-        <Route exact path="/data-validation" component={DataValidation} />
-        <Route exact path="/development" component={Development} />
-        <Route exact path="/dictionaries" component={Dictionaries} />
+        <Route path="/cryptocurrency" component={Cryptocurrency} />
+        <Route path="/currency-exchange" component={CurrencyExchange} />
+        <Route path="/data-validation" component={DataValidation} />
+        <Route path="/development" component={Development} />
+        <Route path="/dictionaries" component={Dictionaries} />
         <Route
           exact
           path="/documents-and-productivity"
           component={DocumentsProductivity}
         />
-        <Route exact path="/environment" component={Environment} />
-        <Route exact path="/events" component={Events} />
-        <Route exact path="/finance" component={Finance} />
-        <Route exact path="/food-and-drink" component={FoodDrink} />
-        <Route exact path="/games-and-comics" component={GamesComics} />
-        <Route exact path="/geocoding" component={Geocoding} />
-        <Route exact path="/government" component={Government} />
-        <Route exact path="/health" component={Health} />
-        <Route exact path="/jobs" component={Jobs} />
-        <Route exact path="/machine-learning" component={MachineLearning} />
-        <Route exact path="/music" component={Music} />
-        <Route exact path="/news" component={News} />
-        <Route exact path="/open-data" component={OpenData} />
-        <Route
-          exact
-          path="/open-source-projects"
-          component={OpenSourceProjects}
-        />
-        <Route exact path="/patent" component={Patent} />
-        <Route exact path="/personality" component={Personality} />
-        <Route exact path="/photography" component={Photography} />
-        <Route exact path="/science-and-math" component={ScienceMath} />
-        <Route exact path="/security" component={Security} />
-        <Route exact path="/shopping" component={Shopping} />
-        <Route exact path="/social" component={Social} />
-        <Route exact path="/sports-and-fitness" component={SportsFitness} />
-        <Route exact path="/test-data" component={TestData} />
-        <Route exact path="/text-analysis" component={TestAnalysis} />
-        <Route exact path="/tracking" component={Tracking} />
-        <Route exact path="/transportation" component={Transportation} />
-        <Route exact path="/url-shorteners" component={URLShorteners} />
-        <Route exact path="/vehicle" component={Vehicle} />
-        <Route exact path="/video" component={Video} />
-        <Route exact path="/weather" component={Weather} />
+        <Route path="/environment" component={Environment} />
+        <Route path="/events" component={Events} />
+        <Route path="/finance" component={Finance} />
+        <Route path="/food-and-drink" component={FoodDrink} />
+        <Route path="/games-and-comics" component={GamesComics} />
+        <Route path="/geocoding" component={Geocoding} />
+        <Route path="/government" component={Government} />
+        <Route path="/health" component={Health} />
+        <Route path="/jobs" component={Jobs} />
+        <Route path="/machine-learning" component={MachineLearning} />
+        <Route path="/music" component={Music} />
+        <Route path="/news" component={News} />
+        <Route path="/open-data" component={OpenData} />
+        <Route path="/open-source-projects" component={OpenSourceProjects} />
+        <Route path="/patent" component={Patent} />
+        <Route path="/personality" component={Personality} />
+        <Route path="/photography" component={Photography} />
+        <Route path="/science-and-math" component={ScienceMath} />
+        <Route path="/security" component={Security} />
+        <Route path="/shopping" component={Shopping} />
+        <Route path="/social" component={Social} />
+        <Route path="/sports-and-fitness" component={SportsFitness} />
+        <Route path="/test-data" component={TestData} />
+        <Route path="/text-analysis" component={TestAnalysis} />
+        <Route path="/tracking" component={Tracking} />
+        <Route path="/transportation" component={Transportation} />
+        <Route path="/url-shorteners" component={URLShorteners} />
+        <Route path="/vehicle" component={Vehicle} />
+        <Route path="/video" component={Video} />
+        <Route path="/weather" component={Weather} />
       </Switch>
     </>
   );
