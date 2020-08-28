@@ -73,6 +73,24 @@
   height: 230px;
 }
 
+.contact-arrow-link {
+  color: var(--alt-color-primary);
+  position: relative;
+  bottom: 25px;
+}
+
+.contact-link_container p {
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 0 63px;
+  text-align: center;
+}
+
+.contact-person-icon {
+  color: var(--alt-color-secondary);
+}
+
 /** Nav Hover Styles **/
 .nav-item:hover {
   border-right: 2px solid #e63956;

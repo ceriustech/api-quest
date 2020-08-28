@@ -49,10 +49,22 @@ const Navigation = () => {
         </Link>
         <div className="contact-link_container">
           <Link className="contact-arrow-link" to="/contact">
-            <ExitToAppIcon className="contact-arrow-icon" />
+            <ExitToAppIcon
+              className="contact-arrow-icon"
+              style={{
+                width: "58px",
+                height: "58px",
+              }}
+            />
           </Link>
           <p>Contact us by clicking the arrow above.</p>
-          <RecordVoiceOverIcon className="contact-person-icon" />
+          <RecordVoiceOverIcon
+            className="contact-person-icon"
+            style={{
+              width: "58px",
+              height: "58px",
+            }}
+          />
         </div>
       </nav>
     </div>
