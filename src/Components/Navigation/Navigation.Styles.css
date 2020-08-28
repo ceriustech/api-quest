@@ -63,6 +63,16 @@
   color: var(--text-secondary);
 }
 
+.contact-link_container {
+  background-color: #f6f4fc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20em 1em 0;
+  height: 230px;
+}
+
 /** Nav Hover Styles **/
 .nav-item:hover {
   border-right: 2px solid #e63956;

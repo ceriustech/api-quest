@@ -8,6 +8,8 @@ import HomeOutlinedIcon from "@material-ui/icons/HomeOutlined";
 import CategoryOutlinedIcon from "@material-ui/icons/CategoryOutlined";
 import InfoOutlinedIcon from "@material-ui/icons/InfoOutlined";
 import HelpOutlineOutlinedIcon from "@material-ui/icons/HelpOutlineOutlined";
+import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+import RecordVoiceOverIcon from "@material-ui/icons/RecordVoiceOver";
 
 import "./Navigation.Styles.css";
 
@@ -45,6 +47,13 @@ const Navigation = () => {
           <HelpOutlineOutlinedIcon className="nav-icon" />
           <p className="nav-item_p">FAQ</p>
         </Link>
+        <div className="contact-link_container">
+          <Link className="contact-arrow-link" to="/contact">
+            <ExitToAppIcon className="contact-arrow-icon" />
+          </Link>
+          <p>Contact us by clicking the arrow above.</p>
+          <RecordVoiceOverIcon className="contact-person-icon" />
+        </div>
       </nav>
     </div>
   );
