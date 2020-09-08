@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import { categories2 } from "../../api-data";
+
 import "./Home.Styles.css";
 import SearchField from "../../Components/Search-Field/Search-Field";
 import CardList from "../../Components/Card-List/Card-List";
@@ -21,8 +23,10 @@ const HomePage = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.publicapis.org/entries?category=animals&https=true")
-      .then((response) => console.log(response.data));
+      .get(
+        `https://api.publicapis.org/entries?category=${categoryList}&https=true`
+      )
+      .then((response) => console.log(`SubCatebory Data: ${response.data}`));
   }, []);
 
   const handleInputSearchChange = (e) => {
