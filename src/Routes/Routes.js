@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import { categoryinfo } from "../const";
+// import { categoryinfo } from "../const";
 
 import Navigation from "../Components/Navigation/Navigation";
 import Home from "../pages/Home/Home";
