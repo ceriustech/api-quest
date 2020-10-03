@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const categories2 = () => {
-  axios
+export const APICategories = () => {
+  return axios
     .get(`https://api.publicapis.org/categories`)
     .then((response) => response.data)
     .then((apiCategories) => {
@@ -11,7 +11,7 @@ export const categories2 = () => {
 };
 
 export const subCategoryList = () => {
-  axios
+  return axios
     .get(`https://api.publicapis.org/entries?category=animals&https=true`)
     .then((response) => console.log(`SubCatebory Data: ${response.data}`));
 };

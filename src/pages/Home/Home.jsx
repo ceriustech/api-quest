@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-import { categories2 } from "../../api-data";
+import { APICategories } from "../../api-data";
 
 import "./Home.Styles.css";
 import SearchField from "../../Components/Search-Field/Search-Field";
@@ -13,21 +13,9 @@ const HomePage = () => {
   const [search, setSearch] = useState("");
 
   const categoryList = useEffect(() => {
-    axios
-      .get(`https://api.publicapis.org/categories`)
-      .then((response) => response.data)
-      .then((apiCategoires) => {
-        setCategories(apiCategoires);
-      });
+    APICategories().then((data) => setCategories(data));
   }, []);
-
-  useEffect(() => {
-    axios
-      .get(
-        `https://api.publicapis.org/entries?category=${categoryList}&https=true`
-      )
-      .then((response) => console.log(`SubCatebory Data: ${response.data}`));
-  }, []);
+  console.log(`This Works: ${APICategories()}`);
 
   const handleInputSearchChange = (e) => {
     e.preventDefault();
