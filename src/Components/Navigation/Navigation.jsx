@@ -35,10 +35,10 @@ const Navigation = () => {
           <HomeOutlinedIcon className="nav-icon" />
           <p className="nav-item_p">Home</p>
         </Link>
-        <div className="categories-link_container link-item">
+        <Link className="categories-link_container nav-item" to="/categories">
           <CategoryOutlinedIcon className="nav-icon" />
-          <p className="link-item_p">Categories</p>
-        </div>
+          <p className="nav-item_p">Categories</p>
+        </Link>
         <Link className="about-link nav-item" to="/about">
           <InfoOutlinedIcon className="nav-icon" />
           <p className="nav-item_p">About</p>

@@ -1,38 +1,51 @@
 // Home.jsx
 import React, { useState, useEffect } from "react";
-import axios from "axios";
-
-import { APICategories } from "../../api-data";
 
 import "./Home.Styles.css";
-import SearchField from "../../Components/Search-Field/Search-Field";
-import CardList from "../../Components/Card-List/Card-List";
 
 const HomePage = () => {
-  const [categories, setCategories] = useState([]);
-  const [search, setSearch] = useState("");
-
-  const categoryList = useEffect(() => {
-    APICategories().then((data) => setCategories(data));
-  }, []);
-  console.log(`This Works: ${APICategories()}`);
-
-  const handleInputSearchChange = (e) => {
-    e.preventDefault();
-    setSearch(e.target.value);
-  };
-
   return (
     <div className="main-content_wrapper">
       <section className="main-content">
-        <h1 className="main-content_h1">Welcome to API Quest</h1>
-        <SearchField handleChange={handleInputSearchChange} />
-        <CardList
-          categories={categories.filter(
-            (category) =>
-              category.toUpperCase().indexOf(search.toUpperCase()) >= 0
-          )}
-        />
+        <div className="content-grid_container">
+          <div class="site-info_container">
+            <h1 className="main-content_h1">Welcome to</h1>
+            <h1 className="main-content_h1">
+              <span className="main-content-span_top">API</span>{" "}
+              <span className="main-content-span_bottom">Quest</span>
+            </h1>
+          </div>
+          <div class="site-api-count_container">
+            <h1 className="main-content_h1">API Count</h1>
+            <div>
+              <p>
+                <span>100</span>
+                <span>API's and counting</span>
+              </p>
+            </div>
+          </div>
+          <div class="site-updates_container">
+            <h1>
+              <span>More</span> <span>API's</span>
+            </h1>
+            <h1>
+              <span>To</span> <span>Come</span>
+            </h1>
+            <h1>
+              <span>Stay</span> <span>Tunned!</span>
+            </h1>
+          </div>
+          <div class="site-recommendations_container">
+            <h1>
+              <span>Have API</span>
+              <span>Recommendations?</span>
+            </h1>
+            <p>
+              <span>Contact us</span>
+              <span>and let us know!</span>
+            </p>
+          </div>
+        </div>
       </section>
     </div>
   );
