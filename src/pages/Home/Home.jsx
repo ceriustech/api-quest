@@ -15,7 +15,7 @@ const HomePage = () => {
               <span className="main-content-span_bottom">Quest</span>
             </h1>
           </div>
-          <div class="site-api-count_container">
+          <div class="site-api-count_container ">
             <h1 className="main-content_h1">API Count</h1>
             <div>
               <p>
@@ -37,8 +37,7 @@ const HomePage = () => {
           </div>
           <div class="site-recommendations_container">
             <h1>
-              <span>Have API</span>
-              <span>Recommendations?</span>
+              <span>Have API</span> <span>Recommendations?</span>
             </h1>
             <p>
               <span>Contact us</span>
