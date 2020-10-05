@@ -1,0 +1,13 @@
+.top-bar {
+  border-bottom: 1px solid red;
+  margin-left: 200px;
+  margin-bottom: 30px;
+  padding: 0.5em 2.5em;
+  overflow: hidden;
+  width: 89%;
+}
+
+.top-bar-content {
+  display: flex;
+  justify-content: flex-end;
+}

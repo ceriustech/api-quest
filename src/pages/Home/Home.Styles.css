@@ -6,11 +6,12 @@
   bottom: 60px;
 }
 
-.main-content {
+.home-content {
   font-size: 12px;
 }
 
 .content-grid_container {
+  font-size: 12px;
   margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -55,8 +56,9 @@
   position: relative;
 }
 
-.site-info_container .main-content_h1 {
+.home-content-h1 {
   color: var(--text-tertiary);
-  font-size: 2.5em;
-  margin: 15px 0 5px 10px;
+  font-size: 2.55em;
+  font-weight: bold;
+  margin: 0 0 5px 10px;
 }

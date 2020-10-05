@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 // import { categoryinfo } from "../const";
 
 import Navigation from "../Components/Navigation/Navigation";
+import TopBar from "../Components/Top-Bar/Top-Bar";
 import Home from "../pages/Home/Home";
 import Categories from "../pages/Categories/Categories";
 import About from "../pages/About/About";
@@ -59,6 +60,7 @@ const Routes = () => {
   return (
     <>
       <Navigation />
+      <TopBar />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/categories" component={Categories} />
