@@ -3,6 +3,11 @@ import React from "react";
 
 import SiteInfoLogo from "../../Assets/home-page-img.png";
 
+import SearchIcon from '@material-ui/icons/Search';
+import MouseIcon from '@material-ui/icons/Mouse';
+import NaturePeopleIcon from '@material-ui/icons/NaturePeople';
+import SettingsIcon from '@material-ui/icons/Settings';
+
 import "./Home.Styles.css";
 
 const HomePage = () => {
@@ -26,7 +31,7 @@ const HomePage = () => {
             <div className="site-info_content">
               <div className="site-info_text">
                 <div className="site-info-top_content">
-                  <p>A simple tool that will help you quickly find api's</p>
+                  <p><span>A simple tool</span><span>to help you quickly find api's.</span></p>
                   <div className="site-info-img_container">
                     <img src={SiteInfoLogo} alt="" />
                   </div>
@@ -34,16 +39,13 @@ const HomePage = () => {
                 <h2>Search in three easy steps.</h2>
                 <div className="site-info-bottom_content">
                   <div className="site-info-search-steps">
-                    <h3>Step 1</h3>
-                    <p>Search for an api category.</p>
+                    <p><span className="number-point">1</span> <span>Search</span> <SearchIcon style={{color: "#e63956"}}/> for an api category.</p>
                   </div>
                   <div className="site-info-search-steps">
-                    <h3>Step 2</h3>
-                    <p>CLick on the category of choice.</p>
+                    <p><span className="number-point">2</span> <span>Click</span> <MouseIcon style={{color: "#e63956"}}/> on the category of choice.</p>
                   </div>
                   <div className="site-info-search-steps">
-                    <h3>Step 3</h3>
-                    <p>Pick an api to use from the list.</p>
+                    <p><span className="number-point">3</span> <span>Pick</span> <NaturePeopleIcon style={{color: "#e63956"}}/> an api to use from the list.</p>
                   </div>
                 </div>
               </div>
@@ -53,11 +55,13 @@ const HomePage = () => {
             <h1 className="home-content-h1">
               <span style={{ color: "#e63956" }}>API</span> <span>Count</span>
             </h1>
-            <div>
-              <p>
-                <span>100</span>
-                <span>API's and counting</span>
-              </p>
+            <div className="site-api-count_content">
+              <p className="site-api-counter">
+                <span className="site-api-counter-span-icon"><SettingsIcon style={{color: "#3cc0f8", fontSize: "2em"}} /></span>
+                <span className="site-api-counter-span-counter">100</span>
+                <span className="site-api-counter-text">API's</span>
+                </p>
+              <p className="site-api-counter_mssg"> And counting...</p>
             </div>
           </div>
           <div class="site-updates_container">
