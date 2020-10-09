@@ -1,0 +1,15 @@
+.faq-page_content {
+  background-color: #fff;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 25px;
+  margin: 15px;
+}
+
+.faq-header {
+  color: var(--text-tertiary);
+  font-size: 2.25em;
+  font-weight: bold;
+  line-height: 0.85;
+  margin: 0 0 40px 0;
+}

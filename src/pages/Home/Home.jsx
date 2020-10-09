@@ -7,6 +7,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import MouseIcon from '@material-ui/icons/Mouse';
 import NaturePeopleIcon from '@material-ui/icons/NaturePeople';
 import SettingsIcon from '@material-ui/icons/Settings';
+import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
 
 import "./Home.Styles.css";
 
@@ -73,6 +74,13 @@ const HomePage = () => {
               <span>Stay</span>{" "}
               <span style={{ color: "#e63956" }}>Tunned!</span>
             </h1>
+            <div className="site-updates-text_container">
+              <p>We will continue to a add api's to our ever growing list.</p>
+              <div className="site-updates-cta_container">
+                <p>Stay informed about new api's that have been added to the site!</p>
+                <button type="button">Send</button>
+              </div>
+            </div>
           </div>
           <div class="site-recommendations_container">
             <h1 class="home-content-h1">
