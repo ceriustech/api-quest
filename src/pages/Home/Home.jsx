@@ -1,5 +1,7 @@
 // Home.jsx
-import React, { useState, useEffect } from "react";
+import React from "react";
+
+import SiteInfoLogo from "../../Assets/home-page-img.png";
 
 import "./Home.Styles.css";
 
@@ -19,8 +21,33 @@ const HomePage = () => {
               >
                 API
               </span>{" "}
-              <span className="home-content-span_bottom">Quest</span>
+              <span className="home-content-span_bottom">Quest!</span>
             </h1>
+            <div className="site-info_content">
+              <div className="site-info_text">
+                <div className="site-info-top_content">
+                  <p>A simple tool that will help you quickly find api's</p>
+                  <div className="site-info-img_container">
+                    <img src={SiteInfoLogo} alt="" />
+                  </div>
+                </div>
+                <h2>Search in three easy steps.</h2>
+                <div className="site-info-bottom_content">
+                  <div className="site-info-search-steps">
+                    <h3>Step 1</h3>
+                    <p>Search for an api category.</p>
+                  </div>
+                  <div className="site-info-search-steps">
+                    <h3>Step 2</h3>
+                    <p>CLick on the category of choice.</p>
+                  </div>
+                  <div className="site-info-search-steps">
+                    <h3>Step 3</h3>
+                    <p>Pick an api to use from the list.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="site-api-count_container ">
             <h1 className="home-content-h1">
@@ -35,10 +62,8 @@ const HomePage = () => {
           </div>
           <div class="site-updates_container">
             <h1 className="home-content-h1">
-              <span>More</span> <span style={{ color: "#e63956" }}>API's</span>
-            </h1>
-            <h1 className="home-content-h1">
-              <span style={{ color: "#e63956" }}>To</span> <span>Come</span>
+              <span>More</span> <span style={{ color: "#e63956" }}>API's</span>{" "}
+              <span>To</span> <span style={{ color: "#e63956" }}>Come</span>
             </h1>
             <h1 className="home-content-h1">
               <span>Stay</span>{" "}
