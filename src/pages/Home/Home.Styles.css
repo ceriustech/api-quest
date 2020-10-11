@@ -17,7 +17,7 @@
   border-radius: 10px;
   grid-column: 1 / 3;
   grid-row: 1 / 4;
-  padding: 25px;
+  padding: 35px;
   position: relative;
 }
 
@@ -26,7 +26,7 @@
   border-radius: 10px;
   grid-column: 3 / 4;
   grid-row: 1 / 3;
-  padding: 25px;
+  padding: 35px;
   position: relative;
 }
 
@@ -35,7 +35,7 @@
   border-radius: 10px;
   grid-column: 1 / 3;
   grid-row: 4 / 6;
-  padding: 25px;
+  padding: 35px;
   position: relative;
 }
 
@@ -44,7 +44,7 @@
   border-radius: 10px;
   grid-column: 3 / 4;
   grid-row: 3 / 6;
-  padding: 25px;
+  padding: 35px;
   position: relative;
 }
 
@@ -53,7 +53,7 @@
   font-size: 2.55em;
   font-weight: bold;
   line-height: 0.85;
-  margin: 0 0 5px 10px;
+  margin: 0 0 5px 0;
 }
 
 /*==== Card specific styles  ====*/
@@ -74,8 +74,8 @@
 
 .site-info-img_container {
   position: absolute;
-  right: 25px;
-  top: 25px;
+  right: 35px;
+  top: 35px;
   width: 391px;
 }
 
@@ -116,6 +116,18 @@
 .site-api-count_container {
 }
 
+.site-api-count_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.site-api-counter_container {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .site-api-counter {
   color: var(--alt-color-primary);
   display: flex;
@@ -127,14 +139,16 @@
 }
 
 .site-api-counter-span-icon {
+  font-size: 12px;
   padding-top: 10px;
+  position: relative;
+  right: 15px;
 }
 
 .site-api-counter-span-counter {
   /* position: absolute;
   top: 45px;
   left: 165px; */
-  margin-left: 45px;
   margin-right: 15px;
 }
 
@@ -148,5 +162,6 @@
   color: var(--text-tertiary);
   font-size: 2.5em;
   font-weight: 600;
+  margin: 0;
   text-align: center;
 }

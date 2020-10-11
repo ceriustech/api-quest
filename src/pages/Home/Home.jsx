@@ -57,11 +57,15 @@ const HomePage = () => {
               <span style={{ color: "#e63956" }}>API</span> <span>Count</span>
             </h1>
             <div className="site-api-count_content">
-              <p className="site-api-counter">
-                <span className="site-api-counter-span-icon"><SettingsIcon style={{color: "#3cc0f8", fontSize: "2em"}} /></span>
-                <span className="site-api-counter-span-counter">100</span>
-                <span className="site-api-counter-text">API's</span>
+              <div className="site-api-counter_container">
+                <div className="site-api-counter-span-icon">
+                  <SettingsIcon style={{color: "#3cc0f8", fontSize: "8em"}} />
+                </div>
+                <p className="site-api-counter">
+                  <span className="site-api-counter-span-counter">100</span>
+                  <span className="site-api-counter-text">API's</span>
                 </p>
+              </div>
               <p className="site-api-counter_mssg"> And counting...</p>
             </div>
           </div>
