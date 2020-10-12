@@ -1,13 +1,14 @@
 // Home.jsx
 import React from "react";
 
-import SiteInfoLogo from "../../Assets/home-page-img.png";
+import SiteInfoLogo from "../../Assets/home-page-img-2.png";
 
 import SearchIcon from '@material-ui/icons/Search';
 import MouseIcon from '@material-ui/icons/Mouse';
 import NaturePeopleIcon from '@material-ui/icons/NaturePeople';
 import SettingsIcon from '@material-ui/icons/Settings';
 import SettingsOutlinedIcon from '@material-ui/icons/SettingsOutlined';
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 import "./Home.Styles.css";
 
@@ -76,13 +77,13 @@ const HomePage = () => {
             </h1>
             <h1 className="home-content-h1">
               <span>Stay</span>{" "}
-              <span style={{ color: "#e63956" }}>Tunned!</span>
+              <span style={{ color: "#e63956" }}>Tuned!</span>
             </h1>
             <div className="site-updates-text_container">
               <p>We will continue to a add api's to our ever growing list.</p>
+              <p>Stay informed about newly added api's!</p>
               <div className="site-updates-cta_container">
-                <p>Stay informed about new api's that have been added to the site!</p>
-                <button type="button">Send</button>
+                <p className="cta-button">Click here to stay informed!</p>
               </div>
             </div>
           </div>

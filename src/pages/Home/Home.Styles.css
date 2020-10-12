@@ -50,7 +50,7 @@
 
 .home-content-h1 {
   color: var(--text-tertiary);
-  font-size: 2.55em;
+  font-size: 2.5em;
   font-weight: bold;
   line-height: 0.85;
   margin: 0 0 5px 0;
@@ -76,7 +76,7 @@
   position: absolute;
   right: 35px;
   top: 35px;
-  width: 391px;
+  width: 490px;
 }
 
 .site-info-img_container img {
@@ -164,4 +164,38 @@
   font-weight: 600;
   margin: 0;
   text-align: center;
+}
+
+/** Site API Updates Container Styles **/
+.site-updates_container p {
+  color: var(--text-tertiary);
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.site-updates-text_container {
+  margin: 25px 0;
+}
+
+.site-updates-cta_container {
+  margin: 10px 0 25px;
+}
+
+.site-updates-cta_container {
+  display: flex;
+}
+
+.site-updates-cta_container p {
+  border: 1px solid #e63956;
+  border-radius: 20px;
+  color: var(--alt-color-primary);
+  font-size: 1.75em;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.cta-button:hover {
+  cursor: pointer;
 }
