@@ -179,6 +179,10 @@
   margin: 25px 0;
 }
 
+.site-updates-text_container p:nth-child(2) {
+  margin: 25px 0;
+}
+
 .site-updates-cta_container {
   margin: 10px 0 25px;
 }
@@ -196,6 +200,12 @@
   padding: 5px 10px;
 }
 
+.cta-button {
+  transition: all 0.2s ease-in-out;
+}
+
 .cta-button:hover {
+  background-color: var(--bg-secondary);
+  color: #fff;
   cursor: pointer;
 }

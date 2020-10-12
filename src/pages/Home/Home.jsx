@@ -80,8 +80,8 @@ const HomePage = () => {
               <span style={{ color: "#e63956" }}>Tuned!</span>
             </h1>
             <div className="site-updates-text_container">
-              <p>We will continue to a add api's to our ever growing list.</p>
-              <p>Stay informed about newly added api's!</p>
+              <p>We will continue to<br />add api's to our ever growing list.</p>
+              <p style={{color: "#3cc0f8"}}>Want to stay up to date?</p>
               <div className="site-updates-cta_container">
                 <p className="cta-button">Click here to stay informed!</p>
               </div>
