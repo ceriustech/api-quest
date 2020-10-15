@@ -1,7 +1,7 @@
 // Home.jsx
 import React from "react";
 
-import SiteInfoLogo from "../../Assets/home-page-img-2.png";
+import SiteInfoLogo from "../../Assets/api-logo.jpg";
 
 import SearchIcon from '@material-ui/icons/Search';
 import MouseIcon from '@material-ui/icons/Mouse';
@@ -83,7 +83,7 @@ const HomePage = () => {
               <p>We will continue to<br />add api's to our ever growing list.</p>
               <p style={{color: "#3cc0f8"}}>Want to stay up to date?</p>
               <div className="site-updates-cta_container">
-                <p className="cta-button">Click here to stay informed!</p>
+                <p className="cta-button">Click here</p>
               </div>
             </div>
           </div>
