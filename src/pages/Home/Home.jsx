@@ -1,7 +1,9 @@
 // Home.jsx
 import React from "react";
 
-import SiteInfoLogo from "../../Assets/api-logo.jpg";
+import SiteInfoLogo from "../../Assets/welcome-img-2.jpg";
+import HomeOfficeLogo from "../../Assets/home-office.jpg";
+import CTAIcon from "../../Assets/cta-icon.png";
 
 import SearchIcon from '@material-ui/icons/Search';
 import MouseIcon from '@material-ui/icons/Mouse';
@@ -84,6 +86,9 @@ const HomePage = () => {
               <p style={{color: "#3cc0f8"}}>Want to stay up to date?</p>
               <div className="site-updates-cta_container">
                 <p className="cta-button">Click here</p>
+                <div className="site-update-img_container">
+                    <img src={HomeOfficeLogo} alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -96,6 +101,14 @@ const HomePage = () => {
               <span style={{ color: "#e63956" }}>Contact us</span>{" "}
               <span>and let us know!</span>
             </h1>
+            <div className="site-recommendations_content">
+              <p>Click below to send a message.</p>
+              <p>We'd love to hear from you. </p>
+              <p className="cta-button">Click here</p>
+              <div className="site-recommendations-img_container">
+                <img src={CTAIcon} alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
