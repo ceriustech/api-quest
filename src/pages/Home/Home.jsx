@@ -2,8 +2,10 @@
 import React from "react";
 
 import SiteInfoLogo from "../../Assets/welcome-img-2.jpg";
-import HomeOfficeLogo from "../../Assets/home-office.jpg";
+import APILogo from "../../Assets/api-logo.png";
 import CTAIcon from "../../Assets/cta-icon.png";
+
+import CustomButton from "../../Components/Buttons/button";
 
 import SearchIcon from '@material-ui/icons/Search';
 import MouseIcon from '@material-ui/icons/Mouse';
@@ -82,12 +84,12 @@ const HomePage = () => {
               <span style={{ color: "#e63956" }}>Tuned!</span>
             </h1>
             <div className="site-updates-text_container">
-              <p>We will continue to<br />add api's to our ever growing list.</p>
-              <p style={{color: "#3cc0f8"}}>Want to stay up to date?</p>
+            <p style={{color: "#3cc0f8", fontSize: "2em", fontWeight: "500"}}>Stay up to date by clicking below.</p>
+              <CustomButton>Sign Up</CustomButton>
+              <p>We will continue to<br />add api's to our ever growing list.</p>          
               <div className="site-updates-cta_container">
-                <p className="cta-button">Click here</p>
                 <div className="site-update-img_container">
-                    <img src={HomeOfficeLogo} alt="" />
+                    <img src={APILogo} alt="" />
                 </div>
               </div>
             </div>
@@ -104,7 +106,7 @@ const HomePage = () => {
             <div className="site-recommendations_content">
               <p>Click below to send a message.</p>
               <p>We'd love to hear from you. </p>
-              <p className="cta-button">Click here</p>
+              <CustomButton isInverted={true}>Contact Us</CustomButton>
               <div className="site-recommendations-img_container">
                 <img src={CTAIcon} alt="" />
               </div>

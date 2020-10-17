@@ -6,8 +6,10 @@
   --text-tertiary: #201a73;
   --bg-primary: #f6f4fc;
   --bg-secondary: #e63956;
+  --bg-tertiary: #f9b234;
   --alt-color-primary: #e63956;
   --alt-color-secondary: #3cc0f8;
+  --alt-color-tertiary: #f9b234;
 }
 
 * {
