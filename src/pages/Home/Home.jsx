@@ -85,7 +85,7 @@ const HomePage = () => {
             </h1>
             <div className="site-updates-text_container">
             <p style={{color: "#3cc0f8", fontSize: "2em", fontWeight: "500"}}>Stay up to date by clicking below.</p>
-              <CustomButton>Sign Up</CustomButton>
+              <CustomButton>Sign Up Here</CustomButton>
               <p>We will continue to<br />add api's to our ever growing list.</p>          
               <div className="site-updates-cta_container">
                 <div className="site-update-img_container">

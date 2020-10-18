@@ -5,7 +5,7 @@ export const APICategories = () => {
     .get(`https://api.publicapis.org/categories`)
     .then((response) => response.data)
     .then((apiCategories) => {
-      console.log(apiCategories);
+      // console.log(apiCategories);
       return apiCategories;
     });
 };
