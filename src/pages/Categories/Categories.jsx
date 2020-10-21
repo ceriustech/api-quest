@@ -13,7 +13,7 @@ const CategoriesPage = () => {
   const categoryList = useEffect(() => {
     APICategories().then((data) => setCategories(data));
   }, []);
-  console.log(`This Works: ${APICategories()}`);
+  // console.log(`This Works: ${APICategories()}`);
 
   const handleInputSearchChange = (e) => {
     e.preventDefault();

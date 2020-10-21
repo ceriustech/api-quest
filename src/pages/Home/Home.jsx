@@ -37,7 +37,7 @@ const HomePage = () => {
             <div className="site-info_content">
               <div className="site-info_text">
                 <div className="site-info-top_content">
-                  <p><span>A simple tool</span><span>to help you quickly find api's.</span></p>
+                  <h2><span>A simple tool</span><span>to help you quickly find api's.</span></h2>
                   <div className="site-info-img_container">
                     <img src={SiteInfoLogo} alt="" />
                   </div>
@@ -57,7 +57,7 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <div class="site-api-count_container ">
+          <div className="site-api-count_container ">
             <h1 className="home-content-h1">
               <span style={{ color: "#e63956" }}>API</span> <span>Count</span>
             </h1>
@@ -74,7 +74,7 @@ const HomePage = () => {
               <p className="site-api-counter_mssg"> And counting...</p>
             </div>
           </div>
-          <div class="site-updates_container">
+          <div className="site-updates_container">
             <h1 className="home-content-h1">
               <span>More</span> <span style={{ color: "#e63956" }}>API's</span>{" "}
               <span>To</span> <span style={{ color: "#e63956" }}>Come</span>
@@ -84,7 +84,7 @@ const HomePage = () => {
               <span style={{ color: "#e63956" }}>Tuned!</span>
             </h1>
             <div className="site-updates-text_container">
-            <p style={{color: "#3cc0f8", fontSize: "2em", fontWeight: "500"}}>Stay up to date by clicking below.</p>
+            <h2>Stay up to date by clicking below.</h2>
               <CustomButton>Sign Up Here</CustomButton>
               <p>We will continue to<br />add api's to our ever growing list.</p>          
               <div className="site-updates-cta_container">
@@ -94,8 +94,8 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <div class="site-recommendations_container">
-            <h1 class="home-content-h1">
+          <div className="site-recommendations_container">
+            <h1 className="home-content-h1">
               <span>Have API</span>{" "}
               <span style={{ color: "#e63956" }}>Recommendations?</span>
             </h1>
@@ -104,8 +104,8 @@ const HomePage = () => {
               <span>and let us know!</span>
             </h1>
             <div className="site-recommendations_content">
-              <p>Click below to send a message.</p>
-              <p>We'd love to hear from you. </p>
+              <h2>Click below to send a message.</h2>
+              <h2>We'd love to hear from you. </h2>
               <CustomButton isInverted={true}>Contact Us</CustomButton>
               <div className="site-recommendations-img_container">
                 <img src={CTAIcon} alt="" />

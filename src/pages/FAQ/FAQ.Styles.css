@@ -19,7 +19,7 @@
 
 .faq-info_container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
   grid-gap: 25px;
 }
 
@@ -41,4 +41,5 @@
   font-size: 1.35em;
   line-height: 1.5;
   margin: 0;
+  padding-left: 1.5em;
 }
