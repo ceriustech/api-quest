@@ -63,6 +63,10 @@
 /*==== Card specific styles  ====*/
 
 /** Site Info Container Styles **/
+.site-info_content {
+  padding-top: 25px;
+}
+
 .site-info-top_content {
   display: flex;
   justify-content: space-between;
@@ -93,24 +97,32 @@
   font-size: 2em;
 }
 
+.site-info_text h3 {
+  color: var(--text-tertiary);
+  font-size: 2em;
+  margin: 10px 0;
+}
+
 .site-info-bottom_content {
   display: flex;
   flex-direction: column;
+}
+
+.site-info-search-icon {
+  margin-right: 0.25em;
+  position: relative;
+  top: 0.25em;
 }
 
 .site-info-search-steps p {
   color: var(--text-tertiary);
   font-size: 1.5em;
   font-weight: 600;
-  margin: 15px 0;
+  margin: 7px 0;
 }
 
-.number-point {
-  border: 1px solid #e63956;
-  border-radius: 25px;
-  color: var(--alt-color-primary);
-  margin-right: 10px;
-  padding: 5px 15px;
+.search-icon {
+  font-size: 2em;
 }
 
 .site-info-search-steps p span {
@@ -123,13 +135,13 @@
 
 .site-api-count_content {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 25px;
 }
 
 .site-api-counter_container {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
 }
 
@@ -144,7 +156,8 @@
 }
 
 .site-api-counter-span-icon {
-  font-size: 12px;
+  font-size: 15px;
+  margin-right: 22px;
   padding-top: 10px;
   position: relative;
   right: 15px;
@@ -187,6 +200,11 @@
   margin: 25px 0;
 }
 
+.site-updates-text_container h2 {
+  color: var(--alt-color-secondary);
+  font-size: 2em;
+}
+
 .site-updates-text_container p:nth-child(n) {
   margin: 25px 0;
 }
@@ -214,6 +232,18 @@
 .site-recommendations_content {
   margin-top: 35px;
   position: relative;
+}
+
+.site-recommendations_content h2 {
+  color: var(--alt-color-secondary);
+  font-size: 2em;
+  margin: 25px 0 10px 0;
+}
+
+.site-recommendations_content h3 {
+  color: var(--text-tertiary);
+  font-size: 2em;
+  margin: 0 0 25px 0;
 }
 
 .site-recommendations_content p {

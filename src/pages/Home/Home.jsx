@@ -17,6 +17,13 @@ import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import "./Home.Styles.css";
 
 const HomePage = () => {
+  const iconStyles = {
+    iconSize: {
+      width: 20,
+      height: 20  
+    }
+  }
+
   return (
     <div className="main-content_wrapper">
       <section className="home-content">
@@ -37,21 +44,21 @@ const HomePage = () => {
             <div className="site-info_content">
               <div className="site-info_text">
                 <div className="site-info-top_content">
-                  <h2><span>A simple tool</span><span>to help you quickly find api's.</span></h2>
+                  <h2><span>A simple tool</span> <span>to help you quickly find api's.</span></h2>
                   <div className="site-info-img_container">
                     <img src={SiteInfoLogo} alt="" />
                   </div>
                 </div>
-                <h2>Search in three easy steps.</h2>
+                <h3>Search in three easy steps.</h3>
                 <div className="site-info-bottom_content">
                   <div className="site-info-search-steps">
-                    <p><span className="number-point">1</span> <span>Search</span> <SearchIcon style={{color: "#e63956"}}/> for an api category.</p>
+                    <p> <span className="site-info-search-icon"><SearchIcon className="search-icon" style={{color: "#e63956", width: "1.5em", height: "1.5em"}}/></span> <span>Search</span> for an api category.</p>
                   </div>
                   <div className="site-info-search-steps">
-                    <p><span className="number-point">2</span> <span>Click</span> <MouseIcon style={{color: "#e63956"}}/> on the category of choice.</p>
+                    <p><span className="site-info-search-icon"><MouseIcon className="mouse-icon" style={{color: "#e63956", width: "1.5em", height: "1.5em"}}/></span> <span>Click</span>  on the category of choice.</p>
                   </div>
                   <div className="site-info-search-steps">
-                    <p><span className="number-point">3</span> <span>Pick</span> <NaturePeopleIcon style={{color: "#e63956"}}/> an api to use from the list.</p>
+                    <p><span className="site-info-search-icon"><NaturePeopleIcon className="nature-people-icon" style={{color: "#e63956", width: "1.5em", height: "1.5em"}}/></span> <span>Pick</span> an api to use from the list.</p>
                   </div>
                 </div>
               </div>
@@ -62,16 +69,16 @@ const HomePage = () => {
               <span style={{ color: "#e63956" }}>API</span> <span>Count</span>
             </h1>
             <div className="site-api-count_content">
+              <div className="site-api-counter-span-icon">
+                <SettingsIcon style={{color: "#3cc0f8", fontSize: "8em"}} />
+              </div>
               <div className="site-api-counter_container">
-                <div className="site-api-counter-span-icon">
-                  <SettingsIcon style={{color: "#3cc0f8", fontSize: "8em"}} />
-                </div>
                 <p className="site-api-counter">
                   <span className="site-api-counter-span-counter">100</span>
                   <span className="site-api-counter-text">API's</span>
                 </p>
+                <p className="site-api-counter_mssg"> And counting...</p>
               </div>
-              <p className="site-api-counter_mssg"> And counting...</p>
             </div>
           </div>
           <div className="site-updates_container">
@@ -105,7 +112,7 @@ const HomePage = () => {
             </h1>
             <div className="site-recommendations_content">
               <h2>Click below to send a message.</h2>
-              <h2>We'd love to hear from you. </h2>
+              <h3>We'd love to hear from you. </h3>
               <CustomButton isInverted={true}>Contact Us</CustomButton>
               <div className="site-recommendations-img_container">
                 <img src={CTAIcon} alt="" />

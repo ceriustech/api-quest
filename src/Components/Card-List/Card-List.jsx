@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../Card/Card";
 
-import { categoryinfo } from "../../const.js";
+import { categoryinfo } from "../../Data/category.data.js";
 
 import "./Card-List.Styles.css";
 

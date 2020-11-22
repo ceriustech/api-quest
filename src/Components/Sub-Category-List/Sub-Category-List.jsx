@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { categoryinfo } from "../../const.js";
+import { categoryinfo } from "../../Data/category.data.js";
 
 import './Sub-Category-List.Styles.css';
 

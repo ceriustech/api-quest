@@ -4,8 +4,8 @@
   border-radius: 20px;
   color: var(--alt-color-primary) !important;
   font-size: 1.5em !important;
-  font-weight: 500 !important;
-  padding: 5px 10px;
+  font-weight: 600 !important;
+  padding: 12px 64px;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
@@ -22,8 +22,8 @@
   border-radius: 20px;
   color: var(--alt-color-tertiary) !important;
   font-size: 1.5em !important;
-  font-weight: 500 !important;
-  padding: 5px 10px;
+  font-weight: 600 !important;
+  padding: 12px 64px;
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
