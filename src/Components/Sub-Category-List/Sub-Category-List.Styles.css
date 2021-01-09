@@ -1,3 +1,9 @@
+.sub-category-list-container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
 .card-list {
   margin-top: 25px;
   display: grid;

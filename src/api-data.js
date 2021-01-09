@@ -13,21 +13,21 @@ export const APICategories = () => {
     });
 };
 
-// export const subCategoryList = () => {
-//   return axios
-//     .get(`https://api.publicapis.org/entries?category=animals&https=true`)
-//     .then((response) => response.data)
-//     .then((subApiCategory) => {
-//       console.log(`Sub-Category: ${subApiCategory}`);
-//       return subApiCategory;
-//     })
-//     .catch((error) => {
-//       console.log(`Looks like there was a problem ${error}`);
-//     })
-// };
-
-export const apiInfo = () => {
-  fetch(`https://api.publicapis.org/entries?category=animals&https=true`)
-    .then((response) => response.json())
-    .then((apiInfo) => console.log(apiInfo));
+export const subCategoryList = (category) => {
+  return axios
+    .get(`https://api.publicapis.org/entries?category=${category}&https=true`)
+    .then((response) => response.data)
+    .then((subApiCategory) => {
+      console.log(`Sub-Category: ${subApiCategory}`);
+      return subApiCategory;
+    })
+    .catch((error) => {
+      console.log(`Looks like there was a problem ${error}`);
+    });
 };
+
+// export const apiInfo = (subCategory) => {
+//   fetch(`https://api.publicapis.org/entries?category=${subCategory}&https=true`)
+//     .then((response) => response.json())
+//     .then((apiInfo) => console.log(apiInfo));
+// };

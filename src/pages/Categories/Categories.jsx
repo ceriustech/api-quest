@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { APICategories } from "../../api-data";
+import { APICategories, subCategoryList } from "../../api-data";
 
 import "./Categories.Styles.css";
 import SearchField from "../../Components/Search-Field/Search-Field";
@@ -12,6 +12,10 @@ const CategoriesPage = () => {
 
   const categoryList = useEffect(() => {
     APICategories().then((data) => setCategories(data));
+    subCategoryList("animals").then((data) => {
+      console.log("After Querying subcategory")
+      console.log(data)
+    });
   }, []);
   // console.log(`This Works: ${APICategories()}`);
 

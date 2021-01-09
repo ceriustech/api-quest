@@ -21,6 +21,7 @@ const CardList = (props) => {
           backgroundColor,
           iconColor,
         } = categoryinfo[category];
+        
         return (
           <Card
             key={index}

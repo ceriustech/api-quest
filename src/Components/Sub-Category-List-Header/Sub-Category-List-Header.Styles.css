@@ -1,18 +1,19 @@
-.sub-category-list-header-info {
-  background-color: #fff;
-  border-radius: 8px;
+.sub-category-list-header {
   color: var(--text-tertiary);
   font-size: 12px;
+  padding: 10px;
+}
+
+.sub-category-list-header-info {
   display: flex;
-  margin: 110px 0 10px 10px;
-  padding: 0 15px;
+  margin: 10px 5px 10px 5px;
 }
 
 .sub-category-list-header-text {
   font-size: 1.25em;
   font-weight: 600;
   margin: 0;
-  padding: 15px;
+  padding: 5px;
 }
 
 .sub-category-list-header-text:nth-child(1) {
