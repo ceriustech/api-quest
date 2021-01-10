@@ -120,7 +120,76 @@
         "Anime": {
             "id": 2,
             "subCategories": {
-
+                "AniList": {
+                    "id": 1,
+                    "API": "AniList",
+                    "AUTH": "OAuth",
+                    "Category": "Anime", 
+                    "Cors": "unknown", 
+                    "Description": "Anime discovery & tracking", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/AniList/ApiV2-GraphQL-Docs"    
+                },
+                "AnimeNewsNetwork": {
+                    "id": 2,
+                    "API": "AnimeNewsNetwork",
+                    "AUTH": "",
+                    "Category": "Anime", 
+                    "Cors": "yes", 
+                    "Description": "Anime industry news", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.animenewsnetwork.com/encyclopedia/api.php"    
+                },
+                "Jikan": {
+                    "id": 3,
+                    "API": "Jikan",
+                    "AUTH": "",
+                    "Category": "Anime", 
+                    "Cors": "yes", 
+                    "Description": "Unofficial MyAnimeList API", 
+                    "HTTPS": "true", 
+                    "Link": "https://jikan.moe"    
+                },
+                "Kitsu": {
+                    "id": 4,
+                    "API": "Kitsu",
+                    "AUTH": "OAuth",
+                    "Category": "Anime", 
+                    "Cors": "yes", 
+                    "Description": "Anime discovery & tracking", 
+                    "HTTPS": "true", 
+                    "Link": "https://kitsu.docs.apiary.io/"    
+                },
+                "MyAnimeList": {
+                    "id": 5,
+                    "API": "MyAnimeList",
+                    "AUTH": "OAuth",
+                    "Category": "Anime", 
+                    "Cors": "unknown", 
+                    "Description": "Anime and Manga Database and Community", 
+                    "HTTPS": "true", 
+                    "Link": "https://myanimelist.net/clubs.php?cid=13727"    
+                },
+                "Studio Ghibli": {
+                    "id": 6,
+                    "API": "Studio Ghibli",
+                    "AUTH": "",
+                    "Category": "Anime", 
+                    "Cors": "unknown", 
+                    "Description": "Resources from Studio Ghibli films", 
+                    "HTTPS": "true", 
+                    "Link": "https://ghibliapi.herokuapp.com"    
+                },
+                "What Anime": {
+                    "id": 7,
+                    "API": "What Anime",
+                    "AUTH": "",
+                    "Category": "Anime", 
+                    "Cors": "yes", 
+                    "Description": "Scan anime image to get specific detail", 
+                    "HTTPS": "true", 
+                    "Link": "https://soruly.github.io/trace.moe/"    
+                }
             }
         }
     },
@@ -128,7 +197,76 @@
         "Anti-Malware": {
             "id": 3,
             "subCategories": {
-                
+                "AbuseIPDB": {
+                    "id": 1,
+                    "API": "AbuseIPDB",
+                    "AUTH": "apiKey",
+                    "Category": "Anti-Malware", 
+                    "Cors": "unknown", 
+                    "Description": "IP/domain/URL reputation", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.abuseipdb.com/"    
+                },
+                "AlienVault Open Threat Exchange (OTX)": {
+                    "id": 2,
+                    "API": "AlienVault Open Threat Exchange (OTX)",
+                    "AUTH": "apiKey",
+                    "Category": "Anti-Malware", 
+                    "Cors": "unknown", 
+                    "Description": "IP/domain/URL reputation", 
+                    "HTTPS": "true", 
+                    "Link": "https://otx.alienvault.com/api"    
+                },
+                "Google Safe Browsing": {
+                    "id": 3,
+                    "API": "Google Safe Browsing",
+                    "AUTH": "apiKey",
+                    "Category": "Anti-Malware", 
+                    "Cors": "unknown", 
+                    "Description": "Google Link/Domain Flagging", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/safe-browsing/"    
+                },
+                "Metacert": {
+                    "id": 4,
+                    "API": "Metacert",
+                    "AUTH": "apiKey",
+                    "Category": "Anti-Malware", 
+                    "Cors": "unknown", 
+                    "Description": "Metacert Link Flagging", 
+                    "HTTPS": "true", 
+                    "Link": "https://metacert.com/"    
+                },
+                "URLScan.io": {
+                    "id": 5,
+                    "API": "URLScan.io",
+                    "AUTH": "apiKey",
+                    "Category": "Anti-Malware", 
+                    "Cors": "unknown", 
+                    "Description": "Scan and Analyse URLs", 
+                    "HTTPS": "true", 
+                    "Link": "https://urlscan.io/about-api/"    
+                },
+                "VirusTotal": {
+                    "id": 6,
+                    "API": "VirusTotal",
+                    "AUTH": "apiKey",
+                    "Category": "Anti-Malware", 
+                    "Cors": "unknown", 
+                    "Description": "VirusTotal File/URL Analysis", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.virustotal.com/en/documentation/public-api/"    
+                },
+                "Web Of Trust (WOT)": {
+                    "id": 7,
+                    "API": "Web Of Trust (WOT)",
+                    "AUTH": "apiKey",
+                    "Category": "Anti-Malware", 
+                    "Cors": "unknown", 
+                    "Description": "Website reputation", 
+                    "HTTPS": "true", 
+                    "Link": "https://support.mywot.com/hc/en-us/articles/360024398673-3-Using-the-API"    
+                }
             }
         }
     },
@@ -136,7 +274,56 @@
         "Art & Design": {
             "id": 4,
             "subCategories": {
-                
+                "Behance": {
+                    "id": 7,
+                    "API": "Web Of Trust (WOT)",
+                    "AUTH": "apiKey",
+                    "Category": "Art & Design", 
+                    "Cors": "unknown", 
+                    "Description": "Design", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.behance.net/dev"    
+                },
+                "Cooper Hewitt": {
+                    "id": 7,
+                    "API": "Cooper Hewitt",
+                    "AUTH": "apiKey",
+                    "Category": "Art & Design", 
+                    "Cors": "unknown", 
+                    "Description": "Smithsonian Design Museum", 
+                    "HTTPS": "true", 
+                    "Link": "https://collection.cooperhewitt.org/api"    
+                },
+                "Iconfinder": {
+                    "id": 7,
+                    "API": "Iconfinder",
+                    "AUTH": "apiKey",
+                    "Category": "Art & Design", 
+                    "Cors": "unknown", 
+                    "Description": "Icons", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.iconfinder.com"    
+                },
+                "Icons8": {
+                    "id": 7,
+                    "API": "Icons8",
+                    "AUTH": "OAuth",
+                    "Category": "Art & Design", 
+                    "Cors": "unknown", 
+                    "Description": "Icons", 
+                    "HTTPS": "true", 
+                    "Link": "http://docs.icons8.apiary.io/#reference/0/meta"    
+                },
+                "Rijksmuseum": {
+                    "id": 7,
+                    "API": "Rijksmuseum",
+                    "AUTH": "apiKey",
+                    "Category": "Art & Design", 
+                    "Cors": "unknown", 
+                    "Description": "Art", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.rijksmuseum.nl/en/api"    
+                }
             }
         }
     },
@@ -144,7 +331,66 @@
         "Books": {
             "id": 5,
             "subCategories": {
-                
+                "Bhagavad Gita": {
+                    "id": 1,
+                    "API": "Bhagavad Gita",
+                    "AUTH": "OAuth",
+                    "Category": "Books", 
+                    "Cors": "yes", 
+                    "Description": "Bhagavad Gita text", 
+                    "HTTPS": "true", 
+                    "Link": "https://bhagavadgita.io/api"    
+                },
+                "Google Books": {
+                    "id": 2,
+                    "API": "Google Books",
+                    "AUTH": "OAuth",
+                    "Category": "Books", 
+                    "Cors": "unknown", 
+                    "Description": "Books", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/books/"    
+                },
+                "Open Library": {
+                    "id": 3,
+                    "API": "Open Library",
+                    "AUTH": "",
+                    "Category": "Books", 
+                    "Cors": "no", 
+                    "Description": "Books, book covers and related data", 
+                    "HTTPS": "true", 
+                    "Link": "https://openlibrary.org/developers/api"    
+                },
+                "Penguin Publishing": {
+                    "id": 4,
+                    "API": "Penguin Publishing",
+                    "AUTH": "",
+                    "Category": "Books", 
+                    "Cors": "unknown", 
+                    "Description": "Books, book covers and related data", 
+                    "HTTPS": "true", 
+                    "Link": "http://www.penguinrandomhouse.biz/webservices/rest/"    
+                },
+                "Rig Veda": {
+                    "id": 5,
+                    "API": "Rig Veda",
+                    "AUTH": "",
+                    "Category": "Books", 
+                    "Cors": "unknown", 
+                    "Description": "Gods and poets, their categories, and the verse meters, with the mandal and sukta number", 
+                    "HTTPS": "true", 
+                    "Link": "https://aninditabasu.github.io/indica/html/rv.html"    
+                },
+                "Vedic Society": {
+                    "id": 6,
+                    "API": "Vedic Society",
+                    "AUTH": "",
+                    "Category": "Books", 
+                    "Cors": "unknown", 
+                    "Description": "Descriptions of all nouns (names, places, animals, things) from vedic literature", 
+                    "HTTPS": "true", 
+                    "Link": "https://aninditabasu.github.io/indica/html/vs.html"    
+                }
             }
         }
     },
@@ -152,6 +398,96 @@
         "Business": {
             "id": 6,
             "subCategories": {
+                "Clearbit Logo": {
+                    "id": 1,
+                    "API": "Clearbit Logo",
+                    "AUTH": "apiKey",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Search for company logos and embed them in your projects", 
+                    "HTTPS": "true", 
+                    "Link": "https://clearbit.com/docs#logo-api"    
+                },
+                "Domainsdb.info": {
+                    "id": 2,
+                    "API": "Domainsdb.info",
+                    "AUTH": "",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Registered Domain Names Search", 
+                    "HTTPS": "true", 
+                    "Link": "https://domainsdb.info/"    
+                },
+                "Freelancer": {
+                    "id": 3,
+                    "API": "Freelancer",
+                    "AUTH": "OAuth",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Hire freelancers to get work done", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.freelancer.com"    
+                },
+                "Gmail": {
+                    "id": 4,
+                    "API": "Gmail",
+                    "AUTH": "OAuth",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Flexible, RESTful access to the user's inbox", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/gmail/api/"    
+                },
+                "Google Analytics": {
+                    "id": 5,
+                    "API": "Google Analytics",
+                    "AUTH": "OAuth",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Collect, configure and analyze your data to reach the right audience", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/analytics/"    
+                },
+                "MailboxValidator": {
+                    "id": 6,
+                    "API": "MailboxValidator",
+                    "AUTH": "apiKey",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Validate email address to improve deliverability", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.mailboxvalidator.com/api-single-validation"    
+                },
+                "mailgun": {
+                    "id": 7,
+                    "API": "mailgun",
+                    "AUTH": "apiKey",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Email Service", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.mailgun.com/"    
+                },
+                "Ticksel": {
+                    "id": 8,
+                    "API": "Ticksel",
+                    "AUTH": "",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Friendly website analytics made for humans", 
+                    "HTTPS": "true", 
+                    "Link": "https://ticksel.com"    
+                },
+                "Trello": {
+                    "id": 9,
+                    "API": "Trello",
+                    "AUTH": "OAuth",
+                    "Category": "Business", 
+                    "Cors": "unknown", 
+                    "Description": "Boards, lists and cards to help you organize and prioritize your projects", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.trello.com/"    
+                }
                 
             }
         }
@@ -160,7 +496,76 @@
         "Calendar": {
             "id": 7,
             "subCategories": {
-                
+                "Calendar Index": {
+                    "id": 1,
+                    "API": "Calendar Index",
+                    "AUTH": "apiKey",
+                    "Category": "Calendar", 
+                    "Cors": "yes", 
+                    "Description": "Worldwide Holidays and Working Days", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.calendarindex.com/"    
+                },
+                "Google Calendar": {
+                    "id": 2,
+                    "API": "Calendar Index",
+                    "AUTH": "OAuth",
+                    "Category": "Calendar", 
+                    "Cors": "unknown", 
+                    "Description": "Display, create and modify Google calendar events", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/google-apps/calendar/"    
+                },
+                "Holidays": {
+                    "id": 3,
+                    "API": "Holidays",
+                    "AUTH": "",
+                    "Category": "Calendar", 
+                    "Cors": "unknown", 
+                    "Description": "Historical data regarding holidays", 
+                    "HTTPS": "true", 
+                    "Link": "https://holidayapi.com/"    
+                },
+                "Nager.Date": {
+                    "id": 4,
+                    "API": "Nager.Date",
+                    "AUTH": "",
+                    "Category": "Calendar", 
+                    "Cors": "no", 
+                    "Description": "Public holidays for more than 90 countries", 
+                    "HTTPS": "true", 
+                    "Link": "https://date.nager.at"    
+                },
+                "Namedays Calendar": {
+                    "id": 5,
+                    "API": "Namedays Calendar",
+                    "AUTH": "",
+                    "Category": "Calendar", 
+                    "Cors": "yes", 
+                    "Description": "Provides namedays for multiple countries", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.abalin.net/"    
+                },
+                "Non-Working Days": {
+                    "id": 6,
+                    "API": "Non-Working Days",
+                    "AUTH": "",
+                    "Category": "Calendar", 
+                    "Cors": "unknown", 
+                    "Description": "Database of ICS files for non working days", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/gadael/icsdb"    
+                },
+                "Russian Calendar": {
+                    "id": 7,
+                    "API": "Russian Calendar",
+                    "AUTH": "no",
+                    "Category": "Calendar", 
+                    "Cors": "unknown", 
+                    "Description": "Check if a date is a Russian holiday or not", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/egno/work-calendar"    
+                }
             }
         }
     },
@@ -168,7 +573,66 @@
         "Cloud Storage & File Sharing": {
             "id": 8,
             "subCategories": {
-                
+                "Box": {
+                    "id": 1,
+                    "API": "Box",
+                    "AUTH": "OAuth",
+                    "Category": "Cloud Storage & File Sharing", 
+                    "Cors": "unknown", 
+                    "Description": "File Sharing and Storage", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.box.com/"    
+                },
+                "Dropbox": {
+                    "id": 2,
+                    "API": "Dropbox",
+                    "AUTH": "OAuth",
+                    "Category": "Cloud Storage & File Sharing", 
+                    "Cors": "unknown", 
+                    "Description": "File Sharing and Storage", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.dropbox.com/developers"    
+                },
+                "Google Drive": {
+                    "id": 3,
+                    "API": "Google Drive",
+                    "AUTH": "OAuth",
+                    "Category": "Cloud Storage & File Sharing", 
+                    "Cors": "unknown", 
+                    "Description": "File Sharing and Storage", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/drive/"    
+                },
+                "OneDrive": {
+                    "id": 4,
+                    "API": "OneDrive",
+                    "AUTH": "OAuth",
+                    "Category": "Cloud Storage & File Sharing", 
+                    "Cors": "unknown", 
+                    "Description": "File Sharing and Storage", 
+                    "HTTPS": "true", 
+                    "Link": "https://dev.onedrive.com/"    
+                },
+                "Pastebin": {
+                    "id": 5,
+                    "API": "Pastebin",
+                    "AUTH": "apiKey",
+                    "Category": "Cloud Storage & File Sharing", 
+                    "Cors": "unknown", 
+                    "Description": "Plain Text Storage", 
+                    "HTTPS": "true", 
+                    "Link": "https://pastebin.com/api/"    
+                },
+                "Temporal": {
+                    "id": 6,
+                    "API": "Temporal",
+                    "AUTH": "apiKey",
+                    "Category": "Cloud Storage & File Sharing", 
+                    "Cors": "no", 
+                    "Description": "IPFS based file storage and sharing with optional IPNS naming", 
+                    "HTTPS": "true", 
+                    "Link": "https://gateway.temporal.cloud/ipns/docs.api.temporal.cloud"    
+                }
             }
         }
     },
@@ -176,7 +640,36 @@
         "Continuous Integration": {
             "id": 9,
             "subCategories": {
-                
+                "CircleCI": {
+                    "id": 1,
+                    "API": "CircleCI",
+                    "AUTH": "apiKey",
+                    "Category": "Continuous Integration", 
+                    "Cors": "unknown", 
+                    "Description": "Automate the software development process using continuous integration and continuous delivery", 
+                    "HTTPS": "true", 
+                    "Link": "https://circleci.com/docs/api/v1-reference/"    
+                },
+                "Codeship": {
+                    "id": 2,
+                    "API": "Codeship",
+                    "AUTH": "apiKey",
+                    "Category": "Continuous Integration", 
+                    "Cors": "unknown", 
+                    "Description": "Codeship is a Continuous Integration Platform in the cloud", 
+                    "HTTPS": "true", 
+                    "Link": "https://apidocs.codeship.com/"    
+                },
+                "Travis CI": {
+                    "id": 3,
+                    "API": "Travis CI",
+                    "AUTH": "apiKey",
+                    "Category": "Continuous Integration", 
+                    "Cors": "unknown", 
+                    "Description": "Sync your GitHub projects with Travis CI to test your code in minutes", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.travis-ci.com/api/"    
+                }
             }
         }
     },
@@ -184,7 +677,266 @@
         "Cryptocurrency": {
             "id": 10,
             "subCategories": {
-                
+                "Binance": {
+                    "id": 1,
+                    "API": "Binance",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Exchange for Trading Cryptocurrencies based in China", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/binance/binance-spot-api-docs"    
+                },
+                "BitcoinAverage": {
+                    "id": 2,
+                    "API": "BitcoinAverage",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Digital Asset Price Data for the blockchain industry", 
+                    "HTTPS": "true", 
+                    "Link": "https://apiv2.bitcoinaverage.com/"    
+                },
+                "BitcoinCharts": {
+                    "id": 3,
+                    "API": "Binance",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Financial and Technical Data related to the Bitcoin Network", 
+                    "HTTPS": "true", 
+                    "Link": "https://bitcoincharts.com/about/exchanges/"    
+                },
+                "Bitfinex": {
+                    "id": 4,
+                    "API": "Bitfinex",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrency Trading Platform", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.bitfinex.com/docs"    
+                },
+                "Bitmex": {
+                    "id": 5,
+                    "API": "Bitmex",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.bitmex.com/app/apiOverview"    
+                },
+                "Bittrex": {
+                    "id": 6,
+                    "API": "Bittrex",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Next Generation Crypto Trading Platform", 
+                    "HTTPS": "true", 
+                    "Link": "https://bittrex.com/Home/Api"    
+                },
+                "Block": {
+                    "id": 7,
+                    "API": "Block",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Bitcoin Payment, Wallet & Transaction Data", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.block.io/docs/basic"    
+                },
+                "Blockchain": {
+                    "id": 8,
+                    "API": "Blockchain",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Bitcoin Payment, Wallet & Transaction Data", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.blockchain.info/api"    
+                },
+                "CoinAPI": {
+                    "id": 9,
+                    "API": "CoinAPI",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "no", 
+                    "Description": "All Currency Exchanges integrate under a single api", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.coinapi.io/"    
+                },
+                "Coinbase": {
+                    "id": 10,
+                    "API": "Coinbase",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.coinbase.com"    
+                },
+                "Coinbase Pro": {
+                    "id": 11,
+                    "API": "Coinbase Pro",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrency Trading Platform", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.pro.coinbase.com/#api"    
+                },
+                "CoinGecko": {
+                    "id": 12,
+                    "API": "CoinGecko",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "yes", 
+                    "Description": "Cryptocurrency Price, Market, and Developer/Social Data", 
+                    "HTTPS": "true", 
+                    "Link": "http://www.coingecko.com/api"    
+                },
+                "Coinigy": {
+                    "id": 13,
+                    "API": "Coinigy",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Interacting with Coinigy Accounts and Exchange Directly", 
+                    "HTTPS": "true", 
+                    "Link": "https://coinigy.docs.apiary.io"    
+                },
+                "CoinLayer": {
+                    "id": 14,
+                    "API": "CoinLayer",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Real-time Crypto Currency Exchange Rates", 
+                    "HTTPS": "true", 
+                    "Link": "https://coinlayer.com"    
+                },
+                "Coinlib": {
+                    "id": 15,
+                    "API": "Coinlib",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Crypto Currency Prices", 
+                    "HTTPS": "true", 
+                    "Link": "https://coinlib.io/apidocs"    
+                },
+                "Coinlore": {
+                    "id": 16,
+                    "API": "Coinlore",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrencies prices, volume and more", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.coinlore.com/cryptocurrency-data-api"    
+                },
+                "CoinMarketCap": {
+                    "id": 17,
+                    "API": "CoinMarketCap",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrencies Prices", 
+                    "HTTPS": "true", 
+                    "Link": "https://coinmarketcap.com/api/"    
+                },
+                "Coinpaprika": {
+                    "id": 18,
+                    "API": "Coinpaprika",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "yes", 
+                    "Description": "Cryptocurrencies prices, volume and more", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.coinpaprika.com"    
+                },
+                "CoinRanking": {
+                    "id": 19,
+                    "API": "CoinRanking",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Live Cryptocurrency data", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.coinranking.com/"    
+                },
+                "CryptoCompare": {
+                    "id": 20,
+                    "API": "CryptoCompare",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrencies Comparison", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.cryptocompare.com/api#"    
+                },
+                "Cryptonator": {
+                    "id": 21,
+                    "API": "Cryptonator",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrencies Exchange Rates", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.cryptonator.com/api/"    
+                },
+                "Gemini": {
+                    "id": 22,
+                    "API": "Gemini",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrencies Exchange", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.gemini.com/rest-api/"    
+                },
+                "ICObench": {
+                    "id": 23,
+                    "API": "ICObench",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Various information on listing, ratings, stats, and more", 
+                    "HTTPS": "true", 
+                    "Link": "https://icobench.com/developers"    
+                },
+                "MercadoBitcoin": {
+                    "id": 24,
+                    "API": "MercadoBitcoin",
+                    "AUTH": "",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Brazilian Cryptocurrency Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.mercadobitcoin.net/api-doc/"    
+                },
+                "Poloniex": {
+                    "id": 25,
+                    "API": "Poloniex",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "US based digital asset exchange", 
+                    "HTTPS": "true", 
+                    "Link": "https://poloniex.com/support/api/"    
+                },
+                "WorldCoinIndex": {
+                    "id": 26,
+                    "API": "WorldCoinIndex",
+                    "AUTH": "apiKey",
+                    "Category": "Cryptocurrency", 
+                    "Cors": "unknown", 
+                    "Description": "Cryptocurrencies Prices", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.worldcoinindex.com/apiservice"    
+                }
             }
         }
     },
@@ -192,7 +944,96 @@
         "Currency Exchange": {
             "id": 11,
             "subCategories": {
-                
+                "1Forge": {
+                    "id": 1,
+                    "API": "WorldCoinIndex",
+                    "AUTH": "apiKey",
+                    "Category": "Currency Exchange", 
+                    "Cors": "unknown", 
+                    "Description": "Forex currency market data", 
+                    "HTTPS": "true", 
+                    "Link": "https://1forge.com/forex-data-api/api-documentation"    
+                },
+                "Currencylayer": {
+                    "id": 2,
+                    "API": "Currencylayer",
+                    "AUTH": "apiKey",
+                    "Category": "Currency Exchange", 
+                    "Cors": "unknown", 
+                    "Description": "Exchange rates and currency conversion", 
+                    "HTTPS": "true", 
+                    "Link": "https://currencylayer.com/documentation"    
+                },
+                "Czech National Bank": {
+                    "id": 3,
+                    "API": "Czech National Bank",
+                    "AUTH": "",
+                    "Category": "Currency Exchange", 
+                    "Cors": "unknown", 
+                    "Description": "A collection of exchange rates", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml"    
+                },
+                "ExchangeRate-API": {
+                    "id": 4,
+                    "API": "ExchangeRate-API",
+                    "AUTH": "",
+                    "Category": "Currency Exchange", 
+                    "Cors": "yes", 
+                    "Description": "Free currency conversion", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.exchangerate-api.com"    
+                },
+                "Exchangeratesapi.io": {
+                    "id": 5,
+                    "API": "Exchangeratesapi.io",
+                    "AUTH": "",
+                    "Category": "Currency Exchange", 
+                    "Cors": "yes", 
+                    "Description": "Exchange rates with currency conversion", 
+                    "HTTPS": "true", 
+                    "Link": "https://exchangeratesapi.io"    
+                },
+                "Fixer.io": {
+                    "id": 6,
+                    "API": "Fixer.io",
+                    "AUTH": "apiKey",
+                    "Category": "Currency Exchange", 
+                    "Cors": "unknown", 
+                    "Description": "Exchange rates and currency conversion", 
+                    "HTTPS": "true", 
+                    "Link": "http://fixer.io"    
+                },
+                "Frankfurter": {
+                    "id": 7,
+                    "API": "Frankfurter",
+                    "AUTH": "",
+                    "Category": "Currency Exchange", 
+                    "Cors": "yes", 
+                    "Description": "Exchange rates, currency conversion and time series", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.frankfurter.app/docs"    
+                },
+                "ratesapi": {
+                    "id": 8,
+                    "API": "ratesapi",
+                    "AUTH": "",
+                    "Category": "Currency Exchange", 
+                    "Cors": "unknown", 
+                    "Description": "Free exchange rates and historical rates", 
+                    "HTTPS": "true", 
+                    "Link": "https://ratesapi.io"    
+                },
+                "VATComply.com": {
+                    "id": 9,
+                    "API": "VATComply.com",
+                    "AUTH": "",
+                    "Category": "Currency Exchange", 
+                    "Cors": "yes", 
+                    "Description": "Exchange rates, geolocation and VAT number validation", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.vatcomply.com/documentation"    
+                },
             }
         }
     },
