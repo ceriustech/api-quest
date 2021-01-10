@@ -21,7 +21,9 @@ const Animals = (props) => {
   }, []);
 
 
-  console.log(props);
+  console.log('SubCategory Data:', subCategory);
+ 
+  console.log('SubCategory Data Specific:', subCategory);
   return (
     <div className="main-content_wrapper animals">
       <section className="category-content">

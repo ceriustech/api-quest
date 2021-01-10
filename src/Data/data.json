@@ -22,7 +22,97 @@
                     "Description": "Pictures of cats from Tumblr", 
                     "HTTPS": "true", 
                     "Link": "https://docs.thecatapi.com/"    
-                }
+                },
+                "Dogs": {
+                    "id": 3,
+                    "API": "Dogs",
+                    "AUTH": "apiKey",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Based on the Stanford Dogs Dataset", 
+                    "HTTPS": "true", 
+                    "Link": "https://dog.ceo/dog-api/"    
+                },
+                "HTTPCat": {
+                    "id": 4,
+                    "API": "HTTPCat",
+                    "AUTH": "",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Cat for every HTTP Status", 
+                    "HTTPS": "true", 
+                    "Link": "https://http.cat/"    
+                },
+                "Movebank": {
+                    "id": 5,
+                    "API": "Movebank",
+                    "AUTH": "",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Movement and Migration data of animals", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/movebank/movebank-api-doc"    
+                },
+                "PlaceGOAT": {
+                    "id": 6,
+                    "API": "PlaceGOAT",
+                    "AUTH": "",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Placeholder goat images", 
+                    "HTTPS": "true", 
+                    "Link": "https://placegoat.com/"    
+                },
+                "Cats": {
+                    "id": 7,
+                    "API": "Cats",
+                    "AUTH": "apiKey",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Pictures of cats from Tumblr", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.thecatapi.com/"    
+                },
+                "Cats": {
+                    "id": 8,
+                    "API": "Cats",
+                    "AUTH": "apiKey",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Pictures of cats from Tumblr", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.thecatapi.com/"    
+                },
+                "Cats": {
+                    "id": 9,
+                    "API": "Cats",
+                    "AUTH": "apiKey",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Pictures of cats from Tumblr", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.thecatapi.com/"    
+                },
+                "Cats": {
+                    "id": 10,
+                    "API": "Cats",
+                    "AUTH": "apiKey",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Pictures of cats from Tumblr", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.thecatapi.com/"    
+                },
+                "Cats": {
+                    "id": 11,
+                    "API": "Cats",
+                    "AUTH": "apiKey",
+                    "Category": "Animals", 
+                    "Cors": "unknown", 
+                    "Description": "Pictures of cats from Tumblr", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.thecatapi.com/"    
+                },
             }
         }
     },
