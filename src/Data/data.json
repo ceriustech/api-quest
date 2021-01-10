@@ -63,277 +63,409 @@
                     "HTTPS": "true", 
                     "Link": "https://placegoat.com/"    
                 },
-                "Cats": {
+                "RandomCat": {
                     "id": 7,
-                    "API": "Cats",
-                    "AUTH": "apiKey",
+                    "API": "RandomCat",
+                    "AUTH": "",
                     "Category": "Animals", 
-                    "Cors": "unknown", 
-                    "Description": "Pictures of cats from Tumblr", 
+                    "Cors": "yes", 
+                    "Description": "Random pictures of cats", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.thecatapi.com/"    
+                    "Link": "https://aws.random.cat/meow"    
                 },
-                "Cats": {
+                "RandomDog": {
                     "id": 8,
-                    "API": "Cats",
-                    "AUTH": "apiKey",
+                    "API": "RandomDog",
+                    "AUTH": "",
                     "Category": "Animals", 
-                    "Cors": "unknown", 
-                    "Description": "Pictures of cats from Tumblr", 
+                    "Cors": "yes", 
+                    "Description": "Random pictures of dogs", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.thecatapi.com/"    
+                    "Link": "https://random.dog/woof.json"    
                 },
-                "Cats": {
+                "RandomFox": {
                     "id": 9,
-                    "API": "Cats",
-                    "AUTH": "apiKey",
+                    "API": "RandomFox",
+                    "AUTH": "",
                     "Category": "Animals", 
-                    "Cors": "unknown", 
-                    "Description": "Pictures of cats from Tumblr", 
+                    "Cors": "no", 
+                    "Description": "Random pictures of foxes", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.thecatapi.com/"    
+                    "Link": "https://randomfox.ca/floof/"    
                 },
-                "Cats": {
+                "RescueGroups": {
                     "id": 10,
-                    "API": "Cats",
-                    "AUTH": "apiKey",
+                    "API": "RescueGroups",
+                    "AUTH": "",
                     "Category": "Animals", 
                     "Cors": "unknown", 
-                    "Description": "Pictures of cats from Tumblr", 
+                    "Description": "Adoption", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.thecatapi.com/"    
+                    "Link": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home"    
                 },
-                "Cats": {
+                "Shibe.Online": {
                     "id": 11,
-                    "API": "Cats",
-                    "AUTH": "apiKey",
+                    "API": "Shibe.Online",
+                    "AUTH": "",
                     "Category": "Animals", 
-                    "Cors": "unknown", 
-                    "Description": "Pictures of cats from Tumblr", 
+                    "Cors": "yes", 
+                    "Description": "Random pictures of Shibu Inu, cats or birds", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.thecatapi.com/"    
-                },
+                    "Link": "http://shibe.online/"    
+                }
             }
         }
     },
     {
         "Anime": {
+            "id": 2,
+            "subCategories": {
 
+            }
         }
     },
     {
         "Anti-Malware": {
-
+            "id": 3,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Art & Design": {
-
+            "id": 4,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Books": {
-
+            "id": 5,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Business": {
-
+            "id": 6,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Calendar": {
-
+            "id": 7,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Cloud Storage & File Sharing": {
-
+            "id": 8,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Continuous Integration": {
-
+            "id": 9,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Cryptocurrency": {
-
+            "id": 10,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Currency Exchange": {
-
+            "id": 11,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Data Validation": {
-
+            "id": 12,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Development": {
-
+            "id": 13,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Dictionaries": {
-
+            "id": 14,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Documents & Productivity": {
-
+            "id": 15,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Environment": {
-
+            "id": 16,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Events": {
-
+            "id": 17,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Finance": {
-
+            "id": 18,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Food & Drink": {
-
+            "id": 19,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Games & Comics": {
-
+            "id": 20,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Geocoding": {
-
+            "id": 21,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Government": {
-
+            "id": 22,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Health": {
-
+            "id": 23,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Jobs": {
-
+            "id": 24,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Machine Learning": {
-
+            "id": 25,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Music": {
-
+            "id": 26,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "News": {
-
+            "id": 27,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Open Data": {
-
+            "id": 28,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Open Source Projects": {
-
+            "id": 29,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Patent": {
-
+            "id": 30,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Personality": {
-
+            "id": 31,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Photography": {
-
+            "id": 32,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Science & Math": {
-
+            "id": 33,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Security": {
-
+            "id": 34,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Shopping": {
-
+            "id": 35,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Social": {
-
+            "id": 36,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Sports & Fitness": {
-
+            "id": 37,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Test Data": {
-
+            "id": 38,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Text Analysis": {
-
+            "id": 39,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Tracking": {
-
+            "id": 40,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Transportation": {
-
+            "id": 41,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "URL Shorteners": {
-
+            "id": 42,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Vehicle": {
-
+            "id": 43,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Video": {
-
+            "id":44,
+            "subCategories": {
+                
+            }
         }
     },
     {
         "Weather": {
-
+            "id": 45,
+            "subCategories": {
+                
+            }
         }
     }
 ]
