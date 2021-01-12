@@ -1863,7 +1863,76 @@
         "Finance": {
             "id": 18,
             "subCategories": {
-                
+                "Alpha Vantage": {
+                    "id": 1,
+                    "API": "Alpha Vantage",
+                    "AUTH": "apiKey",
+                    "Category": "Finance", 
+                    "Cors": "unknown", 
+                    "Description": "Realtime and historical stock data", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.alphavantage.co/"    
+                },
+                "IEX Cloud": {
+                    "id": 2,
+                    "API": "IEX Cloud",
+                    "AUTH": "apiKey",
+                    "Category": "Finance", 
+                    "Cors": "yes", 
+                    "Description": "Realtime & Historical Stock and Market Data", 
+                    "HTTPS": "true", 
+                    "Link": "https://iexcloud.io/"    
+                },
+                "IG": {
+                    "id": 3,
+                    "API": "IG",
+                    "AUTH": "apiKey",
+                    "Category": "Finance", 
+                    "Cors": "unknown", 
+                    "Description": "Spreadbetting and CFD Market Data", 
+                    "HTTPS": "true", 
+                    "Link": "https://labs.ig.com/gettingstarted"    
+                },
+                "Plaid": {
+                    "id": 4,
+                    "API": "Plaid",
+                    "AUTH": "apiKey",
+                    "Category": "Finance", 
+                    "Cors": "unknown", 
+                    "Description": "Connect with users’ bank accounts and access transaction data", 
+                    "HTTPS": "true", 
+                    "Link": "https://plaid.com/"    
+                },
+                "Razorpay IFSC": {
+                    "id": 5,
+                    "API": "Razorpay IFSC",
+                    "AUTH": "apiKey",
+                    "Category": "Finance", 
+                    "Cors": "unknown", 
+                    "Description": "Indian Financial Systems Code (Bank Branch Codes)", 
+                    "HTTPS": "true", 
+                    "Link": "https://ifsc.razorpay.com/"    
+                },
+                "Tradier": {
+                    "id": 6,
+                    "API": "Tradier",
+                    "AUTH": "OAuth",
+                    "Category": "Finance", 
+                    "Cors": "yes", 
+                    "Description": "US equity/option market data (delayed, intraday, historical)", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.tradier.com"    
+                },
+                "YNAB": {
+                    "id": 7,
+                    "API": "YNAB",
+                    "AUTH": "OAuth",
+                    "Category": "Finance", 
+                    "Cors": "yes", 
+                    "Description": "Budgeting & Planning", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.youneedabudget.com/"    
+                }
             }
         }
     },
@@ -1871,7 +1940,116 @@
         "Food & Drink": {
             "id": 19,
             "subCategories": {
-                
+                "Edamam nutrition": {
+                    "id": 1,
+                    "API": "Edamam nutrition",
+                    "AUTH": "apiKey",
+                    "Category": "Food & Drink", 
+                    "Cors": "unknown", 
+                    "Description": "Nutrition Analysis", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.edamam.com/edamam-docs-nutrition-api"    
+                },
+                "Edamam recipes": {
+                    "id": 2,
+                    "API": "Edamam recipes",
+                    "AUTH": "apiKey",
+                    "Category": "Food & Drink", 
+                    "Cors": "unknown", 
+                    "Description": "Recipe Search", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.edamam.com/edamam-docs-recipe-api"    
+                },
+                "Foodish": {
+                    "id": 3,
+                    "API": "Foodish",
+                    "AUTH": "",
+                    "Category": "Food & Drink", 
+                    "Cors": "yes", 
+                    "Description": "Random pictures of food dishes", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/surhud004/Foodish#readme"    
+                },
+                "LCBO": {
+                    "id": 4,
+                    "API": "LCBO",
+                    "AUTH": "apiKey",
+                    "Category": "Food & Drink", 
+                    "Cors": "unknown", 
+                    "Description": "Alcohol", 
+                    "HTTPS": "true", 
+                    "Link": "https://lcboapi.com/"    
+                },
+                "Open Brewery DB": {
+                    "id": 5,
+                    "API": "Open Brewery DB",
+                    "AUTH": "",
+                    "Category": "Food & Drink", 
+                    "Cors": "yes", 
+                    "Description": "Breweries, Cideries and Craft Beer Bottle Shops", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.openbrewerydb.org"    
+                },
+                "Open Food Facts": {
+                    "id": 6,
+                    "API": "Open Food Facts",
+                    "AUTH": "",
+                    "Category": "Food & Drink", 
+                    "Cors": "unknown", 
+                    "Description": "Food Products Database", 
+                    "HTTPS": "true", 
+                    "Link": "https://world.openfoodfacts.org/data"    
+                },
+                "PunkAPI": {
+                    "id": 7,
+                    "API": "PunkAPI",
+                    "AUTH": "apiKey",
+                    "Category": "Food & Drink", 
+                    "Cors": "unknown", 
+                    "Description": "Brewdog Beer Recipes", 
+                    "HTTPS": "true", 
+                    "Link": "https://punkapi.com/"    
+                },
+                "The Report of the Week": {
+                    "id": 8,
+                    "API": "The Report of the Week",
+                    "AUTH": "",
+                    "Category": "Food & Drink", 
+                    "Cors": "unknown", 
+                    "Description": "Food & Drink Reviews", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/andyklimczak/TheReportOfTheWeek-API"    
+                },
+                "TheCocktailDB": {
+                    "id": 9,
+                    "API": "TheCocktailDB",
+                    "AUTH": "apiKey",
+                    "Category": "Food & Drink", 
+                    "Cors": "yes", 
+                    "Description": "Cocktail Recipes", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.thecocktaildb.com/api.php"    
+                },
+                "TheMealDB": {
+                    "id": 10,
+                    "API": "TheMealDB",
+                    "AUTH": "apiKey",
+                    "Category": "Food & Drink", 
+                    "Cors": "yes", 
+                    "Description": "Meal Recipes", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.themealdb.com/api.php"    
+                },
+                "Zomato": {
+                    "id": 11,
+                    "API": "Zomato",
+                    "AUTH": "apiKey",
+                    "Category": "Food & Drink", 
+                    "Cors": "unknown", 
+                    "Description": "Discover restaurants", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.zomato.com/api"    
+                }
             }
         }
     },
@@ -1879,7 +2057,346 @@
         "Games & Comics": {
             "id": 20,
             "subCategories": {
-                
+                "Age of Empires II": {
+                    "id": 1,
+                    "API": "Age of Empires II",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Get information about Age of Empires II resources", 
+                    "HTTPS": "true", 
+                    "Link": "https://age-of-empires-2-api.herokuapp.com"    
+                },
+                "AmiiboAPI": {
+                    "id": 2,
+                    "API": "AmiiboAPI",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "yes", 
+                    "Description": "Nintendo Amiibo Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://amiiboapi.com/"    
+                },
+                "CheapShark": {
+                    "id": 3,
+                    "API": "CheapShark",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "yes", 
+                    "Description": "Steam/PC Game Prices and Deals", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.cheapshark.com/api"    
+                },
+                "Clash of Clans": {
+                    "id": 4,
+                    "API": "Clash of Clans",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Clash of Clans Game Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.clashofclans.com"    
+                },
+                "Clash Royale": {
+                    "id": 5,
+                    "API": "Clash Royale",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Clash Royale Game Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.clashroyale.com"    
+                },
+                "Comic Vine": {
+                    "id": 6,
+                    "API": "Comic Vine",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Comics", 
+                    "HTTPS": "true", 
+                    "Link": "https://comicvine.gamespot.com/api/documentation"    
+                },
+                "Destiny The Game": {
+                    "id": 7,
+                    "API": "Destiny The Game",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Bungie Platform API", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/Bungie-net/api"    
+                },
+                "Dota 2": {
+                    "id": 8,
+                    "API": "Dota 2",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Provides information about Player stats , Match stats, Rankings for Dota 2", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.opendota.com/"    
+                },
+                "Eve Online": {
+                    "id": 9,
+                    "API": "Eve Online",
+                    "AUTH": "OAuth",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Third-Party Developer Documentation", 
+                    "HTTPS": "true", 
+                    "Link": "https://esi.evetech.net/ui"    
+                },
+                "Final Fantasy XIV": {
+                    "id": 10,
+                    "API": "Final Fantasy XIV",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Final Fantasy XIV Game data API", 
+                    "HTTPS": "true", 
+                    "Link": "https://xivapi.com/"    
+                },
+                "Fortnite": {
+                    "id": 11,
+                    "API": "Fortnite",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Fortnite Stats", 
+                    "HTTPS": "true", 
+                    "Link": "https://fortnitetracker.com/site-api"    
+                },
+                "Giant Bomb": {
+                    "id": 12,
+                    "API": "Giant Bomb",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Video Games", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.giantbomb.com/api/documentation"    
+                },
+                "Guild Wars 2": {
+                    "id": 13,
+                    "API": "Guild Wars 2",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Guild Wars 2 Game Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://wiki.guildwars2.com/wiki/API:Main"    
+                },
+                "Halo": {
+                    "id": 14,
+                    "API": "Halo",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Halo 5 and Halo Wars 2 Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.haloapi.com/"    
+                },
+                "Hearthstone": {
+                    "id": 15,
+                    "API": "Hearthstone",
+                    "AUTH": "X-Mashape-Key",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Hearthstone Cards Information", 
+                    "HTTPS": "true", 
+                    "Link": "http://hearthstoneapi.com/"    
+                },
+                "Hypixel": {
+                    "id": 16,
+                    "API": "Hypixel",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Hypixel player stats", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.hypixel.net/"    
+                },
+                "Hytale": {
+                    "id": 17,
+                    "API": "Hytale",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Hytale blog posts and jobs", 
+                    "HTTPS": "true", 
+                    "Link": "https://hytale-api.com/"    
+                },
+                "IGDB.com": {
+                    "id": 18,
+                    "API": "IGDB.com",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Video Game Database", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.igdb.com/"    
+                },
+                "JokeAPI": {
+                    "id": 19,
+                    "API": "JokeAPI",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "yes", 
+                    "Description": "Programming, Miscellaneous and Dark Jokes", 
+                    "HTTPS": "true", 
+                    "Link": "https://sv443.net/jokeapi/v2/"    
+                },
+                "Jokes": {
+                    "id": 20,
+                    "API": "Jokes",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Programming and general jokes", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/15Dkatz/official_joke_api"    
+                },
+                "mod.io": {
+                    "id": 21,
+                    "API": "mod.io",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Cross Platform Mod API", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.mod.io"    
+                },
+                "Open Trivia": {
+                    "id": 22,
+                    "API": "Open Trivia",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Trivia Questions", 
+                    "HTTPS": "true", 
+                    "Link": "https://opentdb.com/api_config.php"    
+                },
+                "PandaScore": {
+                    "id": 23,
+                    "API": "PandaScore",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "E-sports games and results", 
+                    "HTTPS": "true", 
+                    "Link": "https://pandascore.co"    
+                },
+                "PlayerUnknown's Battlegrounds": {
+                    "id": 24,
+                    "API": "PlayerUnknown's Battlegrounds",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "PUBG Stats", 
+                    "HTTPS": "true", 
+                    "Link": "https://pubgtracker.com/site-api"    
+                },
+                "Pokéapi": {
+                    "id": 25,
+                    "API": "Pokéapi",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Pokémon Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://pokeapi.co"    
+                },
+                "Pokémon TCG": {
+                    "id": 26,
+                    "API": "Pokémon TCG",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Pokémon TCG Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://pokemontcg.io"    
+                },
+                "Rick and Morty": {
+                    "id": 27,
+                    "API": "Rick and Morty",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "yes", 
+                    "Description": "All the Rick and Morty information, including images", 
+                    "HTTPS": "true", 
+                    "Link": "https://rickandmortyapi.com"    
+                },
+                "Riot Games": {
+                    "id": 28,
+                    "API": "Riot Games",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "League of Legends Game Information", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.riotgames.com/"    
+                },
+                "Scryfall": {
+                    "id": 29,
+                    "API": "Scryfall",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "yes", 
+                    "Description": "Magic: The Gathering database", 
+                    "HTTPS": "true", 
+                    "Link": "https://scryfall.com/docs/api"    
+                },
+                "Steam": {
+                    "id": 30,
+                    "API": "Steam",
+                    "AUTH": "OAuth",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "Steam Client Interaction", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.valvesoftware.com/wiki/Steam_Web_API"    
+                },
+                "SuperHeroes": {
+                    "id": 31,
+                    "API": "SuperHeroes",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "All SuperHeroes and Villains data from all universes under a single API", 
+                    "HTTPS": "true", 
+                    "Link": "https://superheroapi.com"    
+                },
+                "Tronald Dump": {
+                    "id": 32,
+                    "API": "Tronald Dump",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "unknown", 
+                    "Description": "The dumbest things Donald Trump has ever said", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.tronalddump.io/"    
+                },
+                "Wargaming.net": {
+                    "id": 33,
+                    "API": "Wargaming.net",
+                    "AUTH": "apiKey",
+                    "Category": "Games & Comics", 
+                    "Cors": "no", 
+                    "Description": "Wargaming.net info and stats", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.wargaming.net/"    
+                },
+                "xkcd": {
+                    "id": 34,
+                    "API": "xkcd",
+                    "AUTH": "",
+                    "Category": "Games & Comics", 
+                    "Cors": "no", 
+                    "Description": "Retrieve xkcd comics as JSON", 
+                    "HTTPS": "true", 
+                    "Link": "https://xkcd.com/json.html"    
+                }
             }
         }
     },
@@ -1887,7 +2404,386 @@
         "Geocoding": {
             "id": 21,
             "subCategories": {
-                
+                "adresse.data.gouv.fr": {
+                    "id": 1,
+                    "API": "adresse.data.gouv.fr",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Address database of France, geocoding and reverse", 
+                    "HTTPS": "true", 
+                    "Link": "https://adresse.data.gouv.fr"    
+                },
+                "Bing Maps": {
+                    "id": 2,
+                    "API": "Bing Maps",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Create/customize digital maps based on Bing Maps data", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.microsoft.com/maps/"    
+                },
+                "bng2latlong": {
+                    "id": 3,
+                    "API": "Wargaming.net",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.getthedata.com/bng2latlong"    
+                },
+                "CitySDK": {
+                    "id": 4,
+                    "API": "CitySDK",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Open APIs for select European cities", 
+                    "HTTPS": "true", 
+                    "Link": "http://www.citysdk.eu/citysdk-toolkit/"    
+                },
+                "FreeGeoIP": {
+                    "id": 5,
+                    "API": "FreeGeoIP",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "Free geo ip information, no registration required. 15k/hour rate limit", 
+                    "HTTPS": "true", 
+                    "Link": "https://freegeoip.app/"    
+                },
+                "GeoApi": {
+                    "id": 6,
+                    "API": "GeoApi",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "French geographical data", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.gouv.fr/api/geoapi.html"    
+                },
+                "Geocod.io": {
+                    "id": 7,
+                    "API": "Geocod.io",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Address geocoding / reverse geocoding in bulk", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.geocod.io/"    
+                },
+                "Geocode.xyz": {
+                    "id": 8,
+                    "API": "Geocode.xyz",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing", 
+                    "HTTPS": "true", 
+                    "Link": "https://geocode.xyz/"    
+                },
+                "GeoDataSource": {
+                    "id": 9,
+                    "API": "GeoDataSource",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Geocoding of city name by using latitude and longitude coordinates", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.geodatasource.com/web-service"    
+                },
+                "GeoJS": {
+                    "id": 10,
+                    "API": "GeoJS",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "IP geolocation with ChatOps integration", 
+                    "HTTPS": "true", 
+                    "Link": "https://geojs.io/"    
+                },
+                "geoPlugin": {
+                    "id": 11,
+                    "API": "geoPlugin",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "IP geolocation and currency conversion", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.geoplugin.com"    
+                },
+                "Google Earth Engine": {
+                    "id": 12,
+                    "API": "Google Earth Engine",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "A cloud-based platform for planetary-scale environmental data analysis", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/earth-engine/"    
+                },
+                "Google Maps": {
+                    "id": 13,
+                    "API": "Google Maps",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Create/customize digital maps based on Google Maps data", 
+                    "HTTPS": "true", 
+                    "Link": "https://developers.google.com/maps/"    
+                },
+                "HelloSalut": {
+                    "id": 14,
+                    "API": "HelloSalut",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Get hello translation following user language", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.fourtonfish.com/hellosalut/hello/"    
+                },
+                "HERE Maps": {
+                    "id": 15,
+                    "API": "HERE Maps",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Create/customize digital maps based on HERE Maps data", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.here.com"    
+                },
+                "IP 2 Country": {
+                    "id": 16,
+                    "API": "IP 2 Country",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Map an IP to a country", 
+                    "HTTPS": "true", 
+                    "Link": "https://ip2country.info"    
+                },
+                "IP Address Details": {
+                    "id": 17,
+                    "API": "IP Address Details",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Find geolocation with ip address", 
+                    "HTTPS": "true", 
+                    "Link": "https://ipinfo.io/"    
+                },
+                "IP Location": {
+                    "id": 18,
+                    "API": "IP Location",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Find IP address location information", 
+                    "HTTPS": "true", 
+                    "Link": "https://ipapi.co/"    
+                },
+                "IP Sidekick": {
+                    "id": 19,
+                    "API": "IP Sidekick",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Geolocation API that returns extra information about an IP address", 
+                    "HTTPS": "true", 
+                    "Link": "https://ipsidekick.com"    
+                },
+                "IP Vigilante": {
+                    "id": 20,
+                    "API": "IP Vigilante",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Free IP Geolocation API", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.ipvigilante.com/"    
+                },
+                "IP2Location": {
+                    "id": 21,
+                    "API": "IP2Location",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "IP geolocation web service to get more than 55 parameters", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.ip2location.com/web-service/ip2location"    
+                },
+                "IP2Proxy": {
+                    "id": 22,
+                    "API": "IP2Proxy",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Detect proxy and VPN using IP address", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.ip2location.com/web-service/ip2proxy"    
+                },
+                "IPGeolocationAPI.com": {
+                    "id": 23,
+                    "API": "IPGeolocationAPI.com",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "Address database of France, geocoding and reverse", 
+                    "HTTPS": "true", 
+                    "Link": "https://ipgeolocationapi.com/"    
+                },
+                "IPInfoDB": {
+                    "id": 24,
+                    "API": "Wargaming.net",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address", 
+                    "HTTPS": "true", 
+                    "Link": "https://ipinfodb.com/api"    
+                },
+                "ipstack": {
+                    "id": 25,
+                    "API": "apiKey",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Locate and identify website visitors by IP address", 
+                    "HTTPS": "true", 
+                    "Link": "https://ipstack.com/"    
+                },
+                "LocationIQ": {
+                    "id": 26,
+                    "API": "LocationIQ",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "Provides forward/reverse geocoding and batch geocoding", 
+                    "HTTPS": "true", 
+                    "Link": "https://locationiq.org/docs/"    
+                },
+                "Mapbox": {
+                    "id": 27,
+                    "API": "Mapbox",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Create/customize beautiful digital maps", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.mapbox.com/developers/"    
+                },
+                "Mexico": {
+                    "id": 28,
+                    "API": "Mexico",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Mexico RESTful zip codes API", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/IcaliaLabs/sepomex"    
+                },
+                "One Map, Singapore": {
+                    "id": 29,
+                    "API": "One Map, Singapore",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Singapore Land Authority REST API services for Singapore addresses", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.onemap.sg/"    
+                },
+                "OnWater": {
+                    "id": 30,
+                    "API": "OnWater",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Determine if a lat/lon is on water or land", 
+                    "HTTPS": "true", 
+                    "Link": "https://onwater.io/"    
+                },
+                "OpenCage": {
+                    "id": 31,
+                    "API": "OpenCage",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "Forward and reverse geocoding using open data", 
+                    "HTTPS": "true", 
+                    "Link": "https://opencagedata.com"    
+                },
+                "Postcodes.io": {
+                    "id": 32,
+                    "API": "Postcodes.io",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "Postcode lookup & Geolocation for the UK", 
+                    "HTTPS": "true", 
+                    "Link": "https://postcodes.io"    
+                },
+                "REST Countries": {
+                    "id": 33,
+                    "API": "REST Countries",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Get information about countries via a RESTful API", 
+                    "HTTPS": "true", 
+                    "Link": "https://restcountries.eu"    
+                },
+                "Uebermaps": {
+                    "id": 34,
+                    "API": "Wargaming.net",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Discover and share maps with friends", 
+                    "HTTPS": "true", 
+                    "Link": "https://uebermaps.com/api/v2"    
+                },
+                "US ZipCode": {
+                    "id": 35,
+                    "API": "US ZipCode",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "yes", 
+                    "Description": "Validate and append data for any US ZipCode", 
+                    "HTTPS": "true", 
+                    "Link": "https://smartystreets.com/docs/cloud/us-zipcode-api"    
+                },
+                "Utah AGRC": {
+                    "id": 36,
+                    "API": "Wargaming.net",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Utah Web API for geocoding Utah addresses", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.mapserv.utah.gov"    
+                },
+                "ViaCep": {
+                    "id": 37,
+                    "API": "ViaCep",
+                    "AUTH": "",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "Brazil RESTful zip codes API", 
+                    "HTTPS": "true", 
+                    "Link": "https://viacep.com.br"    
+                },
+                "ZipCodeAPI": {
+                    "id": 38,
+                    "API": "ZipCodeAPI",
+                    "AUTH": "apiKey",
+                    "Category": "Geocoding", 
+                    "Cors": "unknown", 
+                    "Description": "US zip code distance, radius and location API", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.zipcodeapi.com"    
+                }
             }
         }
     },
