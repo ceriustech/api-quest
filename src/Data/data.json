@@ -1033,7 +1033,7 @@
                     "Description": "Exchange rates, geolocation and VAT number validation", 
                     "HTTPS": "true", 
                     "Link": "https://www.vatcomply.com/documentation"    
-                },
+                }
             }
         }
     },
@@ -1041,7 +1041,106 @@
         "Data Validation": {
             "id": 12,
             "subCategories": {
-                
+                "Cloudmersive Validate": {
+                    "id": 1,
+                    "API": "Cloudmersive Validate",
+                    "AUTH": "apiKey",
+                    "Category": "Data Validation", 
+                    "Cors": "yes", 
+                    "Description": "Validate email addresses, phone numbers, VAT numbers and domain names", 
+                    "HTTPS": "true", 
+                    "Link": "https://cloudmersive.com/validate-api"    
+                },
+                "languagelayer": {
+                    "id": 2,
+                    "API": "languagelayer",
+                    "AUTH": "apiKey",
+                    "Category": "Data Validation", 
+                    "Cors": "unknown", 
+                    "Description": "Language detection", 
+                    "HTTPS": "true", 
+                    "Link": "https://languagelayer.com"    
+                },
+                "Lob.com": {
+                    "id": 3,
+                    "API": "Lob.com",
+                    "AUTH": "apiKey",
+                    "Category": "Data Validation", 
+                    "Cors": "unknown", 
+                    "Description": "US Address Verification", 
+                    "HTTPS": "true", 
+                    "Link": "https://lob.com/"    
+                },
+                "mailboxlayer": {
+                    "id": 4,
+                    "API": "mailboxlayer",
+                    "AUTH": "",
+                    "Category": "Data Validation", 
+                    "Cors": "unknown", 
+                    "Description": "Email address validation", 
+                    "HTTPS": "true", 
+                    "Link": "https://mailboxlayer.com"    
+                },
+                "NumValidate": {
+                    "id": 5,
+                    "API": "NumValidate",
+                    "AUTH": "",
+                    "Category": "Data Validation", 
+                    "Cors": "unknown", 
+                    "Description": "Open Source phone number validation", 
+                    "HTTPS": "true", 
+                    "Link": "https://numvalidate.com"    
+                },
+                "numverify": {
+                    "id": 6,
+                    "API": "numverify",
+                    "AUTH": "",
+                    "Category": "Data Validation", 
+                    "Cors": "unknown", 
+                    "Description": "Phone number validation", 
+                    "HTTPS": "true", 
+                    "Link": "https://numverify.com"    
+                },
+                "US Autocomplete": {
+                    "id": 7,
+                    "API": "US Autocomplete",
+                    "AUTH": "apiKey",
+                    "Category": "Data Validation", 
+                    "Cors": "yes", 
+                    "Description": "Enter address data quickly with real-time address suggestions", 
+                    "HTTPS": "true", 
+                    "Link": "https://smartystreets.com/docs/cloud/us-autocomplete-api"    
+                },
+                "US Extract": {
+                    "id": 8,
+                    "API": "US Extract",
+                    "AUTH": "apiKey",
+                    "Category": "Data Validation", 
+                    "Cors": "yes", 
+                    "Description": "Extract postal addresses from any text including emails", 
+                    "HTTPS": "true", 
+                    "Link": "https://smartystreets.com/products/apis/us-extract-api"    
+                },
+                "US Street Address": {
+                    "id": 9,
+                    "API": "US Street Address",
+                    "AUTH": "apiKey",
+                    "Category": "Data Validation", 
+                    "Cors": "yes", 
+                    "Description": "Validate and append data for any US postal address", 
+                    "HTTPS": "true", 
+                    "Link": "https://smartystreets.com/docs/cloud/us-street-api"    
+                },
+                "vatlayer": {
+                    "id": 10,
+                    "API": "vatlayer",
+                    "AUTH": "",
+                    "Category": "Data Validation", 
+                    "Cors": "unknown", 
+                    "Description": "VAT number validation", 
+                    "HTTPS": "true", 
+                    "Link": "https://vatlayer.com"    
+                }
             }
         }
     },
@@ -1049,7 +1148,476 @@
         "Development": {
             "id": 13,
             "subCategories": {
-                
+                "24 Pull Requests": {
+                    "id": 1,
+                    "API": "Cloudmersive Validate",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Project to promote open source collaboration during December", 
+                    "HTTPS": "true", 
+                    "Link": "https://24pullrequests.com/api"    
+                },
+                "Agify.io": {
+                    "id": 2,
+                    "API": "Agify.io",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Estimates the age from a first name", 
+                    "HTTPS": "true", 
+                    "Link": "https://agify.io"    
+                },
+                "ApiFlash": {
+                    "id": 3,
+                    "API": "ApiFlash",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Chrome based screenshot API for developers", 
+                    "HTTPS": "true", 
+                    "Link": "https://apiflash.com/"    
+                },
+                "Apility.io": {
+                    "id": 4,
+                    "API": "Apility.io",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "IP, Domains and Emails anti-abuse API blocklist", 
+                    "HTTPS": "true", 
+                    "Link": "https://apility.io/apidocs/"    
+                },
+                "APIs.guru": {
+                    "id": 5,
+                    "API": "APIs.guru",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs", 
+                    "HTTPS": "true", 
+                    "Link": "https://apis.guru/api-doc/"    
+                },
+                "BetterMeta": {
+                    "id": 6,
+                    "API": "BetterMeta",
+                    "AUTH": "X-Mashape-Key",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Return a site's meta tags in JSON format", 
+                    "HTTPS": "true", 
+                    "Link": "http://bettermeta.io"    
+                },
+                "Bitbucket": {
+                    "id": 7,
+                    "API": "Bitbucket",
+                    "AUTH": "OAuth",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Bitbucket API", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.atlassian.com/bitbucket/api/2/reference/"    
+                },
+                "Bored": {
+                    "id": 8,
+                    "API": "Bored",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Find random activities to fight boredom", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.boredapi.com/"    
+                },
+                "Browshot": {
+                    "id": 9,
+                    "API": "Browshot",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Easily make screenshots of web pages in any screen size, as any device", 
+                    "HTTPS": "true", 
+                    "Link": "https://browshot.com/api/documentation"    
+                },
+                "CDNJS": {
+                    "id": 10,
+                    "API": "CDNJS",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Library info on CDNJS", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.cdnjs.com/libraries/jquery"    
+                },
+                "Changelogs.md": {
+                    "id": 11,
+                    "API": "Changelogs.md",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Structured changelog metadata from open source projects", 
+                    "HTTPS": "true", 
+                    "Link": "https://changelogs.md"    
+                },
+                "CountAPI": {
+                    "id": 12,
+                    "API": "CountAPI",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Free and simple counting service. You can use it to track page hits and specific events", 
+                    "HTTPS": "true", 
+                    "Link": "https://countapi.xyz"    
+                },
+                "DigitalOcean Status": {
+                    "id": 13,
+                    "API": "DigitalOcean Status",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Status of all DigitalOcean services", 
+                    "HTTPS": "true", 
+                    "Link": "https://status.digitalocean.com/api"    
+                },
+                "DomainDb Info": {
+                    "id": 14,
+                    "API": "DomainDb Info",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Domain name search to find all domains containing particular words/phrases/etc", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.domainsdb.info/"    
+                },
+                "Genderize.io": {
+                    "id": 15,
+                    "API": "Genderize.io",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Estimates a gender from a first name", 
+                    "HTTPS": "true", 
+                    "Link": "https://genderize.io"    
+                },
+                "GitHub": {
+                    "id": 16,
+                    "API": "GitHub",
+                    "AUTH": "OAuth",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Make use of GitHub repositories, code and user info programmatically", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.github.com/en/free-pro-team@latest/rest"    
+                },
+                "Gitlab": {
+                    "id": 17,
+                    "API": "Gitlab",
+                    "AUTH": "OAuth",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Automate GitLab interaction programmatically", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.gitlab.com/ee/api/"    
+                },
+                "Gitter": {
+                    "id": 18,
+                    "API": "Gitter",
+                    "AUTH": "OAuth",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Chat for Developers", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.gitter.im/docs/welcome"    
+                },
+                "HTTP2.Pro": {
+                    "id": 19,
+                    "API": "HTTP2.Pro",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Test endpoints for client and server HTTP/2 protocol support", 
+                    "HTTPS": "true", 
+                    "Link": "https://http2.pro/doc/api"    
+                },
+                "IBM Text to Speech": {
+                    "id": 20,
+                    "API": "IBM Text to Speech",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Convert text to speech", 
+                    "HTTPS": "true", 
+                    "Link": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html"    
+                },
+                "IBM Visual Recognition": {
+                    "id": 21,
+                    "API": "IBM Visual Recognition",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Visual Recognition with pretrained or user trained model", 
+                    "HTTPS": "true", 
+                    "Link": "https://cloud.ibm.com/apidocs/visual-recognition/visual-recognition-v3"    
+                },
+                "IFTTT": {
+                    "id": 22,
+                    "API": "Cloudmersive Validate",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "IFTTT Connect API", 
+                    "HTTPS": "true", 
+                    "Link": "https://platform.ifttt.com/docs/connect_api"    
+                },
+                "Image-Charts": {
+                    "id": 23,
+                    "API": "Image-Charts",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Generate charts, QR codes and graph images", 
+                    "HTTPS": "true", 
+                    "Link": "https://documentation.image-charts.com/"    
+                },
+                "import.io": {
+                    "id": 24,
+                    "API": "import.io",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Retrieve structured data from a website or RSS feed", 
+                    "HTTPS": "true", 
+                    "Link": "http://api.docs.import.io/"    
+                },
+                "IPify": {
+                    "id": 25,
+                    "API": "IPify",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "A simple IP Address API", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.ipify.org/"    
+                },
+                "IPinfo": {
+                    "id": 26,
+                    "API": "IPinfo",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Another simple IP Address API", 
+                    "HTTPS": "true", 
+                    "Link": "https://ipinfo.io/developers"    
+                },
+                "JSON 2 JSONP": {
+                    "id": 27,
+                    "API": "JSON 2 JSONP",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript", 
+                    "HTTPS": "true", 
+                    "Link": "https://json2jsonp.com/"    
+                },
+                "JSON Pretty Print": {
+                    "id": 28,
+                    "API": "JSON Pretty Print",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Pretty Prints JSON data", 
+                    "HTTPS": "true", 
+                    "Link": "https://jsonprettyprint.org/api"    
+                },
+                "JSONbin.io": {
+                    "id": 29,
+                    "API": "JSONbin.io",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps", 
+                    "HTTPS": "true", 
+                    "Link": "https://jsonbin.io"    
+                },
+                "Judge0": {
+                    "id": 30,
+                    "API": "Judge0",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Compile and run source code", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.judge0.com/"    
+                },
+                "License-API": {
+                    "id": 31,
+                    "API": "License-API",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "no", 
+                    "Description": "Unofficial REST API for choosealicense.com", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/cmccandless/license-api/blob/master/README.md"    
+                },
+                "MAC address vendor lookup": {
+                    "id": 32,
+                    "API": "MAC address vendor lookup",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Retrieve vendor details and other information regarding a given MAC address or an OUI", 
+                    "HTTPS": "true", 
+                    "Link": "https://macaddress.io/api"    
+                },
+                "Nationalize.io": {
+                    "id": 33,
+                    "API": "Nationalize.io",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Estimate the nationality of a first name", 
+                    "HTTPS": "true", 
+                    "Link": "https://nationalize.io"    
+                },
+                "OOPSpam": {
+                    "id": 34,
+                    "API": "OOPSpam",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Multiple spam filtering service", 
+                    "HTTPS": "true", 
+                    "Link": "https://oopspam.com/"    
+                },
+                "Plino": {
+                    "id": 35,
+                    "API": "Plino",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Spam filtering system", 
+                    "HTTPS": "true", 
+                    "Link": "https://plino.herokuapp.com/"    
+                },
+                "Postman": {
+                    "id": 36,
+                    "API": "Postman",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Tool for testing APIs", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.api.getpostman.com/"    
+                },
+                "ProxyCrawl": {
+                    "id": 37,
+                    "API": "ProxyCrawl",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Scraping and crawling anticaptcha service", 
+                    "HTTPS": "true", 
+                    "Link": "https://proxycrawl.com"    
+                },
+                "Public APIs": {
+                    "id": 38,
+                    "API": "Public APIs",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Validate email addresses, phone numbers, VAT numbers and domain names", 
+                    "HTTPS": "true", 
+                    "Link": "https://github.com/davemachado/public-api"    
+                },
+                "Pusher Beams": {
+                    "id": 39,
+                    "API": "Pusher Beams",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Push notifications for Android & iOS", 
+                    "HTTPS": "true", 
+                    "Link": "https://pusher.com/beams"    
+                },
+                "QR code": {
+                    "id": 40,
+                    "API": "QR code",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Create an easy to read QR code and URL shortener", 
+                    "HTTPS": "true", 
+                    "Link": "http://qrtag.net/api/"    
+                },
+                "QR Code": {
+                    "id": 41,
+                    "API": "QR Code",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Generate and decode / read QR code graphics", 
+                    "HTTPS": "true", 
+                    "Link": "http://goqr.me/api/"    
+                },
+                "QuickChart": {
+                    "id": 42,
+                    "API": "QuickChart",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Generate chart and graph images", 
+                    "HTTPS": "true", 
+                    "Link": "https://quickchart.io/"    
+                },
+                "ReqRes": {
+                    "id": 43,
+                    "API": "ReqRes",
+                    "AUTH": "",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "A hosted REST-API ready to respond to your AJAX requests", 
+                    "HTTPS": "true", 
+                    "Link": "https://reqres.in/"    
+                },
+                "Scraper.AI": {
+                    "id": 44,
+                    "API": "Scraper.AI",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Extract and monitor data from any website", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.scraper.ai/#/"    
+                },
+                "ScraperApi": {
+                    "id": 45,
+                    "API": "ScraperApi",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "unknown", 
+                    "Description": "Easily build scalable web scrapers", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.scraperapi.com"    
+                },
+                "ScreenshotAPI.net": {
+                    "id": 46,
+                    "API": "Cloudmersive Validate",
+                    "AUTH": "apiKey",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Create pixel-perfect website screenshots", 
+                    "HTTPS": "true", 
+                    "Link": "https://screenshotapi.net/"    
+                },
+                "StackExchange": {
+                    "id": 47,
+                    "API": "StackExchange",
+                    "AUTH": "OAuth",
+                    "Category": "Development", 
+                    "Cors": "yes", 
+                    "Description": "Q&A forum for developers", 
+                    "HTTPS": "true", 
+                    "Link": "https://api.stackexchange.com/"    
+                }
             }
         }
     },
@@ -1057,7 +1625,56 @@
         "Dictionaries": {
             "id": 14,
             "subCategories": {
-                
+                "Lingua Robot": {
+                    "id": 1,
+                    "API": "Lingua Robot",
+                    "AUTH": "apiKey",
+                    "Category": "Dictionaries", 
+                    "Cors": "unknown", 
+                    "Description": "Word definitions, pronunciations, synonyms, antonyms and others", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.linguarobot.io"    
+                },
+                "Merriam-Webster": {
+                    "id": 2,
+                    "API": "Merriam-Webster",
+                    "AUTH": "apiKey",
+                    "Category": "Dictionaries", 
+                    "Cors": "unknown", 
+                    "Description": "Dictionary and Thesaurus Data", 
+                    "HTTPS": "true", 
+                    "Link": "https://dictionaryapi.com/"    
+                },
+                "OwlBot": {
+                    "id": 3,
+                    "API": "OwlBot",
+                    "AUTH": "apiKey",
+                    "Category": "Dictionaries", 
+                    "Cors": "yes", 
+                    "Description": "Definitions with example sentence and photo if available", 
+                    "HTTPS": "true", 
+                    "Link": "https://owlbot.info/"    
+                },
+                "Oxford": {
+                    "id": 4,
+                    "API": "Oxford",
+                    "AUTH": "apiKey",
+                    "Category": "Dictionaries", 
+                    "Cors": "no", 
+                    "Description": "Dictionary Data", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.oxforddictionaries.com/"    
+                },
+                "Words": {
+                    "id": 5,
+                    "API": "Words",
+                    "AUTH": "apiKey",
+                    "Category": "Dictionaries", 
+                    "Cors": "unknown", 
+                    "Description": "Definitions and synonyms for more than 150,000 words", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.wordsapi.com/"    
+                }
             }
         }
     },
@@ -1065,7 +1682,96 @@
         "Documents & Productivity": {
             "id": 15,
             "subCategories": {
-                
+                "Cloudmersive Document and Data Conversion": {
+                    "id": 1,
+                    "API": "Cloudmersive Document and Data Conversion",
+                    "AUTH": "apiKey",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "yes", 
+                    "Description": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion", 
+                    "HTTPS": "true", 
+                    "Link": "https://cloudmersive.com/convert-api"    
+                },
+                "File.io": {
+                    "id": 2,
+                    "API": "File.io",
+                    "AUTH": "",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "File Sharing", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.file.io"    
+                },
+                "Mercury": {
+                    "id": 3,
+                    "API": "Mercury",
+                    "AUTH": "apiKey",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "Web parser", 
+                    "HTTPS": "true", 
+                    "Link": "https://mercury.postlight.com/web-parser/"    
+                },
+                "pdflayer": {
+                    "id": 4,
+                    "API": "pdflayer",
+                    "AUTH": "apiKey",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "HTML/URL to PDF", 
+                    "HTTPS": "true", 
+                    "Link": "https://pdflayer.com"    
+                },
+                "Pocket": {
+                    "id": 5,
+                    "API": "Pocket",
+                    "AUTH": "OAuth",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "Bookmarking service", 
+                    "HTTPS": "true", 
+                    "Link": "https://getpocket.com/developer/"    
+                },
+                "PrexView": {
+                    "id": 6,
+                    "API": "PrexView",
+                    "AUTH": "apiKey",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "Data from XML or JSON to PDF, HTML or Image", 
+                    "HTTPS": "true", 
+                    "Link": "https://prexview.com"    
+                },
+                "Restpack": {
+                    "id": 7,
+                    "API": "Restpack",
+                    "AUTH": "apiKey",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "Provides screenshot, HTML to PDF and content extraction APIs", 
+                    "HTTPS": "true", 
+                    "Link": "https://restpack.io/"    
+                },
+                "Todoist": {
+                    "id": 8,
+                    "API": "Todoist",
+                    "AUTH": "OAuth",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "Todo Lists", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.todoist.com"    
+                },
+                "WakaTime": {
+                    "id": 9,
+                    "API": "WakaTime",
+                    "AUTH": "",
+                    "Category": "Documents & Productivity", 
+                    "Cors": "unknown", 
+                    "Description": "Automated time tracking leaderboards for programmers", 
+                    "HTTPS": "true", 
+                    "Link": "https://wakatime.com/developers"    
+                }
             }
         }
     },
@@ -1073,7 +1779,46 @@
         "Environment": {
             "id": 16,
             "subCategories": {
-                
+                "AirVisual": {
+                    "id": 1,
+                    "API": "AirVisual",
+                    "AUTH": "apiKey",
+                    "Category": "Environment", 
+                    "Cors": "unknown", 
+                    "Description": "Air quality and weather data", 
+                    "HTTPS": "true", 
+                    "Link": "https://airvisual.com/api"    
+                },
+                "OpenAQ": {
+                    "id": 2,
+                    "API": "OpenAQ",
+                    "AUTH": "apiKey",
+                    "Category": "Environment", 
+                    "Cors": "unknown", 
+                    "Description": "Open air quality data", 
+                    "HTTPS": "true", 
+                    "Link": "https://docs.openaq.org/"    
+                },
+                "PVWatts": {
+                    "id": 3,
+                    "API": "PVWatts",
+                    "AUTH": "apiKey",
+                    "Category": "Environment", 
+                    "Cors": "unknown", 
+                    "Description": "Energy production photovoltaic (PV) energy systems", 
+                    "HTTPS": "true", 
+                    "Link": "https://developer.nrel.gov/docs/solar/pvwatts/v6/"    
+                },
+                "UK Carbon Intensity": {
+                    "id": 4,
+                    "API": "UK Carbon Intensity",
+                    "AUTH": "",
+                    "Category": "Environment", 
+                    "Cors": "unknown", 
+                    "Description": "The Official Carbon Intensity API for Great Britain developed by National Grid", 
+                    "HTTPS": "true", 
+                    "Link": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0"    
+                }
             }
         }
     },
@@ -1081,7 +1826,36 @@
         "Events": {
             "id": 17,
             "subCategories": {
-                
+                "Eventbrite": {
+                    "id": 1,
+                    "API": "Eventbrite",
+                    "AUTH": "OAuth",
+                    "Category": "Events", 
+                    "Cors": "unknown", 
+                    "Description": "Find events", 
+                    "HTTPS": "true", 
+                    "Link": "https://www.eventbrite.com/developer/v3/"    
+                },
+                "Picatic": {
+                    "id": 2,
+                    "API": "Picatic",
+                    "AUTH": "apiKey",
+                    "Category": "Events", 
+                    "Cors": "unknown", 
+                    "Description": "Sell tickets anywhere", 
+                    "HTTPS": "true", 
+                    "Link": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto"    
+                },
+                "Ticketmaster": {
+                    "id": 3,
+                    "API": "Ticketmaster",
+                    "AUTH": "apiKey",
+                    "Category": "Events", 
+                    "Cors": "unknown", 
+                    "Description": "Search events, attractions, or venues", 
+                    "HTTPS": "true", 
+                    "Link": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/"    
+                }
             }
         }
     },
