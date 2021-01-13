@@ -11,7 +11,7 @@
                     "Cors": "no", 
                     "Description": "Daily cat facts", 
                     "HTTPS": "true", 
-                    "Link": "https://alexwohlbruck.github.io/cat-facts/"    
+                    "URL": "https://alexwohlbruck.github.io/cat-facts/"    
                 },
                 "Cats": {
                     "id": 2,
@@ -21,7 +21,7 @@
                     "Cors": "unknown", 
                     "Description": "Pictures of cats from Tumblr", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.thecatapi.com/"    
+                    "URL": "https://docs.thecatapi.com/"    
                 },
                 "Dogs": {
                     "id": 3,
@@ -31,7 +31,7 @@
                     "Cors": "unknown", 
                     "Description": "Based on the Stanford Dogs Dataset", 
                     "HTTPS": "true", 
-                    "Link": "https://dog.ceo/dog-api/"    
+                    "URL": "https://dog.ceo/dog-api/"    
                 },
                 "HTTPCat": {
                     "id": 4,
@@ -41,7 +41,7 @@
                     "Cors": "unknown", 
                     "Description": "Cat for every HTTP Status", 
                     "HTTPS": "true", 
-                    "Link": "https://http.cat/"    
+                    "URL": "https://http.cat/"    
                 },
                 "Movebank": {
                     "id": 5,
@@ -51,7 +51,7 @@
                     "Cors": "unknown", 
                     "Description": "Movement and Migration data of animals", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/movebank/movebank-api-doc"    
+                    "URL": "https://github.com/movebank/movebank-api-doc"    
                 },
                 "PlaceGOAT": {
                     "id": 6,
@@ -61,7 +61,7 @@
                     "Cors": "unknown", 
                     "Description": "Placeholder goat images", 
                     "HTTPS": "true", 
-                    "Link": "https://placegoat.com/"    
+                    "URL": "https://placegoat.com/"    
                 },
                 "RandomCat": {
                     "id": 7,
@@ -71,7 +71,7 @@
                     "Cors": "yes", 
                     "Description": "Random pictures of cats", 
                     "HTTPS": "true", 
-                    "Link": "https://aws.random.cat/meow"    
+                    "URL": "https://aws.random.cat/meow"    
                 },
                 "RandomDog": {
                     "id": 8,
@@ -81,7 +81,7 @@
                     "Cors": "yes", 
                     "Description": "Random pictures of dogs", 
                     "HTTPS": "true", 
-                    "Link": "https://random.dog/woof.json"    
+                    "URL": "https://random.dog/woof.json"    
                 },
                 "RandomFox": {
                     "id": 9,
@@ -91,7 +91,7 @@
                     "Cors": "no", 
                     "Description": "Random pictures of foxes", 
                     "HTTPS": "true", 
-                    "Link": "https://randomfox.ca/floof/"    
+                    "URL": "https://randomfox.ca/floof/"    
                 },
                 "RescueGroups": {
                     "id": 10,
@@ -101,7 +101,7 @@
                     "Cors": "unknown", 
                     "Description": "Adoption", 
                     "HTTPS": "true", 
-                    "Link": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home"    
+                    "URL": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home"    
                 },
                 "Shibe.Online": {
                     "id": 11,
@@ -111,7 +111,7 @@
                     "Cors": "yes", 
                     "Description": "Random pictures of Shibu Inu, cats or birds", 
                     "HTTPS": "true", 
-                    "Link": "http://shibe.online/"    
+                    "URL": "http://shibe.online/"    
                 }
             }
         }
@@ -128,7 +128,7 @@
                     "Cors": "unknown", 
                     "Description": "Anime discovery & tracking", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/AniList/ApiV2-GraphQL-Docs"    
+                    "URL": "https://github.com/AniList/ApiV2-GraphQL-Docs"    
                 },
                 "AnimeNewsNetwork": {
                     "id": 2,
@@ -138,7 +138,7 @@
                     "Cors": "yes", 
                     "Description": "Anime industry news", 
                     "HTTPS": "true", 
-                    "Link": "https://www.animenewsnetwork.com/encyclopedia/api.php"    
+                    "URL": "https://www.animenewsnetwork.com/encyclopedia/api.php"    
                 },
                 "Jikan": {
                     "id": 3,
@@ -148,7 +148,7 @@
                     "Cors": "yes", 
                     "Description": "Unofficial MyAnimeList API", 
                     "HTTPS": "true", 
-                    "Link": "https://jikan.moe"    
+                    "URL": "https://jikan.moe"    
                 },
                 "Kitsu": {
                     "id": 4,
@@ -158,7 +158,7 @@
                     "Cors": "yes", 
                     "Description": "Anime discovery & tracking", 
                     "HTTPS": "true", 
-                    "Link": "https://kitsu.docs.apiary.io/"    
+                    "URL": "https://kitsu.docs.apiary.io/"    
                 },
                 "MyAnimeList": {
                     "id": 5,
@@ -168,7 +168,7 @@
                     "Cors": "unknown", 
                     "Description": "Anime and Manga Database and Community", 
                     "HTTPS": "true", 
-                    "Link": "https://myanimelist.net/clubs.php?cid=13727"    
+                    "URL": "https://myanimelist.net/clubs.php?cid=13727"    
                 },
                 "Studio Ghibli": {
                     "id": 6,
@@ -178,7 +178,7 @@
                     "Cors": "unknown", 
                     "Description": "Resources from Studio Ghibli films", 
                     "HTTPS": "true", 
-                    "Link": "https://ghibliapi.herokuapp.com"    
+                    "URL": "https://ghibliapi.herokuapp.com"    
                 },
                 "What Anime": {
                     "id": 7,
@@ -188,7 +188,7 @@
                     "Cors": "yes", 
                     "Description": "Scan anime image to get specific detail", 
                     "HTTPS": "true", 
-                    "Link": "https://soruly.github.io/trace.moe/"    
+                    "URL": "https://soruly.github.io/trace.moe/"    
                 }
             }
         }
@@ -205,7 +205,7 @@
                     "Cors": "unknown", 
                     "Description": "IP/domain/URL reputation", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.abuseipdb.com/"    
+                    "URL": "https://docs.abuseipdb.com/"    
                 },
                 "AlienVault Open Threat Exchange (OTX)": {
                     "id": 2,
@@ -215,7 +215,7 @@
                     "Cors": "unknown", 
                     "Description": "IP/domain/URL reputation", 
                     "HTTPS": "true", 
-                    "Link": "https://otx.alienvault.com/api"    
+                    "URL": "https://otx.alienvault.com/api"    
                 },
                 "Google Safe Browsing": {
                     "id": 3,
@@ -223,9 +223,9 @@
                     "AUTH": "apiKey",
                     "Category": "Anti-Malware", 
                     "Cors": "unknown", 
-                    "Description": "Google Link/Domain Flagging", 
+                    "Description": "Google URL/Domain Flagging", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/safe-browsing/"    
+                    "URL": "https://developers.google.com/safe-browsing/"    
                 },
                 "Metacert": {
                     "id": 4,
@@ -233,9 +233,9 @@
                     "AUTH": "apiKey",
                     "Category": "Anti-Malware", 
                     "Cors": "unknown", 
-                    "Description": "Metacert Link Flagging", 
+                    "Description": "Metacert URL Flagging", 
                     "HTTPS": "true", 
-                    "Link": "https://metacert.com/"    
+                    "URL": "https://metacert.com/"    
                 },
                 "URLScan.io": {
                     "id": 5,
@@ -245,7 +245,7 @@
                     "Cors": "unknown", 
                     "Description": "Scan and Analyse URLs", 
                     "HTTPS": "true", 
-                    "Link": "https://urlscan.io/about-api/"    
+                    "URL": "https://urlscan.io/about-api/"    
                 },
                 "VirusTotal": {
                     "id": 6,
@@ -255,7 +255,7 @@
                     "Cors": "unknown", 
                     "Description": "VirusTotal File/URL Analysis", 
                     "HTTPS": "true", 
-                    "Link": "https://www.virustotal.com/en/documentation/public-api/"    
+                    "URL": "https://www.virustotal.com/en/documentation/public-api/"    
                 },
                 "Web Of Trust (WOT)": {
                     "id": 7,
@@ -265,7 +265,7 @@
                     "Cors": "unknown", 
                     "Description": "Website reputation", 
                     "HTTPS": "true", 
-                    "Link": "https://support.mywot.com/hc/en-us/articles/360024398673-3-Using-the-API"    
+                    "URL": "https://support.mywot.com/hc/en-us/articles/360024398673-3-Using-the-API"    
                 }
             }
         }
@@ -282,7 +282,7 @@
                     "Cors": "unknown", 
                     "Description": "Design", 
                     "HTTPS": "true", 
-                    "Link": "https://www.behance.net/dev"    
+                    "URL": "https://www.behance.net/dev"    
                 },
                 "Cooper Hewitt": {
                     "id": 7,
@@ -292,7 +292,7 @@
                     "Cors": "unknown", 
                     "Description": "Smithsonian Design Museum", 
                     "HTTPS": "true", 
-                    "Link": "https://collection.cooperhewitt.org/api"    
+                    "URL": "https://collection.cooperhewitt.org/api"    
                 },
                 "Iconfinder": {
                     "id": 7,
@@ -302,7 +302,7 @@
                     "Cors": "unknown", 
                     "Description": "Icons", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.iconfinder.com"    
+                    "URL": "https://developer.iconfinder.com"    
                 },
                 "Icons8": {
                     "id": 7,
@@ -312,7 +312,7 @@
                     "Cors": "unknown", 
                     "Description": "Icons", 
                     "HTTPS": "true", 
-                    "Link": "http://docs.icons8.apiary.io/#reference/0/meta"    
+                    "URL": "http://docs.icons8.apiary.io/#reference/0/meta"    
                 },
                 "Rijksmuseum": {
                     "id": 7,
@@ -322,7 +322,7 @@
                     "Cors": "unknown", 
                     "Description": "Art", 
                     "HTTPS": "true", 
-                    "Link": "https://www.rijksmuseum.nl/en/api"    
+                    "URL": "https://www.rijksmuseum.nl/en/api"    
                 }
             }
         }
@@ -339,7 +339,7 @@
                     "Cors": "yes", 
                     "Description": "Bhagavad Gita text", 
                     "HTTPS": "true", 
-                    "Link": "https://bhagavadgita.io/api"    
+                    "URL": "https://bhagavadgita.io/api"    
                 },
                 "Google Books": {
                     "id": 2,
@@ -349,7 +349,7 @@
                     "Cors": "unknown", 
                     "Description": "Books", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/books/"    
+                    "URL": "https://developers.google.com/books/"    
                 },
                 "Open Library": {
                     "id": 3,
@@ -359,7 +359,7 @@
                     "Cors": "no", 
                     "Description": "Books, book covers and related data", 
                     "HTTPS": "true", 
-                    "Link": "https://openlibrary.org/developers/api"    
+                    "URL": "https://openlibrary.org/developers/api"    
                 },
                 "Penguin Publishing": {
                     "id": 4,
@@ -369,7 +369,7 @@
                     "Cors": "unknown", 
                     "Description": "Books, book covers and related data", 
                     "HTTPS": "true", 
-                    "Link": "http://www.penguinrandomhouse.biz/webservices/rest/"    
+                    "URL": "http://www.penguinrandomhouse.biz/webservices/rest/"    
                 },
                 "Rig Veda": {
                     "id": 5,
@@ -379,7 +379,7 @@
                     "Cors": "unknown", 
                     "Description": "Gods and poets, their categories, and the verse meters, with the mandal and sukta number", 
                     "HTTPS": "true", 
-                    "Link": "https://aninditabasu.github.io/indica/html/rv.html"    
+                    "URL": "https://aninditabasu.github.io/indica/html/rv.html"    
                 },
                 "Vedic Society": {
                     "id": 6,
@@ -389,7 +389,7 @@
                     "Cors": "unknown", 
                     "Description": "Descriptions of all nouns (names, places, animals, things) from vedic literature", 
                     "HTTPS": "true", 
-                    "Link": "https://aninditabasu.github.io/indica/html/vs.html"    
+                    "URL": "https://aninditabasu.github.io/indica/html/vs.html"    
                 }
             }
         }
@@ -406,7 +406,7 @@
                     "Cors": "unknown", 
                     "Description": "Search for company logos and embed them in your projects", 
                     "HTTPS": "true", 
-                    "Link": "https://clearbit.com/docs#logo-api"    
+                    "URL": "https://clearbit.com/docs#logo-api"    
                 },
                 "Domainsdb.info": {
                     "id": 2,
@@ -416,7 +416,7 @@
                     "Cors": "unknown", 
                     "Description": "Registered Domain Names Search", 
                     "HTTPS": "true", 
-                    "Link": "https://domainsdb.info/"    
+                    "URL": "https://domainsdb.info/"    
                 },
                 "Freelancer": {
                     "id": 3,
@@ -426,7 +426,7 @@
                     "Cors": "unknown", 
                     "Description": "Hire freelancers to get work done", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.freelancer.com"    
+                    "URL": "https://developers.freelancer.com"    
                 },
                 "Gmail": {
                     "id": 4,
@@ -436,7 +436,7 @@
                     "Cors": "unknown", 
                     "Description": "Flexible, RESTful access to the user's inbox", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/gmail/api/"    
+                    "URL": "https://developers.google.com/gmail/api/"    
                 },
                 "Google Analytics": {
                     "id": 5,
@@ -446,7 +446,7 @@
                     "Cors": "unknown", 
                     "Description": "Collect, configure and analyze your data to reach the right audience", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/analytics/"    
+                    "URL": "https://developers.google.com/analytics/"    
                 },
                 "MailboxValidator": {
                     "id": 6,
@@ -456,7 +456,7 @@
                     "Cors": "unknown", 
                     "Description": "Validate email address to improve deliverability", 
                     "HTTPS": "true", 
-                    "Link": "https://www.mailboxvalidator.com/api-single-validation"    
+                    "URL": "https://www.mailboxvalidator.com/api-single-validation"    
                 },
                 "mailgun": {
                     "id": 7,
@@ -466,7 +466,7 @@
                     "Cors": "unknown", 
                     "Description": "Email Service", 
                     "HTTPS": "true", 
-                    "Link": "https://www.mailgun.com/"    
+                    "URL": "https://www.mailgun.com/"    
                 },
                 "Ticksel": {
                     "id": 8,
@@ -476,7 +476,7 @@
                     "Cors": "unknown", 
                     "Description": "Friendly website analytics made for humans", 
                     "HTTPS": "true", 
-                    "Link": "https://ticksel.com"    
+                    "URL": "https://ticksel.com"    
                 },
                 "Trello": {
                     "id": 9,
@@ -486,7 +486,7 @@
                     "Cors": "unknown", 
                     "Description": "Boards, lists and cards to help you organize and prioritize your projects", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.trello.com/"    
+                    "URL": "https://developers.trello.com/"    
                 }
                 
             }
@@ -504,7 +504,7 @@
                     "Cors": "yes", 
                     "Description": "Worldwide Holidays and Working Days", 
                     "HTTPS": "true", 
-                    "Link": "https://www.calendarindex.com/"    
+                    "URL": "https://www.calendarindex.com/"    
                 },
                 "Google Calendar": {
                     "id": 2,
@@ -514,7 +514,7 @@
                     "Cors": "unknown", 
                     "Description": "Display, create and modify Google calendar events", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/google-apps/calendar/"    
+                    "URL": "https://developers.google.com/google-apps/calendar/"    
                 },
                 "Holidays": {
                     "id": 3,
@@ -524,7 +524,7 @@
                     "Cors": "unknown", 
                     "Description": "Historical data regarding holidays", 
                     "HTTPS": "true", 
-                    "Link": "https://holidayapi.com/"    
+                    "URL": "https://holidayapi.com/"    
                 },
                 "Nager.Date": {
                     "id": 4,
@@ -534,7 +534,7 @@
                     "Cors": "no", 
                     "Description": "Public holidays for more than 90 countries", 
                     "HTTPS": "true", 
-                    "Link": "https://date.nager.at"    
+                    "URL": "https://date.nager.at"    
                 },
                 "Namedays Calendar": {
                     "id": 5,
@@ -544,7 +544,7 @@
                     "Cors": "yes", 
                     "Description": "Provides namedays for multiple countries", 
                     "HTTPS": "true", 
-                    "Link": "https://api.abalin.net/"    
+                    "URL": "https://api.abalin.net/"    
                 },
                 "Non-Working Days": {
                     "id": 6,
@@ -554,7 +554,7 @@
                     "Cors": "unknown", 
                     "Description": "Database of ICS files for non working days", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/gadael/icsdb"    
+                    "URL": "https://github.com/gadael/icsdb"    
                 },
                 "Russian Calendar": {
                     "id": 7,
@@ -564,7 +564,7 @@
                     "Cors": "unknown", 
                     "Description": "Check if a date is a Russian holiday or not", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/egno/work-calendar"    
+                    "URL": "https://github.com/egno/work-calendar"    
                 }
             }
         }
@@ -581,7 +581,7 @@
                     "Cors": "unknown", 
                     "Description": "File Sharing and Storage", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.box.com/"    
+                    "URL": "https://developer.box.com/"    
                 },
                 "Dropbox": {
                     "id": 2,
@@ -591,7 +591,7 @@
                     "Cors": "unknown", 
                     "Description": "File Sharing and Storage", 
                     "HTTPS": "true", 
-                    "Link": "https://www.dropbox.com/developers"    
+                    "URL": "https://www.dropbox.com/developers"    
                 },
                 "Google Drive": {
                     "id": 3,
@@ -601,7 +601,7 @@
                     "Cors": "unknown", 
                     "Description": "File Sharing and Storage", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/drive/"    
+                    "URL": "https://developers.google.com/drive/"    
                 },
                 "OneDrive": {
                     "id": 4,
@@ -611,7 +611,7 @@
                     "Cors": "unknown", 
                     "Description": "File Sharing and Storage", 
                     "HTTPS": "true", 
-                    "Link": "https://dev.onedrive.com/"    
+                    "URL": "https://dev.onedrive.com/"    
                 },
                 "Pastebin": {
                     "id": 5,
@@ -621,7 +621,7 @@
                     "Cors": "unknown", 
                     "Description": "Plain Text Storage", 
                     "HTTPS": "true", 
-                    "Link": "https://pastebin.com/api/"    
+                    "URL": "https://pastebin.com/api/"    
                 },
                 "Temporal": {
                     "id": 6,
@@ -631,7 +631,7 @@
                     "Cors": "no", 
                     "Description": "IPFS based file storage and sharing with optional IPNS naming", 
                     "HTTPS": "true", 
-                    "Link": "https://gateway.temporal.cloud/ipns/docs.api.temporal.cloud"    
+                    "URL": "https://gateway.temporal.cloud/ipns/docs.api.temporal.cloud"    
                 }
             }
         }
@@ -648,7 +648,7 @@
                     "Cors": "unknown", 
                     "Description": "Automate the software development process using continuous integration and continuous delivery", 
                     "HTTPS": "true", 
-                    "Link": "https://circleci.com/docs/api/v1-reference/"    
+                    "URL": "https://circleci.com/docs/api/v1-reference/"    
                 },
                 "Codeship": {
                     "id": 2,
@@ -658,7 +658,7 @@
                     "Cors": "unknown", 
                     "Description": "Codeship is a Continuous Integration Platform in the cloud", 
                     "HTTPS": "true", 
-                    "Link": "https://apidocs.codeship.com/"    
+                    "URL": "https://apidocs.codeship.com/"    
                 },
                 "Travis CI": {
                     "id": 3,
@@ -668,7 +668,7 @@
                     "Cors": "unknown", 
                     "Description": "Sync your GitHub projects with Travis CI to test your code in minutes", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.travis-ci.com/api/"    
+                    "URL": "https://docs.travis-ci.com/api/"    
                 }
             }
         }
@@ -685,7 +685,7 @@
                     "Cors": "unknown", 
                     "Description": "Exchange for Trading Cryptocurrencies based in China", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/binance/binance-spot-api-docs"    
+                    "URL": "https://github.com/binance/binance-spot-api-docs"    
                 },
                 "BitcoinAverage": {
                     "id": 2,
@@ -695,7 +695,7 @@
                     "Cors": "unknown", 
                     "Description": "Digital Asset Price Data for the blockchain industry", 
                     "HTTPS": "true", 
-                    "Link": "https://apiv2.bitcoinaverage.com/"    
+                    "URL": "https://apiv2.bitcoinaverage.com/"    
                 },
                 "BitcoinCharts": {
                     "id": 3,
@@ -705,7 +705,7 @@
                     "Cors": "unknown", 
                     "Description": "Financial and Technical Data related to the Bitcoin Network", 
                     "HTTPS": "true", 
-                    "Link": "https://bitcoincharts.com/about/exchanges/"    
+                    "URL": "https://bitcoincharts.com/about/exchanges/"    
                 },
                 "Bitfinex": {
                     "id": 4,
@@ -715,7 +715,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrency Trading Platform", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.bitfinex.com/docs"    
+                    "URL": "https://docs.bitfinex.com/docs"    
                 },
                 "Bitmex": {
                     "id": 5,
@@ -725,7 +725,7 @@
                     "Cors": "unknown", 
                     "Description": "Real-Time Cryptocurrency derivatives trading platform based in Hong Kong", 
                     "HTTPS": "true", 
-                    "Link": "https://www.bitmex.com/app/apiOverview"    
+                    "URL": "https://www.bitmex.com/app/apiOverview"    
                 },
                 "Bittrex": {
                     "id": 6,
@@ -735,7 +735,7 @@
                     "Cors": "unknown", 
                     "Description": "Next Generation Crypto Trading Platform", 
                     "HTTPS": "true", 
-                    "Link": "https://bittrex.com/Home/Api"    
+                    "URL": "https://bittrex.com/Home/Api"    
                 },
                 "Block": {
                     "id": 7,
@@ -745,7 +745,7 @@
                     "Cors": "unknown", 
                     "Description": "Bitcoin Payment, Wallet & Transaction Data", 
                     "HTTPS": "true", 
-                    "Link": "https://www.block.io/docs/basic"    
+                    "URL": "https://www.block.io/docs/basic"    
                 },
                 "Blockchain": {
                     "id": 8,
@@ -755,7 +755,7 @@
                     "Cors": "unknown", 
                     "Description": "Bitcoin Payment, Wallet & Transaction Data", 
                     "HTTPS": "true", 
-                    "Link": "https://www.blockchain.info/api"    
+                    "URL": "https://www.blockchain.info/api"    
                 },
                 "CoinAPI": {
                     "id": 9,
@@ -765,7 +765,7 @@
                     "Cors": "no", 
                     "Description": "All Currency Exchanges integrate under a single api", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.coinapi.io/"    
+                    "URL": "https://docs.coinapi.io/"    
                 },
                 "Coinbase": {
                     "id": 10,
@@ -775,7 +775,7 @@
                     "Cors": "unknown", 
                     "Description": "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.coinbase.com"    
+                    "URL": "https://developers.coinbase.com"    
                 },
                 "Coinbase Pro": {
                     "id": 11,
@@ -785,7 +785,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrency Trading Platform", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.pro.coinbase.com/#api"    
+                    "URL": "https://docs.pro.coinbase.com/#api"    
                 },
                 "CoinGecko": {
                     "id": 12,
@@ -795,7 +795,7 @@
                     "Cors": "yes", 
                     "Description": "Cryptocurrency Price, Market, and Developer/Social Data", 
                     "HTTPS": "true", 
-                    "Link": "http://www.coingecko.com/api"    
+                    "URL": "http://www.coingecko.com/api"    
                 },
                 "Coinigy": {
                     "id": 13,
@@ -805,7 +805,7 @@
                     "Cors": "unknown", 
                     "Description": "Interacting with Coinigy Accounts and Exchange Directly", 
                     "HTTPS": "true", 
-                    "Link": "https://coinigy.docs.apiary.io"    
+                    "URL": "https://coinigy.docs.apiary.io"    
                 },
                 "CoinLayer": {
                     "id": 14,
@@ -815,7 +815,7 @@
                     "Cors": "unknown", 
                     "Description": "Real-time Crypto Currency Exchange Rates", 
                     "HTTPS": "true", 
-                    "Link": "https://coinlayer.com"    
+                    "URL": "https://coinlayer.com"    
                 },
                 "Coinlib": {
                     "id": 15,
@@ -825,7 +825,7 @@
                     "Cors": "unknown", 
                     "Description": "Crypto Currency Prices", 
                     "HTTPS": "true", 
-                    "Link": "https://coinlib.io/apidocs"    
+                    "URL": "https://coinlib.io/apidocs"    
                 },
                 "Coinlore": {
                     "id": 16,
@@ -835,7 +835,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrencies prices, volume and more", 
                     "HTTPS": "true", 
-                    "Link": "https://www.coinlore.com/cryptocurrency-data-api"    
+                    "URL": "https://www.coinlore.com/cryptocurrency-data-api"    
                 },
                 "CoinMarketCap": {
                     "id": 17,
@@ -845,7 +845,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrencies Prices", 
                     "HTTPS": "true", 
-                    "Link": "https://coinmarketcap.com/api/"    
+                    "URL": "https://coinmarketcap.com/api/"    
                 },
                 "Coinpaprika": {
                     "id": 18,
@@ -855,7 +855,7 @@
                     "Cors": "yes", 
                     "Description": "Cryptocurrencies prices, volume and more", 
                     "HTTPS": "true", 
-                    "Link": "https://api.coinpaprika.com"    
+                    "URL": "https://api.coinpaprika.com"    
                 },
                 "CoinRanking": {
                     "id": 19,
@@ -865,7 +865,7 @@
                     "Cors": "unknown", 
                     "Description": "Live Cryptocurrency data", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.coinranking.com/"    
+                    "URL": "https://docs.coinranking.com/"    
                 },
                 "CryptoCompare": {
                     "id": 20,
@@ -875,7 +875,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrencies Comparison", 
                     "HTTPS": "true", 
-                    "Link": "https://www.cryptocompare.com/api#"    
+                    "URL": "https://www.cryptocompare.com/api#"    
                 },
                 "Cryptonator": {
                     "id": 21,
@@ -885,7 +885,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrencies Exchange Rates", 
                     "HTTPS": "true", 
-                    "Link": "https://www.cryptonator.com/api/"    
+                    "URL": "https://www.cryptonator.com/api/"    
                 },
                 "Gemini": {
                     "id": 22,
@@ -895,7 +895,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrencies Exchange", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.gemini.com/rest-api/"    
+                    "URL": "https://docs.gemini.com/rest-api/"    
                 },
                 "ICObench": {
                     "id": 23,
@@ -905,7 +905,7 @@
                     "Cors": "unknown", 
                     "Description": "Various information on listing, ratings, stats, and more", 
                     "HTTPS": "true", 
-                    "Link": "https://icobench.com/developers"    
+                    "URL": "https://icobench.com/developers"    
                 },
                 "MercadoBitcoin": {
                     "id": 24,
@@ -915,7 +915,7 @@
                     "Cors": "unknown", 
                     "Description": "Brazilian Cryptocurrency Information", 
                     "HTTPS": "true", 
-                    "Link": "https://www.mercadobitcoin.net/api-doc/"    
+                    "URL": "https://www.mercadobitcoin.net/api-doc/"    
                 },
                 "Poloniex": {
                     "id": 25,
@@ -925,7 +925,7 @@
                     "Cors": "unknown", 
                     "Description": "US based digital asset exchange", 
                     "HTTPS": "true", 
-                    "Link": "https://poloniex.com/support/api/"    
+                    "URL": "https://poloniex.com/support/api/"    
                 },
                 "WorldCoinIndex": {
                     "id": 26,
@@ -935,7 +935,7 @@
                     "Cors": "unknown", 
                     "Description": "Cryptocurrencies Prices", 
                     "HTTPS": "true", 
-                    "Link": "https://www.worldcoinindex.com/apiservice"    
+                    "URL": "https://www.worldcoinindex.com/apiservice"    
                 }
             }
         }
@@ -952,7 +952,7 @@
                     "Cors": "unknown", 
                     "Description": "Forex currency market data", 
                     "HTTPS": "true", 
-                    "Link": "https://1forge.com/forex-data-api/api-documentation"    
+                    "URL": "https://1forge.com/forex-data-api/api-documentation"    
                 },
                 "Currencylayer": {
                     "id": 2,
@@ -962,7 +962,7 @@
                     "Cors": "unknown", 
                     "Description": "Exchange rates and currency conversion", 
                     "HTTPS": "true", 
-                    "Link": "https://currencylayer.com/documentation"    
+                    "URL": "https://currencylayer.com/documentation"    
                 },
                 "Czech National Bank": {
                     "id": 3,
@@ -972,7 +972,7 @@
                     "Cors": "unknown", 
                     "Description": "A collection of exchange rates", 
                     "HTTPS": "true", 
-                    "Link": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml"    
+                    "URL": "https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml"    
                 },
                 "ExchangeRate-API": {
                     "id": 4,
@@ -982,7 +982,7 @@
                     "Cors": "yes", 
                     "Description": "Free currency conversion", 
                     "HTTPS": "true", 
-                    "Link": "https://www.exchangerate-api.com"    
+                    "URL": "https://www.exchangerate-api.com"    
                 },
                 "Exchangeratesapi.io": {
                     "id": 5,
@@ -992,7 +992,7 @@
                     "Cors": "yes", 
                     "Description": "Exchange rates with currency conversion", 
                     "HTTPS": "true", 
-                    "Link": "https://exchangeratesapi.io"    
+                    "URL": "https://exchangeratesapi.io"    
                 },
                 "Fixer.io": {
                     "id": 6,
@@ -1002,7 +1002,7 @@
                     "Cors": "unknown", 
                     "Description": "Exchange rates and currency conversion", 
                     "HTTPS": "true", 
-                    "Link": "http://fixer.io"    
+                    "URL": "http://fixer.io"    
                 },
                 "Frankfurter": {
                     "id": 7,
@@ -1012,7 +1012,7 @@
                     "Cors": "yes", 
                     "Description": "Exchange rates, currency conversion and time series", 
                     "HTTPS": "true", 
-                    "Link": "https://www.frankfurter.app/docs"    
+                    "URL": "https://www.frankfurter.app/docs"    
                 },
                 "ratesapi": {
                     "id": 8,
@@ -1022,7 +1022,7 @@
                     "Cors": "unknown", 
                     "Description": "Free exchange rates and historical rates", 
                     "HTTPS": "true", 
-                    "Link": "https://ratesapi.io"    
+                    "URL": "https://ratesapi.io"    
                 },
                 "VATComply.com": {
                     "id": 9,
@@ -1032,7 +1032,7 @@
                     "Cors": "yes", 
                     "Description": "Exchange rates, geolocation and VAT number validation", 
                     "HTTPS": "true", 
-                    "Link": "https://www.vatcomply.com/documentation"    
+                    "URL": "https://www.vatcomply.com/documentation"    
                 }
             }
         }
@@ -1049,7 +1049,7 @@
                     "Cors": "yes", 
                     "Description": "Validate email addresses, phone numbers, VAT numbers and domain names", 
                     "HTTPS": "true", 
-                    "Link": "https://cloudmersive.com/validate-api"    
+                    "URL": "https://cloudmersive.com/validate-api"    
                 },
                 "languagelayer": {
                     "id": 2,
@@ -1059,7 +1059,7 @@
                     "Cors": "unknown", 
                     "Description": "Language detection", 
                     "HTTPS": "true", 
-                    "Link": "https://languagelayer.com"    
+                    "URL": "https://languagelayer.com"    
                 },
                 "Lob.com": {
                     "id": 3,
@@ -1069,7 +1069,7 @@
                     "Cors": "unknown", 
                     "Description": "US Address Verification", 
                     "HTTPS": "true", 
-                    "Link": "https://lob.com/"    
+                    "URL": "https://lob.com/"    
                 },
                 "mailboxlayer": {
                     "id": 4,
@@ -1079,7 +1079,7 @@
                     "Cors": "unknown", 
                     "Description": "Email address validation", 
                     "HTTPS": "true", 
-                    "Link": "https://mailboxlayer.com"    
+                    "URL": "https://mailboxlayer.com"    
                 },
                 "NumValidate": {
                     "id": 5,
@@ -1089,7 +1089,7 @@
                     "Cors": "unknown", 
                     "Description": "Open Source phone number validation", 
                     "HTTPS": "true", 
-                    "Link": "https://numvalidate.com"    
+                    "URL": "https://numvalidate.com"    
                 },
                 "numverify": {
                     "id": 6,
@@ -1099,7 +1099,7 @@
                     "Cors": "unknown", 
                     "Description": "Phone number validation", 
                     "HTTPS": "true", 
-                    "Link": "https://numverify.com"    
+                    "URL": "https://numverify.com"    
                 },
                 "US Autocomplete": {
                     "id": 7,
@@ -1109,7 +1109,7 @@
                     "Cors": "yes", 
                     "Description": "Enter address data quickly with real-time address suggestions", 
                     "HTTPS": "true", 
-                    "Link": "https://smartystreets.com/docs/cloud/us-autocomplete-api"    
+                    "URL": "https://smartystreets.com/docs/cloud/us-autocomplete-api"    
                 },
                 "US Extract": {
                     "id": 8,
@@ -1119,7 +1119,7 @@
                     "Cors": "yes", 
                     "Description": "Extract postal addresses from any text including emails", 
                     "HTTPS": "true", 
-                    "Link": "https://smartystreets.com/products/apis/us-extract-api"    
+                    "URL": "https://smartystreets.com/products/apis/us-extract-api"    
                 },
                 "US Street Address": {
                     "id": 9,
@@ -1129,7 +1129,7 @@
                     "Cors": "yes", 
                     "Description": "Validate and append data for any US postal address", 
                     "HTTPS": "true", 
-                    "Link": "https://smartystreets.com/docs/cloud/us-street-api"    
+                    "URL": "https://smartystreets.com/docs/cloud/us-street-api"    
                 },
                 "vatlayer": {
                     "id": 10,
@@ -1139,7 +1139,7 @@
                     "Cors": "unknown", 
                     "Description": "VAT number validation", 
                     "HTTPS": "true", 
-                    "Link": "https://vatlayer.com"    
+                    "URL": "https://vatlayer.com"    
                 }
             }
         }
@@ -1156,7 +1156,7 @@
                     "Cors": "yes", 
                     "Description": "Project to promote open source collaboration during December", 
                     "HTTPS": "true", 
-                    "Link": "https://24pullrequests.com/api"    
+                    "URL": "https://24pullrequests.com/api"    
                 },
                 "Agify.io": {
                     "id": 2,
@@ -1166,7 +1166,7 @@
                     "Cors": "yes", 
                     "Description": "Estimates the age from a first name", 
                     "HTTPS": "true", 
-                    "Link": "https://agify.io"    
+                    "URL": "https://agify.io"    
                 },
                 "ApiFlash": {
                     "id": 3,
@@ -1176,7 +1176,7 @@
                     "Cors": "unknown", 
                     "Description": "Chrome based screenshot API for developers", 
                     "HTTPS": "true", 
-                    "Link": "https://apiflash.com/"    
+                    "URL": "https://apiflash.com/"    
                 },
                 "Apility.io": {
                     "id": 4,
@@ -1186,7 +1186,7 @@
                     "Cors": "yes", 
                     "Description": "IP, Domains and Emails anti-abuse API blocklist", 
                     "HTTPS": "true", 
-                    "Link": "https://apility.io/apidocs/"    
+                    "URL": "https://apility.io/apidocs/"    
                 },
                 "APIs.guru": {
                     "id": 5,
@@ -1196,7 +1196,7 @@
                     "Cors": "unknown", 
                     "Description": "Wikipedia for Web APIs, OpenAPI/Swagger specs for public APIs", 
                     "HTTPS": "true", 
-                    "Link": "https://apis.guru/api-doc/"    
+                    "URL": "https://apis.guru/api-doc/"    
                 },
                 "BetterMeta": {
                     "id": 6,
@@ -1206,7 +1206,7 @@
                     "Cors": "unknown", 
                     "Description": "Return a site's meta tags in JSON format", 
                     "HTTPS": "true", 
-                    "Link": "http://bettermeta.io"    
+                    "URL": "http://bettermeta.io"    
                 },
                 "Bitbucket": {
                     "id": 7,
@@ -1216,7 +1216,7 @@
                     "Cors": "unknown", 
                     "Description": "Bitbucket API", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.atlassian.com/bitbucket/api/2/reference/"    
+                    "URL": "https://developer.atlassian.com/bitbucket/api/2/reference/"    
                 },
                 "Bored": {
                     "id": 8,
@@ -1226,7 +1226,7 @@
                     "Cors": "unknown", 
                     "Description": "Find random activities to fight boredom", 
                     "HTTPS": "true", 
-                    "Link": "https://www.boredapi.com/"    
+                    "URL": "https://www.boredapi.com/"    
                 },
                 "Browshot": {
                     "id": 9,
@@ -1236,7 +1236,7 @@
                     "Cors": "unknown", 
                     "Description": "Easily make screenshots of web pages in any screen size, as any device", 
                     "HTTPS": "true", 
-                    "Link": "https://browshot.com/api/documentation"    
+                    "URL": "https://browshot.com/api/documentation"    
                 },
                 "CDNJS": {
                     "id": 10,
@@ -1246,7 +1246,7 @@
                     "Cors": "unknown", 
                     "Description": "Library info on CDNJS", 
                     "HTTPS": "true", 
-                    "Link": "https://api.cdnjs.com/libraries/jquery"    
+                    "URL": "https://api.cdnjs.com/libraries/jquery"    
                 },
                 "Changelogs.md": {
                     "id": 11,
@@ -1256,7 +1256,7 @@
                     "Cors": "unknown", 
                     "Description": "Structured changelog metadata from open source projects", 
                     "HTTPS": "true", 
-                    "Link": "https://changelogs.md"    
+                    "URL": "https://changelogs.md"    
                 },
                 "CountAPI": {
                     "id": 12,
@@ -1266,7 +1266,7 @@
                     "Cors": "yes", 
                     "Description": "Free and simple counting service. You can use it to track page hits and specific events", 
                     "HTTPS": "true", 
-                    "Link": "https://countapi.xyz"    
+                    "URL": "https://countapi.xyz"    
                 },
                 "DigitalOcean Status": {
                     "id": 13,
@@ -1276,7 +1276,7 @@
                     "Cors": "unknown", 
                     "Description": "Status of all DigitalOcean services", 
                     "HTTPS": "true", 
-                    "Link": "https://status.digitalocean.com/api"    
+                    "URL": "https://status.digitalocean.com/api"    
                 },
                 "DomainDb Info": {
                     "id": 14,
@@ -1286,7 +1286,7 @@
                     "Cors": "unknown", 
                     "Description": "Domain name search to find all domains containing particular words/phrases/etc", 
                     "HTTPS": "true", 
-                    "Link": "https://api.domainsdb.info/"    
+                    "URL": "https://api.domainsdb.info/"    
                 },
                 "Genderize.io": {
                     "id": 15,
@@ -1296,7 +1296,7 @@
                     "Cors": "yes", 
                     "Description": "Estimates a gender from a first name", 
                     "HTTPS": "true", 
-                    "Link": "https://genderize.io"    
+                    "URL": "https://genderize.io"    
                 },
                 "GitHub": {
                     "id": 16,
@@ -1306,7 +1306,7 @@
                     "Cors": "yes", 
                     "Description": "Make use of GitHub repositories, code and user info programmatically", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.github.com/en/free-pro-team@latest/rest"    
+                    "URL": "https://docs.github.com/en/free-pro-team@latest/rest"    
                 },
                 "Gitlab": {
                     "id": 17,
@@ -1316,7 +1316,7 @@
                     "Cors": "unknown", 
                     "Description": "Automate GitLab interaction programmatically", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.gitlab.com/ee/api/"    
+                    "URL": "https://docs.gitlab.com/ee/api/"    
                 },
                 "Gitter": {
                     "id": 18,
@@ -1326,7 +1326,7 @@
                     "Cors": "unknown", 
                     "Description": "Chat for Developers", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.gitter.im/docs/welcome"    
+                    "URL": "https://developer.gitter.im/docs/welcome"    
                 },
                 "HTTP2.Pro": {
                     "id": 19,
@@ -1336,7 +1336,7 @@
                     "Cors": "unknown", 
                     "Description": "Test endpoints for client and server HTTP/2 protocol support", 
                     "HTTPS": "true", 
-                    "Link": "https://http2.pro/doc/api"    
+                    "URL": "https://http2.pro/doc/api"    
                 },
                 "IBM Text to Speech": {
                     "id": 20,
@@ -1346,7 +1346,7 @@
                     "Cors": "yes", 
                     "Description": "Convert text to speech", 
                     "HTTPS": "true", 
-                    "Link": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html"    
+                    "URL": "https://cloud.ibm.com/docs/text-to-speech/getting-started.html"    
                 },
                 "IBM Visual Recognition": {
                     "id": 21,
@@ -1356,7 +1356,7 @@
                     "Cors": "unknown", 
                     "Description": "Visual Recognition with pretrained or user trained model", 
                     "HTTPS": "true", 
-                    "Link": "https://cloud.ibm.com/apidocs/visual-recognition/visual-recognition-v3"    
+                    "URL": "https://cloud.ibm.com/apidocs/visual-recognition/visual-recognition-v3"    
                 },
                 "IFTTT": {
                     "id": 22,
@@ -1366,7 +1366,7 @@
                     "Cors": "unknown", 
                     "Description": "IFTTT Connect API", 
                     "HTTPS": "true", 
-                    "Link": "https://platform.ifttt.com/docs/connect_api"    
+                    "URL": "https://platform.ifttt.com/docs/connect_api"    
                 },
                 "Image-Charts": {
                     "id": 23,
@@ -1376,7 +1376,7 @@
                     "Cors": "yes", 
                     "Description": "Generate charts, QR codes and graph images", 
                     "HTTPS": "true", 
-                    "Link": "https://documentation.image-charts.com/"    
+                    "URL": "https://documentation.image-charts.com/"    
                 },
                 "import.io": {
                     "id": 24,
@@ -1386,7 +1386,7 @@
                     "Cors": "unknown", 
                     "Description": "Retrieve structured data from a website or RSS feed", 
                     "HTTPS": "true", 
-                    "Link": "http://api.docs.import.io/"    
+                    "URL": "http://api.docs.import.io/"    
                 },
                 "IPify": {
                     "id": 25,
@@ -1396,7 +1396,7 @@
                     "Cors": "unknown", 
                     "Description": "A simple IP Address API", 
                     "HTTPS": "true", 
-                    "Link": "https://www.ipify.org/"    
+                    "URL": "https://www.ipify.org/"    
                 },
                 "IPinfo": {
                     "id": 26,
@@ -1406,7 +1406,7 @@
                     "Cors": "unknown", 
                     "Description": "Another simple IP Address API", 
                     "HTTPS": "true", 
-                    "Link": "https://ipinfo.io/developers"    
+                    "URL": "https://ipinfo.io/developers"    
                 },
                 "JSON 2 JSONP": {
                     "id": 27,
@@ -1416,7 +1416,7 @@
                     "Cors": "unknown", 
                     "Description": "Convert JSON to JSONP (on-the-fly) for easy cross-domain data requests using client-side JavaScript", 
                     "HTTPS": "true", 
-                    "Link": "https://json2jsonp.com/"    
+                    "URL": "https://json2jsonp.com/"    
                 },
                 "JSON Pretty Print": {
                     "id": 28,
@@ -1426,7 +1426,7 @@
                     "Cors": "yes", 
                     "Description": "Pretty Prints JSON data", 
                     "HTTPS": "true", 
-                    "Link": "https://jsonprettyprint.org/api"    
+                    "URL": "https://jsonprettyprint.org/api"    
                 },
                 "JSONbin.io": {
                     "id": 29,
@@ -1436,7 +1436,7 @@
                     "Cors": "yes", 
                     "Description": "Free JSON storage service. Ideal for small scale Web apps, Websites and Mobile apps", 
                     "HTTPS": "true", 
-                    "Link": "https://jsonbin.io"    
+                    "URL": "https://jsonbin.io"    
                 },
                 "Judge0": {
                     "id": 30,
@@ -1446,7 +1446,7 @@
                     "Cors": "unknown", 
                     "Description": "Compile and run source code", 
                     "HTTPS": "true", 
-                    "Link": "https://api.judge0.com/"    
+                    "URL": "https://api.judge0.com/"    
                 },
                 "License-API": {
                     "id": 31,
@@ -1456,7 +1456,7 @@
                     "Cors": "no", 
                     "Description": "Unofficial REST API for choosealicense.com", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/cmccandless/license-api/blob/master/README.md"    
+                    "URL": "https://github.com/cmccandless/license-api/blob/master/README.md"    
                 },
                 "MAC address vendor lookup": {
                     "id": 32,
@@ -1466,7 +1466,7 @@
                     "Cors": "yes", 
                     "Description": "Retrieve vendor details and other information regarding a given MAC address or an OUI", 
                     "HTTPS": "true", 
-                    "Link": "https://macaddress.io/api"    
+                    "URL": "https://macaddress.io/api"    
                 },
                 "Nationalize.io": {
                     "id": 33,
@@ -1476,7 +1476,7 @@
                     "Cors": "yes", 
                     "Description": "Estimate the nationality of a first name", 
                     "HTTPS": "true", 
-                    "Link": "https://nationalize.io"    
+                    "URL": "https://nationalize.io"    
                 },
                 "OOPSpam": {
                     "id": 34,
@@ -1486,7 +1486,7 @@
                     "Cors": "yes", 
                     "Description": "Multiple spam filtering service", 
                     "HTTPS": "true", 
-                    "Link": "https://oopspam.com/"    
+                    "URL": "https://oopspam.com/"    
                 },
                 "Plino": {
                     "id": 35,
@@ -1496,7 +1496,7 @@
                     "Cors": "yes", 
                     "Description": "Spam filtering system", 
                     "HTTPS": "true", 
-                    "Link": "https://plino.herokuapp.com/"    
+                    "URL": "https://plino.herokuapp.com/"    
                 },
                 "Postman": {
                     "id": 36,
@@ -1506,7 +1506,7 @@
                     "Cors": "unknown", 
                     "Description": "Tool for testing APIs", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.api.getpostman.com/"    
+                    "URL": "https://docs.api.getpostman.com/"    
                 },
                 "ProxyCrawl": {
                     "id": 37,
@@ -1516,7 +1516,7 @@
                     "Cors": "unknown", 
                     "Description": "Scraping and crawling anticaptcha service", 
                     "HTTPS": "true", 
-                    "Link": "https://proxycrawl.com"    
+                    "URL": "https://proxycrawl.com"    
                 },
                 "Public APIs": {
                     "id": 38,
@@ -1526,7 +1526,7 @@
                     "Cors": "unknown", 
                     "Description": "Validate email addresses, phone numbers, VAT numbers and domain names", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/davemachado/public-api"    
+                    "URL": "https://github.com/davemachado/public-api"    
                 },
                 "Pusher Beams": {
                     "id": 39,
@@ -1536,7 +1536,7 @@
                     "Cors": "unknown", 
                     "Description": "Push notifications for Android & iOS", 
                     "HTTPS": "true", 
-                    "Link": "https://pusher.com/beams"    
+                    "URL": "https://pusher.com/beams"    
                 },
                 "QR code": {
                     "id": 40,
@@ -1546,7 +1546,7 @@
                     "Cors": "yes", 
                     "Description": "Create an easy to read QR code and URL shortener", 
                     "HTTPS": "true", 
-                    "Link": "http://qrtag.net/api/"    
+                    "URL": "http://qrtag.net/api/"    
                 },
                 "QR Code": {
                     "id": 41,
@@ -1556,7 +1556,7 @@
                     "Cors": "unknown", 
                     "Description": "Generate and decode / read QR code graphics", 
                     "HTTPS": "true", 
-                    "Link": "http://goqr.me/api/"    
+                    "URL": "http://goqr.me/api/"    
                 },
                 "QuickChart": {
                     "id": 42,
@@ -1566,7 +1566,7 @@
                     "Cors": "yes", 
                     "Description": "Generate chart and graph images", 
                     "HTTPS": "true", 
-                    "Link": "https://quickchart.io/"    
+                    "URL": "https://quickchart.io/"    
                 },
                 "ReqRes": {
                     "id": 43,
@@ -1576,7 +1576,7 @@
                     "Cors": "yes", 
                     "Description": "A hosted REST-API ready to respond to your AJAX requests", 
                     "HTTPS": "true", 
-                    "Link": "https://reqres.in/"    
+                    "URL": "https://reqres.in/"    
                 },
                 "Scraper.AI": {
                     "id": 44,
@@ -1586,7 +1586,7 @@
                     "Cors": "unknown", 
                     "Description": "Extract and monitor data from any website", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.scraper.ai/#/"    
+                    "URL": "https://docs.scraper.ai/#/"    
                 },
                 "ScraperApi": {
                     "id": 45,
@@ -1596,7 +1596,7 @@
                     "Cors": "unknown", 
                     "Description": "Easily build scalable web scrapers", 
                     "HTTPS": "true", 
-                    "Link": "https://www.scraperapi.com"    
+                    "URL": "https://www.scraperapi.com"    
                 },
                 "ScreenshotAPI.net": {
                     "id": 46,
@@ -1606,7 +1606,7 @@
                     "Cors": "yes", 
                     "Description": "Create pixel-perfect website screenshots", 
                     "HTTPS": "true", 
-                    "Link": "https://screenshotapi.net/"    
+                    "URL": "https://screenshotapi.net/"    
                 },
                 "StackExchange": {
                     "id": 47,
@@ -1616,7 +1616,7 @@
                     "Cors": "yes", 
                     "Description": "Q&A forum for developers", 
                     "HTTPS": "true", 
-                    "Link": "https://api.stackexchange.com/"    
+                    "URL": "https://api.stackexchange.com/"    
                 }
             }
         }
@@ -1633,7 +1633,7 @@
                     "Cors": "unknown", 
                     "Description": "Word definitions, pronunciations, synonyms, antonyms and others", 
                     "HTTPS": "true", 
-                    "Link": "https://www.linguarobot.io"    
+                    "URL": "https://www.linguarobot.io"    
                 },
                 "Merriam-Webster": {
                     "id": 2,
@@ -1643,7 +1643,7 @@
                     "Cors": "unknown", 
                     "Description": "Dictionary and Thesaurus Data", 
                     "HTTPS": "true", 
-                    "Link": "https://dictionaryapi.com/"    
+                    "URL": "https://dictionaryapi.com/"    
                 },
                 "OwlBot": {
                     "id": 3,
@@ -1653,7 +1653,7 @@
                     "Cors": "yes", 
                     "Description": "Definitions with example sentence and photo if available", 
                     "HTTPS": "true", 
-                    "Link": "https://owlbot.info/"    
+                    "URL": "https://owlbot.info/"    
                 },
                 "Oxford": {
                     "id": 4,
@@ -1663,7 +1663,7 @@
                     "Cors": "no", 
                     "Description": "Dictionary Data", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.oxforddictionaries.com/"    
+                    "URL": "https://developer.oxforddictionaries.com/"    
                 },
                 "Words": {
                     "id": 5,
@@ -1673,7 +1673,7 @@
                     "Cors": "unknown", 
                     "Description": "Definitions and synonyms for more than 150,000 words", 
                     "HTTPS": "true", 
-                    "Link": "https://www.wordsapi.com/"    
+                    "URL": "https://www.wordsapi.com/"    
                 }
             }
         }
@@ -1690,7 +1690,7 @@
                     "Cors": "yes", 
                     "Description": "HTML/URL to PDF/PNG, Office documents to PDF, image conversion", 
                     "HTTPS": "true", 
-                    "Link": "https://cloudmersive.com/convert-api"    
+                    "URL": "https://cloudmersive.com/convert-api"    
                 },
                 "File.io": {
                     "id": 2,
@@ -1700,7 +1700,7 @@
                     "Cors": "unknown", 
                     "Description": "File Sharing", 
                     "HTTPS": "true", 
-                    "Link": "https://www.file.io"    
+                    "URL": "https://www.file.io"    
                 },
                 "Mercury": {
                     "id": 3,
@@ -1710,7 +1710,7 @@
                     "Cors": "unknown", 
                     "Description": "Web parser", 
                     "HTTPS": "true", 
-                    "Link": "https://mercury.postlight.com/web-parser/"    
+                    "URL": "https://mercury.postlight.com/web-parser/"    
                 },
                 "pdflayer": {
                     "id": 4,
@@ -1720,7 +1720,7 @@
                     "Cors": "unknown", 
                     "Description": "HTML/URL to PDF", 
                     "HTTPS": "true", 
-                    "Link": "https://pdflayer.com"    
+                    "URL": "https://pdflayer.com"    
                 },
                 "Pocket": {
                     "id": 5,
@@ -1730,7 +1730,7 @@
                     "Cors": "unknown", 
                     "Description": "Bookmarking service", 
                     "HTTPS": "true", 
-                    "Link": "https://getpocket.com/developer/"    
+                    "URL": "https://getpocket.com/developer/"    
                 },
                 "PrexView": {
                     "id": 6,
@@ -1740,7 +1740,7 @@
                     "Cors": "unknown", 
                     "Description": "Data from XML or JSON to PDF, HTML or Image", 
                     "HTTPS": "true", 
-                    "Link": "https://prexview.com"    
+                    "URL": "https://prexview.com"    
                 },
                 "Restpack": {
                     "id": 7,
@@ -1750,7 +1750,7 @@
                     "Cors": "unknown", 
                     "Description": "Provides screenshot, HTML to PDF and content extraction APIs", 
                     "HTTPS": "true", 
-                    "Link": "https://restpack.io/"    
+                    "URL": "https://restpack.io/"    
                 },
                 "Todoist": {
                     "id": 8,
@@ -1760,7 +1760,7 @@
                     "Cors": "unknown", 
                     "Description": "Todo Lists", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.todoist.com"    
+                    "URL": "https://developer.todoist.com"    
                 },
                 "WakaTime": {
                     "id": 9,
@@ -1770,7 +1770,7 @@
                     "Cors": "unknown", 
                     "Description": "Automated time tracking leaderboards for programmers", 
                     "HTTPS": "true", 
-                    "Link": "https://wakatime.com/developers"    
+                    "URL": "https://wakatime.com/developers"    
                 }
             }
         }
@@ -1787,7 +1787,7 @@
                     "Cors": "unknown", 
                     "Description": "Air quality and weather data", 
                     "HTTPS": "true", 
-                    "Link": "https://airvisual.com/api"    
+                    "URL": "https://airvisual.com/api"    
                 },
                 "OpenAQ": {
                     "id": 2,
@@ -1797,7 +1797,7 @@
                     "Cors": "unknown", 
                     "Description": "Open air quality data", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.openaq.org/"    
+                    "URL": "https://docs.openaq.org/"    
                 },
                 "PVWatts": {
                     "id": 3,
@@ -1807,7 +1807,7 @@
                     "Cors": "unknown", 
                     "Description": "Energy production photovoltaic (PV) energy systems", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.nrel.gov/docs/solar/pvwatts/v6/"    
+                    "URL": "https://developer.nrel.gov/docs/solar/pvwatts/v6/"    
                 },
                 "UK Carbon Intensity": {
                     "id": 4,
@@ -1817,7 +1817,7 @@
                     "Cors": "unknown", 
                     "Description": "The Official Carbon Intensity API for Great Britain developed by National Grid", 
                     "HTTPS": "true", 
-                    "Link": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0"    
+                    "URL": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0"    
                 }
             }
         }
@@ -1834,7 +1834,7 @@
                     "Cors": "unknown", 
                     "Description": "Find events", 
                     "HTTPS": "true", 
-                    "Link": "https://www.eventbrite.com/developer/v3/"    
+                    "URL": "https://www.eventbrite.com/developer/v3/"    
                 },
                 "Picatic": {
                     "id": 2,
@@ -1844,7 +1844,7 @@
                     "Cors": "unknown", 
                     "Description": "Sell tickets anywhere", 
                     "HTTPS": "true", 
-                    "Link": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto"    
+                    "URL": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=toddmotto"    
                 },
                 "Ticketmaster": {
                     "id": 3,
@@ -1854,7 +1854,7 @@
                     "Cors": "unknown", 
                     "Description": "Search events, attractions, or venues", 
                     "HTTPS": "true", 
-                    "Link": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/"    
+                    "URL": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/"    
                 }
             }
         }
@@ -1871,7 +1871,7 @@
                     "Cors": "unknown", 
                     "Description": "Realtime and historical stock data", 
                     "HTTPS": "true", 
-                    "Link": "https://www.alphavantage.co/"    
+                    "URL": "https://www.alphavantage.co/"    
                 },
                 "IEX Cloud": {
                     "id": 2,
@@ -1881,7 +1881,7 @@
                     "Cors": "yes", 
                     "Description": "Realtime & Historical Stock and Market Data", 
                     "HTTPS": "true", 
-                    "Link": "https://iexcloud.io/"    
+                    "URL": "https://iexcloud.io/"    
                 },
                 "IG": {
                     "id": 3,
@@ -1891,7 +1891,7 @@
                     "Cors": "unknown", 
                     "Description": "Spreadbetting and CFD Market Data", 
                     "HTTPS": "true", 
-                    "Link": "https://labs.ig.com/gettingstarted"    
+                    "URL": "https://labs.ig.com/gettingstarted"    
                 },
                 "Plaid": {
                     "id": 4,
@@ -1901,7 +1901,7 @@
                     "Cors": "unknown", 
                     "Description": "Connect with users’ bank accounts and access transaction data", 
                     "HTTPS": "true", 
-                    "Link": "https://plaid.com/"    
+                    "URL": "https://plaid.com/"    
                 },
                 "Razorpay IFSC": {
                     "id": 5,
@@ -1911,7 +1911,7 @@
                     "Cors": "unknown", 
                     "Description": "Indian Financial Systems Code (Bank Branch Codes)", 
                     "HTTPS": "true", 
-                    "Link": "https://ifsc.razorpay.com/"    
+                    "URL": "https://ifsc.razorpay.com/"    
                 },
                 "Tradier": {
                     "id": 6,
@@ -1921,7 +1921,7 @@
                     "Cors": "yes", 
                     "Description": "US equity/option market data (delayed, intraday, historical)", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.tradier.com"    
+                    "URL": "https://developer.tradier.com"    
                 },
                 "YNAB": {
                     "id": 7,
@@ -1931,7 +1931,7 @@
                     "Cors": "yes", 
                     "Description": "Budgeting & Planning", 
                     "HTTPS": "true", 
-                    "Link": "https://api.youneedabudget.com/"    
+                    "URL": "https://api.youneedabudget.com/"    
                 }
             }
         }
@@ -1948,7 +1948,7 @@
                     "Cors": "unknown", 
                     "Description": "Nutrition Analysis", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.edamam.com/edamam-docs-nutrition-api"    
+                    "URL": "https://developer.edamam.com/edamam-docs-nutrition-api"    
                 },
                 "Edamam recipes": {
                     "id": 2,
@@ -1958,7 +1958,7 @@
                     "Cors": "unknown", 
                     "Description": "Recipe Search", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.edamam.com/edamam-docs-recipe-api"    
+                    "URL": "https://developer.edamam.com/edamam-docs-recipe-api"    
                 },
                 "Foodish": {
                     "id": 3,
@@ -1968,7 +1968,7 @@
                     "Cors": "yes", 
                     "Description": "Random pictures of food dishes", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/surhud004/Foodish#readme"    
+                    "URL": "https://github.com/surhud004/Foodish#readme"    
                 },
                 "LCBO": {
                     "id": 4,
@@ -1978,7 +1978,7 @@
                     "Cors": "unknown", 
                     "Description": "Alcohol", 
                     "HTTPS": "true", 
-                    "Link": "https://lcboapi.com/"    
+                    "URL": "https://lcboapi.com/"    
                 },
                 "Open Brewery DB": {
                     "id": 5,
@@ -1988,7 +1988,7 @@
                     "Cors": "yes", 
                     "Description": "Breweries, Cideries and Craft Beer Bottle Shops", 
                     "HTTPS": "true", 
-                    "Link": "https://www.openbrewerydb.org"    
+                    "URL": "https://www.openbrewerydb.org"    
                 },
                 "Open Food Facts": {
                     "id": 6,
@@ -1998,7 +1998,7 @@
                     "Cors": "unknown", 
                     "Description": "Food Products Database", 
                     "HTTPS": "true", 
-                    "Link": "https://world.openfoodfacts.org/data"    
+                    "URL": "https://world.openfoodfacts.org/data"    
                 },
                 "PunkAPI": {
                     "id": 7,
@@ -2008,7 +2008,7 @@
                     "Cors": "unknown", 
                     "Description": "Brewdog Beer Recipes", 
                     "HTTPS": "true", 
-                    "Link": "https://punkapi.com/"    
+                    "URL": "https://punkapi.com/"    
                 },
                 "The Report of the Week": {
                     "id": 8,
@@ -2018,7 +2018,7 @@
                     "Cors": "unknown", 
                     "Description": "Food & Drink Reviews", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/andyklimczak/TheReportOfTheWeek-API"    
+                    "URL": "https://github.com/andyklimczak/TheReportOfTheWeek-API"    
                 },
                 "TheCocktailDB": {
                     "id": 9,
@@ -2028,7 +2028,7 @@
                     "Cors": "yes", 
                     "Description": "Cocktail Recipes", 
                     "HTTPS": "true", 
-                    "Link": "https://www.thecocktaildb.com/api.php"    
+                    "URL": "https://www.thecocktaildb.com/api.php"    
                 },
                 "TheMealDB": {
                     "id": 10,
@@ -2038,7 +2038,7 @@
                     "Cors": "yes", 
                     "Description": "Meal Recipes", 
                     "HTTPS": "true", 
-                    "Link": "https://www.themealdb.com/api.php"    
+                    "URL": "https://www.themealdb.com/api.php"    
                 },
                 "Zomato": {
                     "id": 11,
@@ -2048,7 +2048,7 @@
                     "Cors": "unknown", 
                     "Description": "Discover restaurants", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.zomato.com/api"    
+                    "URL": "https://developers.zomato.com/api"    
                 }
             }
         }
@@ -2065,7 +2065,7 @@
                     "Cors": "unknown", 
                     "Description": "Get information about Age of Empires II resources", 
                     "HTTPS": "true", 
-                    "Link": "https://age-of-empires-2-api.herokuapp.com"    
+                    "URL": "https://age-of-empires-2-api.herokuapp.com"    
                 },
                 "AmiiboAPI": {
                     "id": 2,
@@ -2075,7 +2075,7 @@
                     "Cors": "yes", 
                     "Description": "Nintendo Amiibo Information", 
                     "HTTPS": "true", 
-                    "Link": "https://amiiboapi.com/"    
+                    "URL": "https://amiiboapi.com/"    
                 },
                 "CheapShark": {
                     "id": 3,
@@ -2085,7 +2085,7 @@
                     "Cors": "yes", 
                     "Description": "Steam/PC Game Prices and Deals", 
                     "HTTPS": "true", 
-                    "Link": "https://www.cheapshark.com/api"    
+                    "URL": "https://www.cheapshark.com/api"    
                 },
                 "Clash of Clans": {
                     "id": 4,
@@ -2095,7 +2095,7 @@
                     "Cors": "unknown", 
                     "Description": "Clash of Clans Game Information", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.clashofclans.com"    
+                    "URL": "https://developer.clashofclans.com"    
                 },
                 "Clash Royale": {
                     "id": 5,
@@ -2105,7 +2105,7 @@
                     "Cors": "unknown", 
                     "Description": "Clash Royale Game Information", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.clashroyale.com"    
+                    "URL": "https://developer.clashroyale.com"    
                 },
                 "Comic Vine": {
                     "id": 6,
@@ -2115,7 +2115,7 @@
                     "Cors": "unknown", 
                     "Description": "Comics", 
                     "HTTPS": "true", 
-                    "Link": "https://comicvine.gamespot.com/api/documentation"    
+                    "URL": "https://comicvine.gamespot.com/api/documentation"    
                 },
                 "Destiny The Game": {
                     "id": 7,
@@ -2125,7 +2125,7 @@
                     "Cors": "unknown", 
                     "Description": "Bungie Platform API", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/Bungie-net/api"    
+                    "URL": "https://github.com/Bungie-net/api"    
                 },
                 "Dota 2": {
                     "id": 8,
@@ -2135,7 +2135,7 @@
                     "Cors": "unknown", 
                     "Description": "Provides information about Player stats , Match stats, Rankings for Dota 2", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.opendota.com/"    
+                    "URL": "https://docs.opendota.com/"    
                 },
                 "Eve Online": {
                     "id": 9,
@@ -2145,7 +2145,7 @@
                     "Cors": "unknown", 
                     "Description": "Third-Party Developer Documentation", 
                     "HTTPS": "true", 
-                    "Link": "https://esi.evetech.net/ui"    
+                    "URL": "https://esi.evetech.net/ui"    
                 },
                 "Final Fantasy XIV": {
                     "id": 10,
@@ -2155,7 +2155,7 @@
                     "Cors": "unknown", 
                     "Description": "Final Fantasy XIV Game data API", 
                     "HTTPS": "true", 
-                    "Link": "https://xivapi.com/"    
+                    "URL": "https://xivapi.com/"    
                 },
                 "Fortnite": {
                     "id": 11,
@@ -2165,7 +2165,7 @@
                     "Cors": "unknown", 
                     "Description": "Fortnite Stats", 
                     "HTTPS": "true", 
-                    "Link": "https://fortnitetracker.com/site-api"    
+                    "URL": "https://fortnitetracker.com/site-api"    
                 },
                 "Giant Bomb": {
                     "id": 12,
@@ -2175,7 +2175,7 @@
                     "Cors": "unknown", 
                     "Description": "Video Games", 
                     "HTTPS": "true", 
-                    "Link": "https://www.giantbomb.com/api/documentation"    
+                    "URL": "https://www.giantbomb.com/api/documentation"    
                 },
                 "Guild Wars 2": {
                     "id": 13,
@@ -2185,7 +2185,7 @@
                     "Cors": "unknown", 
                     "Description": "Guild Wars 2 Game Information", 
                     "HTTPS": "true", 
-                    "Link": "https://wiki.guildwars2.com/wiki/API:Main"    
+                    "URL": "https://wiki.guildwars2.com/wiki/API:Main"    
                 },
                 "Halo": {
                     "id": 14,
@@ -2195,7 +2195,7 @@
                     "Cors": "unknown", 
                     "Description": "Halo 5 and Halo Wars 2 Information", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.haloapi.com/"    
+                    "URL": "https://developer.haloapi.com/"    
                 },
                 "Hearthstone": {
                     "id": 15,
@@ -2205,7 +2205,7 @@
                     "Cors": "unknown", 
                     "Description": "Hearthstone Cards Information", 
                     "HTTPS": "true", 
-                    "Link": "http://hearthstoneapi.com/"    
+                    "URL": "http://hearthstoneapi.com/"    
                 },
                 "Hypixel": {
                     "id": 16,
@@ -2215,7 +2215,7 @@
                     "Cors": "unknown", 
                     "Description": "Hypixel player stats", 
                     "HTTPS": "true", 
-                    "Link": "https://api.hypixel.net/"    
+                    "URL": "https://api.hypixel.net/"    
                 },
                 "Hytale": {
                     "id": 17,
@@ -2225,7 +2225,7 @@
                     "Cors": "unknown", 
                     "Description": "Hytale blog posts and jobs", 
                     "HTTPS": "true", 
-                    "Link": "https://hytale-api.com/"    
+                    "URL": "https://hytale-api.com/"    
                 },
                 "IGDB.com": {
                     "id": 18,
@@ -2235,7 +2235,7 @@
                     "Cors": "unknown", 
                     "Description": "Video Game Database", 
                     "HTTPS": "true", 
-                    "Link": "https://api.igdb.com/"    
+                    "URL": "https://api.igdb.com/"    
                 },
                 "JokeAPI": {
                     "id": 19,
@@ -2245,7 +2245,7 @@
                     "Cors": "yes", 
                     "Description": "Programming, Miscellaneous and Dark Jokes", 
                     "HTTPS": "true", 
-                    "Link": "https://sv443.net/jokeapi/v2/"    
+                    "URL": "https://sv443.net/jokeapi/v2/"    
                 },
                 "Jokes": {
                     "id": 20,
@@ -2255,7 +2255,7 @@
                     "Cors": "unknown", 
                     "Description": "Programming and general jokes", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/15Dkatz/official_joke_api"    
+                    "URL": "https://github.com/15Dkatz/official_joke_api"    
                 },
                 "mod.io": {
                     "id": 21,
@@ -2265,7 +2265,7 @@
                     "Cors": "unknown", 
                     "Description": "Cross Platform Mod API", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.mod.io"    
+                    "URL": "https://docs.mod.io"    
                 },
                 "Open Trivia": {
                     "id": 22,
@@ -2275,7 +2275,7 @@
                     "Cors": "unknown", 
                     "Description": "Trivia Questions", 
                     "HTTPS": "true", 
-                    "Link": "https://opentdb.com/api_config.php"    
+                    "URL": "https://opentdb.com/api_config.php"    
                 },
                 "PandaScore": {
                     "id": 23,
@@ -2285,7 +2285,7 @@
                     "Cors": "unknown", 
                     "Description": "E-sports games and results", 
                     "HTTPS": "true", 
-                    "Link": "https://pandascore.co"    
+                    "URL": "https://pandascore.co"    
                 },
                 "PlayerUnknown's Battlegrounds": {
                     "id": 24,
@@ -2295,7 +2295,7 @@
                     "Cors": "unknown", 
                     "Description": "PUBG Stats", 
                     "HTTPS": "true", 
-                    "Link": "https://pubgtracker.com/site-api"    
+                    "URL": "https://pubgtracker.com/site-api"    
                 },
                 "Pokéapi": {
                     "id": 25,
@@ -2305,7 +2305,7 @@
                     "Cors": "unknown", 
                     "Description": "Pokémon Information", 
                     "HTTPS": "true", 
-                    "Link": "https://pokeapi.co"    
+                    "URL": "https://pokeapi.co"    
                 },
                 "Pokémon TCG": {
                     "id": 26,
@@ -2315,7 +2315,7 @@
                     "Cors": "unknown", 
                     "Description": "Pokémon TCG Information", 
                     "HTTPS": "true", 
-                    "Link": "https://pokemontcg.io"    
+                    "URL": "https://pokemontcg.io"    
                 },
                 "Rick and Morty": {
                     "id": 27,
@@ -2325,7 +2325,7 @@
                     "Cors": "yes", 
                     "Description": "All the Rick and Morty information, including images", 
                     "HTTPS": "true", 
-                    "Link": "https://rickandmortyapi.com"    
+                    "URL": "https://rickandmortyapi.com"    
                 },
                 "Riot Games": {
                     "id": 28,
@@ -2335,7 +2335,7 @@
                     "Cors": "unknown", 
                     "Description": "League of Legends Game Information", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.riotgames.com/"    
+                    "URL": "https://developer.riotgames.com/"    
                 },
                 "Scryfall": {
                     "id": 29,
@@ -2345,7 +2345,7 @@
                     "Cors": "yes", 
                     "Description": "Magic: The Gathering database", 
                     "HTTPS": "true", 
-                    "Link": "https://scryfall.com/docs/api"    
+                    "URL": "https://scryfall.com/docs/api"    
                 },
                 "Steam": {
                     "id": 30,
@@ -2355,7 +2355,7 @@
                     "Cors": "unknown", 
                     "Description": "Steam Client Interaction", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.valvesoftware.com/wiki/Steam_Web_API"    
+                    "URL": "https://developer.valvesoftware.com/wiki/Steam_Web_API"    
                 },
                 "SuperHeroes": {
                     "id": 31,
@@ -2365,7 +2365,7 @@
                     "Cors": "unknown", 
                     "Description": "All SuperHeroes and Villains data from all universes under a single API", 
                     "HTTPS": "true", 
-                    "Link": "https://superheroapi.com"    
+                    "URL": "https://superheroapi.com"    
                 },
                 "Tronald Dump": {
                     "id": 32,
@@ -2375,7 +2375,7 @@
                     "Cors": "unknown", 
                     "Description": "The dumbest things Donald Trump has ever said", 
                     "HTTPS": "true", 
-                    "Link": "https://www.tronalddump.io/"    
+                    "URL": "https://www.tronalddump.io/"    
                 },
                 "Wargaming.net": {
                     "id": 33,
@@ -2385,7 +2385,7 @@
                     "Cors": "no", 
                     "Description": "Wargaming.net info and stats", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.wargaming.net/"    
+                    "URL": "https://developers.wargaming.net/"    
                 },
                 "xkcd": {
                     "id": 34,
@@ -2395,7 +2395,7 @@
                     "Cors": "no", 
                     "Description": "Retrieve xkcd comics as JSON", 
                     "HTTPS": "true", 
-                    "Link": "https://xkcd.com/json.html"    
+                    "URL": "https://xkcd.com/json.html"    
                 }
             }
         }
@@ -2412,7 +2412,7 @@
                     "Cors": "unknown", 
                     "Description": "Address database of France, geocoding and reverse", 
                     "HTTPS": "true", 
-                    "Link": "https://adresse.data.gouv.fr"    
+                    "URL": "https://adresse.data.gouv.fr"    
                 },
                 "Bing Maps": {
                     "id": 2,
@@ -2422,7 +2422,7 @@
                     "Cors": "unknown", 
                     "Description": "Create/customize digital maps based on Bing Maps data", 
                     "HTTPS": "true", 
-                    "Link": "https://www.microsoft.com/maps/"    
+                    "URL": "https://www.microsoft.com/maps/"    
                 },
                 "bng2latlong": {
                     "id": 3,
@@ -2432,7 +2432,7 @@
                     "Cors": "yes", 
                     "Description": "Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude", 
                     "HTTPS": "true", 
-                    "Link": "https://www.getthedata.com/bng2latlong"    
+                    "URL": "https://www.getthedata.com/bng2latlong"    
                 },
                 "CitySDK": {
                     "id": 4,
@@ -2442,7 +2442,7 @@
                     "Cors": "unknown", 
                     "Description": "Open APIs for select European cities", 
                     "HTTPS": "true", 
-                    "Link": "http://www.citysdk.eu/citysdk-toolkit/"    
+                    "URL": "http://www.citysdk.eu/citysdk-toolkit/"    
                 },
                 "FreeGeoIP": {
                     "id": 5,
@@ -2452,7 +2452,7 @@
                     "Cors": "yes", 
                     "Description": "Free geo ip information, no registration required. 15k/hour rate limit", 
                     "HTTPS": "true", 
-                    "Link": "https://freegeoip.app/"    
+                    "URL": "https://freegeoip.app/"    
                 },
                 "GeoApi": {
                     "id": 6,
@@ -2462,7 +2462,7 @@
                     "Cors": "unknown", 
                     "Description": "French geographical data", 
                     "HTTPS": "true", 
-                    "Link": "https://api.gouv.fr/api/geoapi.html"    
+                    "URL": "https://api.gouv.fr/api/geoapi.html"    
                 },
                 "Geocod.io": {
                     "id": 7,
@@ -2472,7 +2472,7 @@
                     "Cors": "unknown", 
                     "Description": "Address geocoding / reverse geocoding in bulk", 
                     "HTTPS": "true", 
-                    "Link": "https://www.geocod.io/"    
+                    "URL": "https://www.geocod.io/"    
                 },
                 "Geocode.xyz": {
                     "id": 8,
@@ -2482,7 +2482,7 @@
                     "Cors": "unknown", 
                     "Description": "Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing", 
                     "HTTPS": "true", 
-                    "Link": "https://geocode.xyz/"    
+                    "URL": "https://geocode.xyz/"    
                 },
                 "GeoDataSource": {
                     "id": 9,
@@ -2492,7 +2492,7 @@
                     "Cors": "unknown", 
                     "Description": "Geocoding of city name by using latitude and longitude coordinates", 
                     "HTTPS": "true", 
-                    "Link": "https://www.geodatasource.com/web-service"    
+                    "URL": "https://www.geodatasource.com/web-service"    
                 },
                 "GeoJS": {
                     "id": 10,
@@ -2502,7 +2502,7 @@
                     "Cors": "yes", 
                     "Description": "IP geolocation with ChatOps integration", 
                     "HTTPS": "true", 
-                    "Link": "https://geojs.io/"    
+                    "URL": "https://geojs.io/"    
                 },
                 "geoPlugin": {
                     "id": 11,
@@ -2512,7 +2512,7 @@
                     "Cors": "yes", 
                     "Description": "IP geolocation and currency conversion", 
                     "HTTPS": "true", 
-                    "Link": "https://www.geoplugin.com"    
+                    "URL": "https://www.geoplugin.com"    
                 },
                 "Google Earth Engine": {
                     "id": 12,
@@ -2522,7 +2522,7 @@
                     "Cors": "unknown", 
                     "Description": "A cloud-based platform for planetary-scale environmental data analysis", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/earth-engine/"    
+                    "URL": "https://developers.google.com/earth-engine/"    
                 },
                 "Google Maps": {
                     "id": 13,
@@ -2532,7 +2532,7 @@
                     "Cors": "unknown", 
                     "Description": "Create/customize digital maps based on Google Maps data", 
                     "HTTPS": "true", 
-                    "Link": "https://developers.google.com/maps/"    
+                    "URL": "https://developers.google.com/maps/"    
                 },
                 "HelloSalut": {
                     "id": 14,
@@ -2542,7 +2542,7 @@
                     "Cors": "unknown", 
                     "Description": "Get hello translation following user language", 
                     "HTTPS": "true", 
-                    "Link": "https://www.fourtonfish.com/hellosalut/hello/"    
+                    "URL": "https://www.fourtonfish.com/hellosalut/hello/"    
                 },
                 "HERE Maps": {
                     "id": 15,
@@ -2552,7 +2552,7 @@
                     "Cors": "unknown", 
                     "Description": "Create/customize digital maps based on HERE Maps data", 
                     "HTTPS": "true", 
-                    "Link": "https://developer.here.com"    
+                    "URL": "https://developer.here.com"    
                 },
                 "IP 2 Country": {
                     "id": 16,
@@ -2562,7 +2562,7 @@
                     "Cors": "unknown", 
                     "Description": "Map an IP to a country", 
                     "HTTPS": "true", 
-                    "Link": "https://ip2country.info"    
+                    "URL": "https://ip2country.info"    
                 },
                 "IP Address Details": {
                     "id": 17,
@@ -2572,7 +2572,7 @@
                     "Cors": "unknown", 
                     "Description": "Find geolocation with ip address", 
                     "HTTPS": "true", 
-                    "Link": "https://ipinfo.io/"    
+                    "URL": "https://ipinfo.io/"    
                 },
                 "IP Location": {
                     "id": 18,
@@ -2582,7 +2582,7 @@
                     "Cors": "unknown", 
                     "Description": "Find IP address location information", 
                     "HTTPS": "true", 
-                    "Link": "https://ipapi.co/"    
+                    "URL": "https://ipapi.co/"    
                 },
                 "IP Sidekick": {
                     "id": 19,
@@ -2592,7 +2592,7 @@
                     "Cors": "unknown", 
                     "Description": "Geolocation API that returns extra information about an IP address", 
                     "HTTPS": "true", 
-                    "Link": "https://ipsidekick.com"    
+                    "URL": "https://ipsidekick.com"    
                 },
                 "IP Vigilante": {
                     "id": 20,
@@ -2602,7 +2602,7 @@
                     "Cors": "unknown", 
                     "Description": "Free IP Geolocation API", 
                     "HTTPS": "true", 
-                    "Link": "https://www.ipvigilante.com/"    
+                    "URL": "https://www.ipvigilante.com/"    
                 },
                 "IP2Location": {
                     "id": 21,
@@ -2612,7 +2612,7 @@
                     "Cors": "unknown", 
                     "Description": "IP geolocation web service to get more than 55 parameters", 
                     "HTTPS": "true", 
-                    "Link": "https://www.ip2location.com/web-service/ip2location"    
+                    "URL": "https://www.ip2location.com/web-service/ip2location"    
                 },
                 "IP2Proxy": {
                     "id": 22,
@@ -2622,7 +2622,7 @@
                     "Cors": "unknown", 
                     "Description": "Detect proxy and VPN using IP address", 
                     "HTTPS": "true", 
-                    "Link": "https://www.ip2location.com/web-service/ip2proxy"    
+                    "URL": "https://www.ip2location.com/web-service/ip2proxy"    
                 },
                 "IPGeolocationAPI.com": {
                     "id": 23,
@@ -2632,7 +2632,7 @@
                     "Cors": "yes", 
                     "Description": "Address database of France, geocoding and reverse", 
                     "HTTPS": "true", 
-                    "Link": "https://ipgeolocationapi.com/"    
+                    "URL": "https://ipgeolocationapi.com/"    
                 },
                 "IPInfoDB": {
                     "id": 24,
@@ -2642,7 +2642,7 @@
                     "Cors": "unknown", 
                     "Description": "Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address", 
                     "HTTPS": "true", 
-                    "Link": "https://ipinfodb.com/api"    
+                    "URL": "https://ipinfodb.com/api"    
                 },
                 "ipstack": {
                     "id": 25,
@@ -2652,7 +2652,7 @@
                     "Cors": "unknown", 
                     "Description": "Locate and identify website visitors by IP address", 
                     "HTTPS": "true", 
-                    "Link": "https://ipstack.com/"    
+                    "URL": "https://ipstack.com/"    
                 },
                 "LocationIQ": {
                     "id": 26,
@@ -2662,7 +2662,7 @@
                     "Cors": "yes", 
                     "Description": "Provides forward/reverse geocoding and batch geocoding", 
                     "HTTPS": "true", 
-                    "Link": "https://locationiq.org/docs/"    
+                    "URL": "https://locationiq.org/docs/"    
                 },
                 "Mapbox": {
                     "id": 27,
@@ -2672,7 +2672,7 @@
                     "Cors": "unknown", 
                     "Description": "Create/customize beautiful digital maps", 
                     "HTTPS": "true", 
-                    "Link": "https://www.mapbox.com/developers/"    
+                    "URL": "https://www.mapbox.com/developers/"    
                 },
                 "Mexico": {
                     "id": 28,
@@ -2682,7 +2682,7 @@
                     "Cors": "unknown", 
                     "Description": "Mexico RESTful zip codes API", 
                     "HTTPS": "true", 
-                    "Link": "https://github.com/IcaliaLabs/sepomex"    
+                    "URL": "https://github.com/IcaliaLabs/sepomex"    
                 },
                 "One Map, Singapore": {
                     "id": 29,
@@ -2692,7 +2692,7 @@
                     "Cors": "unknown", 
                     "Description": "Singapore Land Authority REST API services for Singapore addresses", 
                     "HTTPS": "true", 
-                    "Link": "https://docs.onemap.sg/"    
+                    "URL": "https://docs.onemap.sg/"    
                 },
                 "OnWater": {
                     "id": 30,
@@ -2702,7 +2702,7 @@
                     "Cors": "unknown", 
                     "Description": "Determine if a lat/lon is on water or land", 
                     "HTTPS": "true", 
-                    "Link": "https://onwater.io/"    
+                    "URL": "https://onwater.io/"    
                 },
                 "OpenCage": {
                     "id": 31,
@@ -2712,7 +2712,7 @@
                     "Cors": "yes", 
                     "Description": "Forward and reverse geocoding using open data", 
                     "HTTPS": "true", 
-                    "Link": "https://opencagedata.com"    
+                    "URL": "https://opencagedata.com"    
                 },
                 "Postcodes.io": {
                     "id": 32,
@@ -2722,7 +2722,7 @@
                     "Cors": "yes", 
                     "Description": "Postcode lookup & Geolocation for the UK", 
                     "HTTPS": "true", 
-                    "Link": "https://postcodes.io"    
+                    "URL": "https://postcodes.io"    
                 },
                 "REST Countries": {
                     "id": 33,
@@ -2732,7 +2732,7 @@
                     "Cors": "unknown", 
                     "Description": "Get information about countries via a RESTful API", 
                     "HTTPS": "true", 
-                    "Link": "https://restcountries.eu"    
+                    "URL": "https://restcountries.eu"    
                 },
                 "Uebermaps": {
                     "id": 34,
@@ -2742,7 +2742,7 @@
                     "Cors": "unknown", 
                     "Description": "Discover and share maps with friends", 
                     "HTTPS": "true", 
-                    "Link": "https://uebermaps.com/api/v2"    
+                    "URL": "https://uebermaps.com/api/v2"    
                 },
                 "US ZipCode": {
                     "id": 35,
@@ -2752,7 +2752,7 @@
                     "Cors": "yes", 
                     "Description": "Validate and append data for any US ZipCode", 
                     "HTTPS": "true", 
-                    "Link": "https://smartystreets.com/docs/cloud/us-zipcode-api"    
+                    "URL": "https://smartystreets.com/docs/cloud/us-zipcode-api"    
                 },
                 "Utah AGRC": {
                     "id": 36,
@@ -2762,7 +2762,7 @@
                     "Cors": "unknown", 
                     "Description": "Utah Web API for geocoding Utah addresses", 
                     "HTTPS": "true", 
-                    "Link": "https://api.mapserv.utah.gov"    
+                    "URL": "https://api.mapserv.utah.gov"    
                 },
                 "ViaCep": {
                     "id": 37,
@@ -2772,7 +2772,7 @@
                     "Cors": "unknown", 
                     "Description": "Brazil RESTful zip codes API", 
                     "HTTPS": "true", 
-                    "Link": "https://viacep.com.br"    
+                    "URL": "https://viacep.com.br"    
                 },
                 "ZipCodeAPI": {
                     "id": 38,
@@ -2782,7 +2782,7 @@
                     "Cors": "unknown", 
                     "Description": "US zip code distance, radius and location API", 
                     "HTTPS": "true", 
-                    "Link": "https://www.zipcodeapi.com"    
+                    "URL": "https://www.zipcodeapi.com"    
                 }
             }
         }
@@ -2791,7 +2791,266 @@
         "Government": {
             "id": 22,
             "subCategories": {
-                
+                "BusinessUSA": {
+                    "id": 1,
+                    "API": "BusinessUSA",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Authoritative information on U.S. programs, events, services and more", 
+                    "HTTPS": "true", 
+                    "URL": "https://business.usa.gov/developer"    
+                },
+                "Census.gov": {
+                    "id": 2,
+                    "API": "Census.gov",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "The US Census Bureau provides various APIs and data sets on demographics and businesses", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.census.gov/data/developers/data-sets.html"    
+                },
+                "City, Lyon Opendata": {
+                    "id": 3,
+                    "API": "City, Lyon Opendata",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Lyon(FR) City Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.beta.grandlyon.com/fr/accueil"    
+                },
+                "City, Nantes Opendata": {
+                    "id": 4,
+                    "API": "City, Nantes Opendata",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Nantes(FR) City Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.nantesmetropole.fr/pages/home/"    
+                },
+                "City, New York Opendata": {
+                    "id": 5,
+                    "API": "City, New York Opendata",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "New York (US) City Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://opendata.cityofnewyork.us/"    
+                },
+                "Code.gov": {
+                    "id": 6,
+                    "API": "Code.gov",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "The primary platform for Open Source and code sharing for the U.S. Federal Government", 
+                    "HTTPS": "true", 
+                    "URL": "https://code.gov"    
+                },
+                "Colorado Data Engine": {
+                    "id": 7,
+                    "API": "Colorado Data Engine",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Formatted and geolocated Colorado public data", 
+                    "HTTPS": "true", 
+                    "URL": "http://codataengine.org/"    
+                },
+                "Colorado Information Marketplace": {
+                    "id": 8,
+                    "API": "Colorado Information Marketplace",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Colorado State Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.colorado.gov/"    
+                },
+                "Data USA": {
+                    "id": 9,
+                    "API": "Data USA",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "US Public Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://datausa.io/about/api/"    
+                },
+                "Data.gov": {
+                    "id": 10,
+                    "API": "Data.gov",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "US Government Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.data.gov/"    
+                },
+                "District of Columbia Open Data": {
+                    "id": 11,
+                    "API": "District of Columbia Open Data",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Contains D.C. government public datasets, including crime, GIS, financial data, and so on", 
+                    "HTTPS": "true", 
+                    "URL": "http://opendata.dc.gov/pages/using-apis"    
+                },
+                "EPA": {
+                    "id": 12,
+                    "API": "EPA",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Web services and data sets from the US Environmental Protection Agency", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.epa.gov/category/apis/"    
+                },
+                "FBI Wanted": {
+                    "id": 13,
+                    "API": "BusinessUSA",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Access information on the FBI Wanted program", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.fbi.gov/wanted/api"    
+                },
+                "FEC": {
+                    "id": 14,
+                    "API": "FEC",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Information on campaign donations in federal elections", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.open.fec.gov/developers/"    
+                },
+                "Federal Register": {
+                    "id": 15,
+                    "API": "Federal Register",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "The Daily Journal of the United States Government", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.federalregister.gov/reader-aids/developer-resources"    
+                },
+                "Open Government, Australia": {
+                    "id": 16,
+                    "API": "Open Government, Australia",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Australian Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.data.gov.au/"    
+                },
+                "Open Government, Belgium": {
+                    "id": 17,
+                    "API": "Open Government, Belgium",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Belgium Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.gov.be/"    
+                },
+                "Open Government, France": {
+                    "id": 18,
+                    "API": "Open Government, France",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "French Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.data.gouv.fr/"    
+                },
+                "Open Government, India": {
+                    "id": 19,
+                    "API": "Open Government, India",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Indian Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.gov.in/"    
+                },
+                "Open Government, Italy": {
+                    "id": 20,
+                    "API": "Open Government, Italy",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Italy Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.dati.gov.it/"    
+                },
+                "Open Government, New Zealand": {
+                    "id": 21,
+                    "API": "Open Government, New Zealand",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "New Zealand Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.data.govt.nz/"    
+                },
+                "Open Government, Taiwan": {
+                    "id": 22,
+                    "API": "Open Government, Taiwan",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Taiwan Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.gov.tw/"    
+                },
+                "Open Government, USA": {
+                    "id": 23,
+                    "API": "BusinessUSA",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "United States Government Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.data.gov/"    
+                },
+                "Regulations.gov": {
+                    "id": 24,
+                    "API": "Regulations.gov",
+                    "AUTH": "apiKey",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Federal regulatory materials to increase understanding of the Federal rule making process", 
+                    "HTTPS": "true", 
+                    "URL": "https://regulationsgov.github.io/developers/"    
+                },
+                "Represent by Open North": {
+                    "id": 25,
+                    "API": "Represent by Open North",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "Find Canadian Government Representatives", 
+                    "HTTPS": "true", 
+                    "URL": "https://represent.opennorth.ca/"    
+                },
+                "USAspending.gov": {
+                    "id": 26,
+                    "API": "USAspending.gov",
+                    "AUTH": "",
+                    "Category": "Government", 
+                    "Cors": "unknown", 
+                    "Description": "US federal spending data", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.usaspending.gov/"    
+                }
             }
         }
     },
@@ -2799,7 +3058,126 @@
         "Health": {
             "id": 23,
             "subCategories": {
-                
+                "BetterDoctor": {
+                    "id": 1,
+                    "API": "BetterDoctor",
+                    "AUTH": "apiKey",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "Detailed information about doctors in your area", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.betterdoctor.com/"    
+                },
+                "Covid-19": {
+                    "id": 2,
+                    "API": "Covid-19",
+                    "AUTH": "",
+                    "Category": "Health", 
+                    "Cors": "yes", 
+                    "Description": "Covid 19 spread, infection and recovery", 
+                    "HTTPS": "true", 
+                    "URL": "https://covid19api.com/"    
+                },
+                "COVID-19": {
+                    "id": 3,
+                    "API": "COVID-19",
+                    "AUTH": "",
+                    "Category": "Health", 
+                    "Cors": "yes", 
+                    "Description": "Covid 19 cases, deaths and recovery per country", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/M-Media-Group/Covid-19-API"    
+                },
+                "Covid-19 Government Response": {
+                    "id": 4,
+                    "API": "Covid-19 Government Response",
+                    "AUTH": "",
+                    "Category": "Health", 
+                    "Cors": "yes", 
+                    "Description": "Government measures tracker to fight against the Covid-19 pandemic", 
+                    "HTTPS": "true", 
+                    "URL": "https://covidtracker.bsg.ox.ac.uk"    
+                },
+                "Healthcare.gov": {
+                    "id": 5,
+                    "API": "Healthcare.gov",
+                    "AUTH": "",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "Educational content about the US Health Insurance Marketplace", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.healthcare.gov/developers/"    
+                },
+                "Lexigram": {
+                    "id": 6,
+                    "API": "Lexigram",
+                    "AUTH": "apiKey",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology", 
+                    "HTTPS": "true", 
+                    "URL": "https://docs.lexigram.io/v1/welcome"    
+                },
+                "Medicare": {
+                    "id": 7,
+                    "API": "Medicare",
+                    "AUTH": "",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "Access to the data from the CMS - medicare.gov", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.medicare.gov/developers"    
+                },
+                "NPPES": {
+                    "id": 8,
+                    "API": "NPPES",
+                    "AUTH": "",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "National Plan & Provider Enumeration System, info on healthcare providers registered in US", 
+                    "HTTPS": "true", 
+                    "URL": "https://npiregistry.cms.hhs.gov/registry/help-api"    
+                },
+                "Nutritionix": {
+                    "id": 9,
+                    "API": "Nutritionix",
+                    "AUTH": "apiKey",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "Worlds largest verified nutrition database", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.nutritionix.com/"    
+                },
+                "openFDA": {
+                    "id": 10,
+                    "API": "openFDA",
+                    "AUTH": "",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "Public FDA data about drugs, devices and foods", 
+                    "HTTPS": "true", 
+                    "URL": "https://open.fda.gov"    
+                },
+                "Orion Health": {
+                    "id": 11,
+                    "API": "Orion Health",
+                    "AUTH": "OAuth",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "Medical platform which allows the development of applications for different healthcare scenarios", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.orionhealth.io/"    
+                },
+                "USDA Nutrients": {
+                    "id": 11,
+                    "API": "USDA Nutrients",
+                    "AUTH": "apiKey",
+                    "Category": "Health", 
+                    "Cors": "unknown", 
+                    "Description": "National Nutrient Database for Standard Reference", 
+                    "HTTPS": "true", 
+                    "URL": "https://fdc.nal.usda.gov/"    
+                }
             }
         }
     },
