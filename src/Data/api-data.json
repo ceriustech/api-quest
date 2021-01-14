@@ -3185,7 +3185,116 @@
         "Jobs": {
             "id": 24,
             "subCategories": {
-                
+                "Adzuna": {
+                    "id": 1,
+                    "API": "Adzuna",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Job board aggregator", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.adzuna.com/overview"    
+                },
+                "Github Jobs": {
+                    "id": 2,
+                    "API": "Github Jobs",
+                    "AUTH": "",
+                    "Category": "Jobs", 
+                    "Cors": "yes", 
+                    "Description": "Jobs for software developers", 
+                    "HTTPS": "true", 
+                    "URL": "https://jobs.github.com/api"    
+                },
+                "GraphQL Jobs": {
+                    "id": 3,
+                    "API": "GraphQL Jobs",
+                    "AUTH": "",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Jobs with GraphQL", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.graphql.jobs"    
+                },
+                "Indeed": {
+                    "id": 4,
+                    "API": "Indeed",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Job board aggregator", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.indeed.com/publisher"    
+                },
+                "Jobs2Careers": {
+                    "id": 5,
+                    "API": "Jobs2Careers",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Job aggregator", 
+                    "HTTPS": "true", 
+                    "URL": "http://api.jobs2careers.com/api/spec.pdf"    
+                },
+                "Jooble": {
+                    "id": 6,
+                    "API": "Jooble",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Job search engine", 
+                    "HTTPS": "true", 
+                    "URL": "https://us.jooble.org/api/about"    
+                },
+                "Reed": {
+                    "id": 7,
+                    "API": "Reed",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Job board aggregator", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.reed.co.uk/developers"    
+                },
+                "The Muse": {
+                    "id": 8,
+                    "API": "The Muse",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Job board and company profiles", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.themuse.com/developers/api/v2"    
+                },
+                "Upwork": {
+                    "id": 9,
+                    "API": "Upwork",
+                    "AUTH": "OAuth",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Freelance job board and management system", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.upwork.com/"    
+                },
+                "USAJOBS": {
+                    "id": 10,
+                    "API": "USAJOBS",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "US government job board", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.usajobs.gov/"    
+                },
+                "ZipRecruiter": {
+                    "id": 11,
+                    "API": "ZipRecruiter",
+                    "AUTH": "apiKey",
+                    "Category": "Jobs", 
+                    "Cors": "unknown", 
+                    "Description": "Job search app and website", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.ziprecruiter.com/publishers"    
+                }
             }
         }
     },
@@ -3193,7 +3302,96 @@
         "Machine Learning": {
             "id": 25,
             "subCategories": {
-                
+                "Clarifai": {
+                    "id": 1,
+                    "API": "Clarifai",
+                    "AUTH": "OAuth",
+                    "Category": "Machine Learning", 
+                    "Cors": "unknown", 
+                    "Description": "Computer Vision", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.clarifai.com/"    
+                },
+                "Cloudmersive": {
+                    "id": 2,
+                    "API": "Cloudmersive",
+                    "AUTH": "apiKey",
+                    "Category": "Machine Learning", 
+                    "Cors": "yes", 
+                    "Description": "Image captioning, face recognition, NSFW classification", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.cloudmersive.com/image-recognition-and-processing-api"    
+                },
+                "Deepcode": {
+                    "id": 3,
+                    "API": "Deepcode",
+                    "AUTH": "",
+                    "Category": "Machine Learning", 
+                    "Cors": "unknown", 
+                    "Description": "AI for code review", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.deepcode.ai/docs/Overview%252FOverview"    
+                },
+                "Dialogflow": {
+                    "id": 4,
+                    "API": "Dialogflow",
+                    "AUTH": "OAuth",
+                    "Category": "Machine Learning", 
+                    "Cors": "unknown", 
+                    "Description": "Natural Language Processing", 
+                    "HTTPS": "true", 
+                    "URL": "https://dialogflow.com"    
+                },
+                "Keen IO": {
+                    "id": 5,
+                    "API": "Keen IO",
+                    "AUTH": "apiKey",
+                    "Category": "Machine Learning", 
+                    "Cors": "unknown", 
+                    "Description": "Data Analytics", 
+                    "HTTPS": "true", 
+                    "URL": "https://keen.io/"    
+                },
+                "Sentim-API": {
+                    "id": 6,
+                    "API": "Sentim-API",
+                    "AUTH": "",
+                    "Category": "Machine Learning", 
+                    "Cors": "unknown", 
+                    "Description": "Text sentiment analysis", 
+                    "HTTPS": "true", 
+                    "URL": "https://sentim-api.herokuapp.com"    
+                },
+                "Time Door": {
+                    "id": 7,
+                    "API": "Time Door",
+                    "AUTH": "apiKey",
+                    "Category": "Machine Learning", 
+                    "Cors": "yes", 
+                    "Description": "A time series analysis API", 
+                    "HTTPS": "true", 
+                    "URL": "https://timedoor.io"    
+                },
+                "Unplugg": {
+                    "id": 8,
+                    "API": "Unplugg",
+                    "AUTH": "apiKey",
+                    "Category": "Machine Learning", 
+                    "Cors": "unknown", 
+                    "Description": "Forecasting API for timeseries data", 
+                    "HTTPS": "true", 
+                    "URL": "https://unplu.gg/test_api.html"    
+                },
+                "Wit.ai": {
+                    "id": 9,
+                    "API": "Wit.ai",
+                    "AUTH": "OAuth",
+                    "Category": "Machine Learning", 
+                    "Cors": "unknown", 
+                    "Description": "Natural Language Processing", 
+                    "HTTPS": "true", 
+                    "URL": "https://wit.ai/"    
+                }
             }
         }
     },
@@ -3201,7 +3399,227 @@
         "Music": {
             "id": 26,
             "subCategories": {
-                
+                "AI Mastering": {
+                    "id": 1,
+                    "API": "AI Mastering",
+                    "AUTH": "apiKey",
+                    "Category": "Music", 
+                    "Cors": "yes", 
+                    "Description": "Automated Music Mastering", 
+                    "HTTPS": "true", 
+                    "URL": "https://aimastering.com/api_docs/"    
+                },
+                "Bandsintown": {
+                    "id": 2,
+                    "API": "Bandsintown",
+                    "AUTH": "",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music Events", 
+                    "HTTPS": "true", 
+                    "URL": "https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0"    
+                },
+                "Deezer": {
+                    "id": 3,
+                    "API": "Deezer",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.deezer.com/api"    
+                },
+                "Discogs": {
+                    "id": 4,
+                    "API": "Discogs",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.discogs.com/developers/"    
+                },
+                "Genius": {
+                    "id": 5,
+                    "API": "Genius",
+                    "AUTH": "apiKey",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Crowdsourced lyrics and music knowledge", 
+                    "HTTPS": "true", 
+                    "URL": "https://docs.genius.com/"    
+                },
+                "Genrenator": {
+                    "id": 6,
+                    "API": "Genrenator",
+                    "AUTH": "",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music genre generator", 
+                    "HTTPS": "true", 
+                    "URL": "https://binaryjazz.us/genrenator-api/"    
+                },
+                "iTunes Search": {
+                    "id": 7,
+                    "API": "iTunes Search",
+                    "AUTH": "",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Software products", 
+                    "HTTPS": "true", 
+                    "URL": "https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/"    
+                },
+                "Jamendo": {
+                    "id": 8,
+                    "API": "Jamendo",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.jamendo.com/v3.0/docs"    
+                },
+                "KKBOX": {
+                    "id": 9,
+                    "API": "KKBOX",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Get music libraries, playlists, charts, and perform out of KKBOX's platform", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.kkbox.com"    
+                },
+                "LastFm": {
+                    "id": 10,
+                    "API": "LastFm",
+                    "AUTH": "apiKey",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.last.fm/api"    
+                },
+                "Lyrics.ovh": {
+                    "id": 11,
+                    "API": "Lyrics.ovh",
+                    "AUTH": "",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Simple API to retrieve the lyrics of a song", 
+                    "HTTPS": "true", 
+                    "URL": "http://docs.lyricsovh.apiary.io/"    
+                },
+                "Mixcloud": {
+                    "id": 12,
+                    "API": "Mixcloud",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "yes", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.mixcloud.com/developers/"    
+                },
+                "MusicBrainz": {
+                    "id": 13,
+                    "API": "MusicBrainz",
+                    "AUTH": "",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2"    
+                },
+                "Musixmatch": {
+                    "id": 14,
+                    "API": "Musixmatch",
+                    "AUTH": "apiKey",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.musixmatch.com/"    
+                },
+                "Openwhyd": {
+                    "id": 15,
+                    "API": "Openwhyd",
+                    "AUTH": "No",
+                    "Category": "Music", 
+                    "Cors": "No", 
+                    "Description": "Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...)", 
+                    "HTTPS": "true", 
+                    "URL": "https://openwhyd.github.io/openwhyd/API"    
+                },
+                "Songkick": {
+                    "id": 16,
+                    "API": "Songkick",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music Events", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.songkick.com/developer/"    
+                },
+                "Songsterr": {
+                    "id": 17,
+                    "API": "Songsterr",
+                    "AUTH": "",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Provides guitar, bass and drums tabs and chords", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.songsterr.com/a/wa/api/"    
+                },
+                "SoundCloud": {
+                    "id": 18,
+                    "API": "SoundCloud",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Allow users to upload and share sounds", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.soundcloud.com/"    
+                },
+                "Spotify": {
+                    "id": 19,
+                    "API": "Spotify",
+                    "AUTH": "OAuth",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "View Spotify music catalog, manage users' libraries, get recommendations and more", 
+                    "HTTPS": "true", 
+                    "URL": "https://beta.developer.spotify.com/documentation/web-api/"    
+                },
+                "TasteDive": {
+                    "id": 20,
+                    "API": "TasteDive",
+                    "AUTH": "apiKey",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Similar artist API (also works for movies and TV shows)", 
+                    "HTTPS": "true", 
+                    "URL": "https://tastedive.com/read/api"    
+                },
+                "TheAudioDB": {
+                    "id": 21,
+                    "API": "TheAudioDB",
+                    "AUTH": "apiKey",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Music", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.theaudiodb.com/api_guide.php"    
+                },
+                "Vagalume": {
+                    "id": 22,
+                    "API": "Vagalume",
+                    "AUTH": "apiKey",
+                    "Category": "Music", 
+                    "Cors": "unknown", 
+                    "Description": "Crowdsourced lyrics and music knowledge", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.vagalume.com.br/docs/"    
+                }
+
             }
         }
     },
