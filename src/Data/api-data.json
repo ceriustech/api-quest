@@ -3984,7 +3984,146 @@
         "Personality": {
             "id": 31,
             "subCategories": {
-                
+                "Advice Slip": {
+                    "id": 1,
+                    "API": "Advice Slip",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "Generate random advice slips", 
+                    "HTTPS": "true", 
+                    "URL": "http://api.adviceslip.com/"    
+                },
+                "chucknorris.io": {
+                    "id": 2,
+                    "API": "chucknorris.io",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "JSON API for hand curated Chuck Norris jokes", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.chucknorris.io"    
+                },
+                "FavQs.com": {
+                    "id": 3,
+                    "API": "FavQs.com",
+                    "AUTH": "apiKey",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "FavQs allows you to collect, discover and share your favorite quotes", 
+                    "HTTPS": "true", 
+                    "URL": "https://favqs.com/api"    
+                },
+                "icanhazdadjoke": {
+                    "id": 4,
+                    "API": "icanhazdadjoke",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "The largest selection of dad jokes on the internet", 
+                    "HTTPS": "true", 
+                    "URL": "https://icanhazdadjoke.com/api"    
+                },
+                "kanye.rest": {
+                    "id": 5,
+                    "API": "kanye.rest",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "yes", 
+                    "Description": "REST API for random Kanye West quotes", 
+                    "HTTPS": "true", 
+                    "URL": "https://kanye.rest"    
+                },
+                "Medium": {
+                    "id": 6,
+                    "API": "Medium",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "yes", 
+                    "Description": "REST API for random Kanye West quotes", 
+                    "HTTPS": "true", 
+                    "URL": "https://kanye.rest"    
+                },
+                "NaMoMemes": {
+                    "id": 7,
+                    "API": "NaMoMemes",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "Memes on Narendra Modi", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/theIYD/NaMoMemes"    
+                },
+                "Programming Quotes": {
+                    "id": 8,
+                    "API": "Programming Quotes",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "Programming Quotes API for open source projects", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/skolakoda/programming-quotes-api"    
+                },
+                "Quotable Quotes": {
+                    "id": 9,
+                    "API": "Quotable Quotes",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "Quotable is a free, open source quotations API", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/lukePeavey/quotable"    
+                },
+                "Quote Garden": {
+                    "id": 10,
+                    "API": "Quote Garden",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "REST API for more than 5000 famous quotes", 
+                    "HTTPS": "true", 
+                    "URL": "https://pprathameshmore.github.io/QuoteGarden/"    
+                },
+                "Quotes on Design": {
+                    "id": 11,
+                    "API": "Quotes on Design",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "Inspirational Quotes", 
+                    "HTTPS": "true", 
+                    "URL": "https://quotesondesign.com/api/"    
+                },
+                "taylor.rest": {
+                    "id": 12,
+                    "API": "taylor.rest",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "no", 
+                    "Description": "REST API for random Taylor Swift quotes", 
+                    "HTTPS": "true", 
+                    "URL": "https://taylor.rest"    
+                },
+                "Traitify": {
+                    "id": 13,
+                    "API": "Traitify",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "Assess, collect and analyze Personality", 
+                    "HTTPS": "true", 
+                    "URL": "https://app.traitify.com/developer"    
+                },
+                "tronalddump.io": {
+                    "id": 14,
+                    "API": "tronalddump.io",
+                    "AUTH": "",
+                    "Category": "Personality", 
+                    "Cors": "unknown", 
+                    "Description": "Api & web archive for the things Donald Trump has said", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.tronalddump.io"    
+                }
             }
         }
     },
@@ -3992,7 +4131,146 @@
         "Photography": {
             "id": 32,
             "subCategories": {
-                
+                "Flickr": {
+                    "id": 1,
+                    "API": "Flickr",
+                    "AUTH": "OAuth",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Flickr Services", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.flickr.com/services/api/"    
+                },
+                "Getty Images": {
+                    "id": 2,
+                    "API": "Getty Images",
+                    "AUTH": "OAuth",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Build applications using the world's most powerful imagery", 
+                    "HTTPS": "true", 
+                    "URL": "http://developers.gettyimages.com/en/"    
+                },
+                "Gfycat": {
+                    "id": 3,
+                    "API": "Gfycat",
+                    "AUTH": "OAuth",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Jiffier GIFs", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.gfycat.com/api/"    
+                },
+                "Giphy": {
+                    "id": 4,
+                    "API": "Giphy",
+                    "AUTH": "apiKey",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Get all your gifs", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.giphy.com/docs/"    
+                },
+                "Gyazo": {
+                    "id": 5,
+                    "API": "Gyazo",
+                    "AUTH": "apiKey",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Upload images", 
+                    "HTTPS": "true", 
+                    "URL": "https://gyazo.com/api/docs"    
+                },
+                "Imgur": {
+                    "id": 6,
+                    "API": "Imgur",
+                    "AUTH": "OAuth",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Images", 
+                    "HTTPS": "true", 
+                    "URL": "https://apidocs.imgur.com/"    
+                },
+                "Lorem Picsum": {
+                    "id": 7,
+                    "API": "Lorem Picsum",
+                    "AUTH": "",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Images from Unsplash", 
+                    "HTTPS": "true", 
+                    "URL": "https://picsum.photos/"    
+                },
+                "ObjectCut": {
+                    "id": 8,
+                    "API": "ObjectCut",
+                    "AUTH": "apiKey",
+                    "Category": "Photography", 
+                    "Cors": "yes", 
+                    "Description": "Image Background removal", 
+                    "HTTPS": "true", 
+                    "URL": "https://objectcut.com/"    
+                },
+                "Pexels": {
+                    "id": 9,
+                    "API": "Pexels",
+                    "AUTH": "apiKey",
+                    "Category": "Photography", 
+                    "Cors": "yes", 
+                    "Description": "Free Stock Photos and Videos", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.pexels.com/api/"    
+                },
+                "Pixabay": {
+                    "id": 11,
+                    "API": "Pixabay",
+                    "AUTH": "apiKey",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Photography", 
+                    "HTTPS": "true", 
+                    "URL": "https://pixabay.com/sk/service/about/api/"    
+                },
+                "PlaceKitten": {
+                    "id": 11,
+                    "API": "PlaceKitten",
+                    "AUTH": "",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Resizable kitten placeholder images", 
+                    "HTTPS": "true", 
+                    "URL": "https://placekitten.com/"    
+                },
+                "ScreenShotLayer": {
+                    "id": 12,
+                    "API": "ScreenShotLayer",
+                    "AUTH": "",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "URL 2 Image", 
+                    "HTTPS": "true", 
+                    "URL": "https://screenshotlayer.com"    
+                },
+                "Unsplash": {
+                    "id": 13,
+                    "API": "Unsplash",
+                    "AUTH": "OAuth",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Photography", 
+                    "HTTPS": "true", 
+                    "URL": "https://unsplash.com/developers"    
+                },
+                "Wallhaven": {
+                    "id": 14,
+                    "API": "Wallhaven",
+                    "AUTH": "apiKey",
+                    "Category": "Photography", 
+                    "Cors": "unknown", 
+                    "Description": "Wallpapers", 
+                    "HTTPS": "true", 
+                    "URL": "https://wallhaven.cc/help/api"    
+                }
             }
         }
     },
@@ -4000,7 +4278,176 @@
         "Science & Math": {
             "id": 33,
             "subCategories": {
-                
+                "arcsecond.io": {
+                    "id": 1,
+                    "API": "arcsecond.io",
+                    "AUTH": "apiKey",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Multiple astronomy data sources", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.arcsecond.io/"    
+                },
+                "CORE": {
+                    "id": 2,
+                    "API": "CORE",
+                    "AUTH": "apiKey",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Access the world's Open Access research papers", 
+                    "HTTPS": "true", 
+                    "URL": "https://core.ac.uk/services#api"    
+                },
+                "GBIF": {
+                    "id": 3,
+                    "API": "GBIF",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "yes", 
+                    "Description": "Global Biodiversity Information Facility", 
+                    "HTTPS": "true", 
+                    "URL": "http://api.gbif.org/v1/"    
+                },
+                "iDigBio": {
+                    "id": 4,
+                    "API": "iDigBio",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Access millions of museum specimens from organizations around the world", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/idigbio/idigbio-search-api/wiki"    
+                },
+                "inspirehep.net": {
+                    "id": 5,
+                    "API": "inspirehep.net",
+                    "AUTH": "apiKey",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "High Energy Physics info. system", 
+                    "HTTPS": "true", 
+                    "URL": "https://inspirehep.net/info/hep/api?ln=en"    
+                },
+                "ITIS": {
+                    "id": 6,
+                    "API": "ITIS",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Integrated Taxonomic Information System", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.itis.gov/ws_description.html"    
+                },
+                "Launch Library 2": {
+                    "id": 7,
+                    "API": "Launch Library 2",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "yes", 
+                    "Description": "Spaceflight launches and events database", 
+                    "HTTPS": "true", 
+                    "URL": "https://ll.thespacedevs.com/2.1.0/swagger"    
+                },
+                "NASA": {
+                    "id": 8,
+                    "API": "NASA",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "NASA data, including imagery", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.nasa.gov"    
+                },
+                "NASA APOD (unofficial API)": {
+                    "id": 9,
+                    "API": "NASA APOD (unofficial API)",
+                    "AUTH": "apiKey",
+                    "Category": "Science & Math", 
+                    "Cors": "yes", 
+                    "Description": "API for getting APOD (Astronomy Image of the Day) images along with metadata", 
+                    "HTTPS": "true", 
+                    "URL": "https://apodapi.herokuapp.com/"    
+                },
+                "Newton": {
+                    "id": 10,
+                    "API": "Newton",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Symbolic and Arithmetic Math Calculator", 
+                    "HTTPS": "true", 
+                    "URL": "https://newton.now.sh/"    
+                },
+                "Open Science Framework": {
+                    "id": 11,
+                    "API": "Open Science Framework",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Repository and archive for study designs, research materials, data, manuscripts, etc", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.osf.io"    
+                },
+                "SHARE": {
+                    "id": 12,
+                    "API": "SHARE",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "A free, open, dataset about research and scholarly activities", 
+                    "HTTPS": "true", 
+                    "URL": "https://share.osf.io/api/v2/"    
+                },
+                "SpaceX": {
+                    "id": 13,
+                    "API": "SpaceX",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Company, vehicle, launchpad and launch data", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/r-spacex/SpaceX-API"    
+                },
+                "Sunrise and Sunset": {
+                    "id": 14,
+                    "API": "Sunrise and Sunset",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Sunset and sunrise times for a given latitude and longitude", 
+                    "HTTPS": "true", 
+                    "URL": "https://sunrise-sunset.org/api"    
+                },
+                "Trefle": {
+                    "id": 15,
+                    "API": "Trefle",
+                    "AUTH": "apiKey",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Botanical data for plant species", 
+                    "HTTPS": "true", 
+                    "URL": "https://trefle.io/"    
+                },
+                "USGS Earthquake Hazards Program": {
+                    "id": 16,
+                    "API": "USGS Earthquake Hazards Program",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Earthquakes data real-time", 
+                    "HTTPS": "true", 
+                    "URL": "https://earthquake.usgs.gov/fdsnws/event/1/"    
+                },
+                "USGS Water Services": {
+                    "id": 17,
+                    "API": "USGS Water Services",
+                    "AUTH": "",
+                    "Category": "Science & Math", 
+                    "Cors": "unknown", 
+                    "Description": "Water quality and level info for rivers and lakes", 
+                    "HTTPS": "true", 
+                    "URL": "https://waterservices.usgs.gov/"    
+                }
             }
         }
     },
@@ -4008,7 +4455,116 @@
         "Security": {
             "id": 34,
             "subCategories": {
-                
+                "Censys.io": {
+                    "id": 1,
+                    "API": "Censys.io",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "no", 
+                    "Description": "Search engine for Internet connected host and devices", 
+                    "HTTPS": "true", 
+                    "URL": "https://censys.io/api"    
+                },
+                "CRXcavator": {
+                    "id": 2,
+                    "API": "CRXcavator",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Chrome extension risk scoring", 
+                    "HTTPS": "true", 
+                    "URL": "https://crxcavator.io/apidocs"    
+                },
+                "FilterLists": {
+                    "id": 3,
+                    "API": "FilterLists",
+                    "AUTH": "",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Lists of filters for adblockers and firewalls", 
+                    "HTTPS": "true", 
+                    "URL": "https://filterlists.com"    
+                },
+                "FraudLabs Pro": {
+                    "id": 4,
+                    "API": "FraudLabs Pro",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Screen order information using AI to detect frauds", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.fraudlabspro.com/developer/api/screen-order"    
+                },
+                "HaveIBeenPwned": {
+                    "id": 5,
+                    "API": "HaveIBeenPwned",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Passwords which have previously been exposed in data breaches", 
+                    "HTTPS": "true", 
+                    "URL": "https://haveibeenpwned.com/API/v3"    
+                },
+                "Intelligence X": {
+                    "id": 6,
+                    "API": "Intelligence X",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Perform OSINT via Intelligence X", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf"    
+                },
+                "National Vulnerability Database": {
+                    "id": 7,
+                    "API": "National Vulnerability Database",
+                    "AUTH": "",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "U.S. National Vulnerability Database", 
+                    "HTTPS": "true", 
+                    "URL": "https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog"    
+                },
+                "Pulsedive": {
+                    "id": 8,
+                    "API": "Pulsedive",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Scan, search and collect threat intelligence data in real-time", 
+                    "HTTPS": "true", 
+                    "URL": "https://pulsedive.com/api/"    
+                },
+                "SecurityTrails": {
+                    "id": 9,
+                    "API": "SecurityTrails",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Domain and IP related information such as current and historical WHOIS and DNS records", 
+                    "HTTPS": "true", 
+                    "URL": "https://securitytrails.com/corp/apidocs"    
+                },
+                "Shodan": {
+                    "id": 10,
+                    "API": "Shodan",
+                    "AUTH": "apiKey",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "Search engine for Internet connected devices", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.shodan.io/"    
+                },
+                "UK Police": {
+                    "id": 11,
+                    "API": "UK Police",
+                    "AUTH": "",
+                    "Category": "Security", 
+                    "Cors": "unknown", 
+                    "Description": "UK Police data", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.police.uk/docs/"    
+                }
             }
         }
     },
@@ -4016,7 +4572,56 @@
         "Shopping": {
             "id": 35,
             "subCategories": {
-                
+                "Best Buy": {
+                    "id": 1,
+                    "API": "Best Buy",
+                    "AUTH": "apiKey",
+                    "Category": "Shopping", 
+                    "Cors": "unknown", 
+                    "Description": "Products, Buying Options, Categories, Recommendations, Stores and Commerce", 
+                    "HTTPS": "true", 
+                    "URL": "https://bestbuyapis.github.io/api-documentation/#overview"    
+                },
+                "Bratabase": {
+                    "id": 2,
+                    "API": "Bratabase",
+                    "AUTH": "OAuth",
+                    "Category": "Shopping", 
+                    "Cors": "unknown", 
+                    "Description": "Products, Buying Options, Categories, Recommendations, Stores and Commerce", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.bratabase.com/"    
+                },
+                "eBay": {
+                    "id": 3,
+                    "API": "eBay",
+                    "AUTH": "apiKey",
+                    "Category": "Shopping", 
+                    "Cors": "unknown", 
+                    "Description": "Sell and Buy on eBay", 
+                    "HTTPS": "true", 
+                    "URL": "https://go.developer.ebay.com/"    
+                },
+                "Wal-Mart": {
+                    "id": 4,
+                    "API": "Wal-Mart",
+                    "AUTH": "apiKey",
+                    "Category": "Shopping", 
+                    "Cors": "unknown", 
+                    "Description": "Item price and availability", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.walmartlabs.com/docs"    
+                },
+                "Wegmans": {
+                    "id": 5,
+                    "API": "Wegmans",
+                    "AUTH": "apiKey",
+                    "Category": "Shopping", 
+                    "Cors": "unknown", 
+                    "Description": "Wegmans Food Markets", 
+                    "HTTPS": "true", 
+                    "URL": "https://dev.wegmans.io"    
+                }
             }
         }
     },
@@ -4024,7 +4629,266 @@
         "Social": {
             "id": 36,
             "subCategories": {
-                
+                "Buffer": {
+                    "id": 1,
+                    "API": "Buffer",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Access to pending and sent updates in Buffer", 
+                    "HTTPS": "true", 
+                    "URL": "https://buffer.com/developers/api"    
+                },
+                "Carro Score": {
+                    "id": 2,
+                    "API": "Carro Score",
+                    "AUTH": "apiKey",
+                    "Category": "Social", 
+                    "Cors": "yes", 
+                    "Description": "Social Media Influence Rating", 
+                    "HTTPS": "true", 
+                    "URL": "https://docs.score.getcarro.com/"    
+                },
+                "Cisco Spark": {
+                    "id": 3,
+                    "API": "Cisco Spark",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Team Collaboration Software", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.ciscospark.com"    
+                },
+                "Discord": {
+                    "id": 4,
+                    "API": "Discord",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Make bots for Discord, integrate Discord onto an external platform", 
+                    "HTTPS": "true", 
+                    "URL": "https://discordapp.com/developers/docs/intro"    
+                },
+                "Disqus": {
+                    "id": 5,
+                    "API": "Disqus",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Communicate with Disqus data", 
+                    "HTTPS": "true", 
+                    "URL": "https://disqus.com/api/docs/auth/"    
+                },
+                "Facebook": {
+                    "id": 6,
+                    "API": "Facebook",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Facebook Login, Share on FB, Social Plugins, Analytics and more", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.facebook.com/"    
+                },
+                "Foursquare": {
+                    "id": 7,
+                    "API": "Foursquare",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc)", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.foursquare.com/"    
+                },
+                "Fuck Off as a Service": {
+                    "id": 8,
+                    "API": "Fuck Off as a Service",
+                    "AUTH": "",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Asks someone to fuck off", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.foaas.com"    
+                },
+                "Full Contact": {
+                    "id": 9,
+                    "API": "Full Contact",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Get Social Media profiles and contact Information", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.fullcontact.com/developer/docs/"    
+                },
+                "HackerNews": {
+                    "id": 10,
+                    "API": "HackerNews",
+                    "AUTH": "",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Social news for CS and entrepreneurship", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/HackerNews/API"    
+                },
+                "Instagram": {
+                    "id": 11,
+                    "API": "Instagram",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Instagram Login, Share on Instagram, Social Plugins and more", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.instagram.com/developer/"    
+                },
+                "LinkedIn": {
+                    "id": 12,
+                    "API": "LinkedIn",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "The foundation of all digital integrations with LinkedIn", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.linkedin.com/docs/rest-api"    
+                },
+                "Meetup.com": {
+                    "id": 13,
+                    "API": "Meetup.com",
+                    "AUTH": "apiKey",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Data about Meetups from Meetup.com", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.meetup.com/meetup_api/"    
+                },
+                "MySocialApp": {
+                    "id": 14,
+                    "API": "MySocialApp",
+                    "AUTH": "apiKey",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Seamless Social Networking features, API, SDK to any app", 
+                    "HTTPS": "true", 
+                    "URL": "https://mysocialapp.io"    
+                },
+                "Open Collective": {
+                    "id": 15,
+                    "API": "Open Collective",
+                    "AUTH": "",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Get Open Collective data", 
+                    "HTTPS": "true", 
+                    "URL": "https://docs.opencollective.com/help/developers/api"    
+                },
+                "Pinterest": {
+                    "id": 16,
+                    "API": "Pinterest",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "The world's catalog of ideas", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.pinterest.com/"    
+                },
+                "Reddit": {
+                    "id": 17,
+                    "API": "Reddit",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Homepage of the internet", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.reddit.com/dev/api"    
+                },
+                "Saidit": {
+                    "id": 18,
+                    "API": "Saidit",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Open Source Reddit Clone", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.saidit.net/dev/api"    
+                },
+                "Slack": {
+                    "id": 19,
+                    "API": "Slack",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Team Instant Messaging", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.slack.com/"    
+                },
+                "Telegram Bot": {
+                    "id": 20,
+                    "API": "Telegram Bot",
+                    "AUTH": "apiKey",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Simplified HTTP version of the MTProto API for bots", 
+                    "HTTPS": "true", 
+                    "URL": "https://core.telegram.org/bots/api"    
+                },
+                "Telegram MTProto": {
+                    "id": 21,
+                    "API": "Telegram MTProto",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Read and write Telegram data", 
+                    "HTTPS": "true", 
+                    "URL": "https://core.telegram.org/api#getting-started"    
+                },
+                "Trash Nothing": {
+                    "id": 22,
+                    "API": "Trash Nothing",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "yes", 
+                    "Description": "A freecycling community with thousands of free items posted every day", 
+                    "HTTPS": "true", 
+                    "URL": "https://trashnothing.com/developer"    
+                },
+                "Tumblr": {
+                    "id": 23,
+                    "API": "Tumblr",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Read and write Tumblr Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.tumblr.com/docs/en/api/v2"    
+                },
+                "Twitch": {
+                    "id": 24,
+                    "API": "Buffer",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Game Streaming API", 
+                    "HTTPS": "true", 
+                    "URL": "https://dev.twitch.tv/docs"    
+                },
+                "Twitter": {
+                    "id": 25,
+                    "API": "Twitter",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "no", 
+                    "Description": "Read and write Twitter data", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.twitter.com/en/docs"    
+                },
+                "vk": {
+                    "id": 26,
+                    "API": "Buffer",
+                    "AUTH": "OAuth",
+                    "Category": "Social", 
+                    "Cors": "unknown", 
+                    "Description": "Read and write vk data", 
+                    "HTTPS": "true", 
+                    "URL": "https://vk.com/dev/sites"    
+                }
             }
         }
     },
@@ -4032,7 +4896,136 @@
         "Sports & Fitness": {
             "id": 37,
             "subCategories": {
-                
+                "balldontlie": {
+                    "id": 1,
+                    "API": "balldontlie",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "yes", 
+                    "Description": "Balldontlie provides access to stats data from the NBA", 
+                    "HTTPS": "true", 
+                    "URL": "https://balldontlie.io"    
+                },
+                "BikeWise": {
+                    "id": 2,
+                    "API": "BikeWise",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "yes", 
+                    "Description": "Bikewise is a place to learn about and report bike crashes, hazards and thefts", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.bikewise.org/documentation/api_v2"    
+                },
+                "Canadian Football League (CFL)": {
+                    "id": 3,
+                    "API": "Canadian Football League (CFL)",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "no", 
+                    "Description": "Official JSON API providing real-time league, team and player statistics about the CFL", 
+                    "HTTPS": "true", 
+                    "URL": "http://api.cfl.ca/"    
+                },
+                "Ergast F1": {
+                    "id": 4,
+                    "API": "Ergast F1",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "unknown", 
+                    "Description": "F1 data from the beginning of the world championships in 1950", 
+                    "HTTPS": "true", 
+                    "URL": "http://ergast.com/mrd/"    
+                },
+                "Fitbit": {
+                    "id": 5,
+                    "API": "Fitbit",
+                    "AUTH": "OAuth",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "yes", 
+                    "Description": "Fitbit Information", 
+                    "HTTPS": "true", 
+                    "URL": "https://dev.fitbit.com/"    
+                },
+                "Football (Soccer) Videos": {
+                    "id": 6,
+                    "API": "Football (Soccer) Videos",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "yes", 
+                    "Description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.scorebat.com/video-api/"    
+                },
+                "Football Prediction": {
+                    "id": 7,
+                    "API": "Football Prediction",
+                    "AUTH": "X-Mashape-Key",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "unknown", 
+                    "Description": "Predictions for upcoming football matches, odds, results and stats", 
+                    "HTTPS": "true", 
+                    "URL": "https://balldontlie.io"    
+                },
+                "JCDecaux Bike": {
+                    "id": 8,
+                    "API": "JCDecaux Bike",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "unknown", 
+                    "Description": "JCDecaux's self-service bicycles", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.jcdecaux.com/"    
+                },
+                "NBA Stats": {
+                    "id": 9,
+                    "API": "NBA Stats",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "unknown", 
+                    "Description": "Current and historical NBA Statistics", 
+                    "HTTPS": "true", 
+                    "URL": "https://any-api.com/nba_com/nba_com/docs/API_Description"    
+                },
+                "NHL Records and Stats": {
+                    "id": 10,
+                    "API": "NHL Records and Stats",
+                    "AUTH": "",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "unknown", 
+                    "Description": "NHL historical data and statistics", 
+                    "HTTPS": "true", 
+                    "URL": "https://gitlab.com/dword4/nhlapi"    
+                },
+                "Strava": {
+                    "id": 11,
+                    "API": "Strava",
+                    "AUTH": "OAuth",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "unknown", 
+                    "Description": "Connect with athletes, activities and more", 
+                    "HTTPS": "true", 
+                    "URL": "https://strava.github.io/api/"    
+                },
+                "TheSportsDB": {
+                    "id": 12,
+                    "API": "TheSportsDB",
+                    "AUTH": "apiKey",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "yes", 
+                    "Description": "Crowd-Sourced Sports Data and Artwork", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.thesportsdb.com/api.php"    
+                },
+                "Wger": {
+                    "id": 13,
+                    "API": "Wger",
+                    "AUTH": "apiKey",
+                    "Category": "Sports & Fitness", 
+                    "Cors": "unknown", 
+                    "Description": "Workout manager data as exercises, muscles or equipment", 
+                    "HTTPS": "true", 
+                    "URL": "https://wger.de/en/software/api"    
+                }
             }
         }
     },
@@ -4040,7 +5033,96 @@
         "Test Data": {
             "id": 38,
             "subCategories": {
-                
+                "Bacon Ipsum": {
+                    "id": 1,
+                    "API": "Bacon Ipsum",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "unknown", 
+                    "Description": "A Meatier Lorem Ipsum Generator", 
+                    "HTTPS": "true", 
+                    "URL": "https://baconipsum.com/json-api/"    
+                },
+                "Dicebear Avatars": {
+                    "id": 2,
+                    "API": "Dicebear Avatars",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "no", 
+                    "Description": "Generate random pixel-art avatars", 
+                    "HTTPS": "true", 
+                    "URL": "https://avatars.dicebear.com/"    
+                },
+                "FakeJSON": {
+                    "id": 3,
+                    "API": "FakeJSON",
+                    "AUTH": "apiKey",
+                    "Category": "Test Data", 
+                    "Cors": "yes", 
+                    "Description": "Service to generate test and fake data", 
+                    "HTTPS": "true", 
+                    "URL": "https://fakejson.com"    
+                },
+                "PIPL": {
+                    "id": 4,
+                    "API": "PIPL",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "no", 
+                    "Description": "Free and public API that generates random and fake people's data in JSON", 
+                    "HTTPS": "true", 
+                    "URL": "https://pipl.ir/"    
+                },
+                "RandomUser": {
+                    "id": 5,
+                    "API": "RandomUser",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "unknown", 
+                    "Description": "Generates random user data", 
+                    "HTTPS": "true", 
+                    "URL": "https://randomuser.me"    
+                },
+                "RoboHash": {
+                    "id": 6,
+                    "API": "RoboHash",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "unknown", 
+                    "Description": "Generate random robot/alien avatars", 
+                    "HTTPS": "true", 
+                    "URL": "https://robohash.org/"    
+                },
+                "This Person Does not Exist": {
+                    "id": 7,
+                    "API": "This Person Does not Exist",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "unknown", 
+                    "Description": "Generates real-life faces of people who do not exist", 
+                    "HTTPS": "true", 
+                    "URL": "https://thispersondoesnotexist.com"    
+                },
+                "UI Names": {
+                    "id": 8,
+                    "API": "UI Names",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "unknown", 
+                    "Description": "Generate random fake names", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/thm/uinames"    
+                },
+                "Yes No": {
+                    "id": 9,
+                    "API": "Yes No",
+                    "AUTH": "",
+                    "Category": "Test Data", 
+                    "Cors": "unknown", 
+                    "Description": "Generate yes or no randomly", 
+                    "HTTPS": "true", 
+                    "URL": "https://yesno.wtf/api"    
+                }
             }
         }
     },
@@ -4048,7 +5130,66 @@
         "Text Analysis": {
             "id": 39,
             "subCategories": {
-                
+                "Aylien Text Analysis": {
+                    "id": 1,
+                    "API": "Aylien Text Analysis",
+                    "AUTH": "apiKey",
+                    "Category": "Text Analysis", 
+                    "Cors": "unknown", 
+                    "Description": "A collection of information retrieval and natural language APIs", 
+                    "HTTPS": "true", 
+                    "URL": "http://docs.aylien.com/"    
+                },
+                "Cloudmersive Natural Language Processing": {
+                    "id": 2,
+                    "API": "Cloudmersive Natural Language Processing",
+                    "AUTH": "apiKey",
+                    "Category": "Text Analysis", 
+                    "Cors": "yes", 
+                    "Description": "Natural language processing and text analysis", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.cloudmersive.com/nlp-api"    
+                },
+                "Detect Language": {
+                    "id": 3,
+                    "API": "Detect Language",
+                    "AUTH": "apiKey",
+                    "Category": "Text Analysis", 
+                    "Cors": "unknown", 
+                    "Description": "Detects text language", 
+                    "HTTPS": "true", 
+                    "URL": "https://detectlanguage.com/"    
+                },
+                "Google Cloud Natural": {
+                    "id": 4,
+                    "API": "Google Cloud Natural",
+                    "AUTH": "apiKey",
+                    "Category": "Text Analysis", 
+                    "Cors": "unknown", 
+                    "Description": "Natural language understanding technology, including sentiment, entity and syntax analysis", 
+                    "HTTPS": "true", 
+                    "URL": "https://cloud.google.com/natural-language/docs/"    
+                },
+                "Semantira": {
+                    "id": 5,
+                    "API": "Semantira",
+                    "AUTH": "OAuth",
+                    "Category": "Text Analysis", 
+                    "Cors": "unknown", 
+                    "Description": "Text Analytics with sentiment analysis, categorization & named entity extraction", 
+                    "HTTPS": "true", 
+                    "URL": "https://semantria.readme.io/docs"    
+                },
+                "Watson Natural Language Understanding": {
+                    "id": 6,
+                    "API": "Watson Natural Language Understanding",
+                    "AUTH": "OAuth",
+                    "Category": "Text Analysis", 
+                    "Cors": "unknown", 
+                    "Description": "Text Analytics with sentiment analysis, categorization & named entity extraction", 
+                    "HTTPS": "true", 
+                    "URL": "https://semantria.readme.io/docs"    
+                }
             }
         }
     },
@@ -4056,7 +5197,26 @@
         "Tracking": {
             "id": 40,
             "subCategories": {
-                
+                "UPS": {
+                    "id": 1,
+                    "API": "UPS",
+                    "AUTH": "apiKey",
+                    "Category": "Tracking", 
+                    "Cors": "unknown", 
+                    "Description": "Shipment and Address information", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.ups.com/upsdeveloperkit"    
+                },
+                "WhatPulse": {
+                    "id": 2,
+                    "API": "WhatPulse",
+                    "AUTH": "",
+                    "Category": "Tracking", 
+                    "Cors": "unknown", 
+                    "Description": "Small application that measures your keyboard/mouse usage", 
+                    "HTTPS": "true", 
+                    "URL": "https://whatpulse.org/pages/webapi/"    
+                }
             }
         }
     },
