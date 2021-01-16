@@ -3619,7 +3619,6 @@
                     "HTTPS": "true", 
                     "URL": "https://api.vagalume.com.br/docs/"    
                 }
-
             }
         }
     },
@@ -3627,7 +3626,96 @@
         "News": {
             "id": 27,
             "subCategories": {
-                
+                "Associated Press": {
+                    "id": 1,
+                    "API": "Associated Press",
+                    "AUTH": "apiKey",
+                    "Category": "News", 
+                    "Cors": "unknown", 
+                    "Description": "Search for news and metadata from Associated Press", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.ap.org/"    
+                },
+                "Currents": {
+                    "id": 2,
+                    "API": "Currents",
+                    "AUTH": "apiKey",
+                    "Category": "News", 
+                    "Cors": "yes", 
+                    "Description": "Latest news published in various news sources, blogs and forums", 
+                    "HTTPS": "true", 
+                    "URL": "https://currentsapi.services/"    
+                },
+                "Feedbin": {
+                    "id": 3,
+                    "API": "Feedbin",
+                    "AUTH": "OAuth",
+                    "Category": "News", 
+                    "Cors": "unknown", 
+                    "Description": "RSS reader", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/feedbin/feedbin-api"    
+                },
+                "New York Times": {
+                    "id": 4,
+                    "API": "New York Times",
+                    "AUTH": "apiKey",
+                    "Category": "News", 
+                    "Cors": "unknown", 
+                    "Description": "Provides news", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.nytimes.com/"    
+                },
+                "News": {
+                    "id": 5,
+                    "API": "News",
+                    "AUTH": "apiKey",
+                    "Category": "News", 
+                    "Cors": "unknown", 
+                    "Description": "Headlines currently published on a range of news sources and blogs", 
+                    "HTTPS": "true", 
+                    "URL": "https://newsapi.org/"    
+                },
+                "NPR One": {
+                    "id": 6,
+                    "API": "NPR One",
+                    "AUTH": "OAuth",
+                    "Category": "News", 
+                    "Cors": "unknown", 
+                    "Description": "Personalized news listening experience from NPR", 
+                    "HTTPS": "true", 
+                    "URL": "http://dev.npr.org/api/"    
+                },
+                "Spaceflight News": {
+                    "id": 7,
+                    "API": "Spaceflight News",
+                    "AUTH": "",
+                    "Category": "News", 
+                    "Cors": "yes", 
+                    "Description": "Spaceflight related news 🚀", 
+                    "HTTPS": "true", 
+                    "URL": "https://spaceflightnewsapi.net"    
+                },
+                "The Guardian": {
+                    "id": 8,
+                    "API": "The Guardian",
+                    "AUTH": "apiKey",
+                    "Category": "News", 
+                    "Cors": "unknown", 
+                    "Description": "Access all the content the Guardian creates, categorised by tags and section", 
+                    "HTTPS": "true", 
+                    "URL": "http://open-platform.theguardian.com/"    
+                },
+                "The Old Reader": {
+                    "id": 9,
+                    "API": "The Old Reader",
+                    "AUTH": "apiKey",
+                    "Category": "News", 
+                    "Cors": "unknown", 
+                    "Description": "RSS reader", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/theoldreader/api"    
+                }
             }
         }
     },
@@ -3635,7 +3723,186 @@
         "Open Data": {
             "id": 28,
             "subCategories": {
-                
+                "Archive.org": {
+                    "id": 1,
+                    "API": "Archive.org",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "The Internet Archive", 
+                    "HTTPS": "true", 
+                    "URL": "https://archive.readme.io/docs"    
+                },
+                "Callook.info": {
+                    "id": 2,
+                    "API": "Callook.info",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "United States ham radio callsigns", 
+                    "HTTPS": "true", 
+                    "URL": "https://callook.info"    
+                },
+                "CARTO": {
+                    "id": 3,
+                    "API": "CARTO",
+                    "AUTH": "apiKey",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Location Information Prediction", 
+                    "HTTPS": "true", 
+                    "URL": "https://carto.com/"    
+                },
+                "CivicFeed": {
+                    "id": 4,
+                    "API": "CivicFeed",
+                    "AUTH": "apiKey",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "News articles and public datasets", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.civicfeed.com/"    
+                },
+                "Enigma Public": {
+                    "id": 5,
+                    "API": "Enigma Public",
+                    "AUTH": "apiKey",
+                    "Category": "Open Data", 
+                    "Cors": "yes", 
+                    "Description": "Broadest collection of public data", 
+                    "HTTPS": "true", 
+                    "URL": "http://docs.enigma.com/public/public_v20_api_about"    
+                },
+                "French Address Search": {
+                    "id": 6,
+                    "API": "French Address Search",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Address search via the French Government", 
+                    "HTTPS": "true", 
+                    "URL": "https://geo.api.gouv.fr/adresse"    
+                },
+                "LinkPreview": {
+                    "id": 7,
+                    "API": "LinkPreview",
+                    "AUTH": "apiKey",
+                    "Category": "Open Data", 
+                    "Cors": "yes", 
+                    "Description": "Get JSON formatted summary with title, description and preview image for any requested URL", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.linkpreview.net"    
+                },
+                "Microlink.io": {
+                    "id": 8,
+                    "API": "Microlink.io",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "yes", 
+                    "Description": "Extract structured data from any website", 
+                    "HTTPS": "true", 
+                    "URL": "https://microlink.io"    
+                },
+                "OpenCorporates": {
+                    "id": 9,
+                    "API": "OpenCorporates",
+                    "AUTH": "apiKey",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Data on corporate entities and directors in many countries", 
+                    "HTTPS": "true", 
+                    "URL": "http://api.opencorporates.com/documentation/API-Reference"    
+                },
+                "Quandl": {
+                    "id": 10,
+                    "API": "Archive.org",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Stock Market Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.quandl.com/"    
+                },
+                "Recreation Information Database": {
+                    "id": 11,
+                    "API": "Recreation Information Database",
+                    "AUTH": "apiKey",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)", 
+                    "HTTPS": "true", 
+                    "URL": "https://ridb.recreation.gov/"    
+                },
+                "Teleport": {
+                    "id": 12,
+                    "API": "Teleport",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Quality of Life Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.teleport.org/"    
+                },
+                "Universities List": {
+                    "id": 13,
+                    "API": "Universities List",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "University names, countries and domains", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/Hipo/university-domains-list"    
+                },
+                "University of Oslo": {
+                    "id": 14,
+                    "API": "University of Oslo",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway)", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.uio.no/"    
+                },
+                "UPC database": {
+                    "id": 15,
+                    "API": "UPC database",
+                    "AUTH": "apiKey",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "More than 1.5 million barcode numbers from all around the world", 
+                    "HTTPS": "true", 
+                    "URL": "https://upcdatabase.org/api"    
+                },
+                "Wikidata": {
+                    "id": 16,
+                    "API": "Wikidata",
+                    "AUTH": "OAuth",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Collaboratively edited knowledge base operated by the Wikimedia Foundation", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.wikidata.org/w/api.php?action=help"    
+                },
+                "Wikipedia": {
+                    "id": 17,
+                    "API": "Wikipedia",
+                    "AUTH": "",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Mediawiki Encyclopedia", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.mediawiki.org/wiki/API:Main_page"    
+                },
+                "Yelp": {
+                    "id": 18,
+                    "API": "Yelp",
+                    "AUTH": "OAuth",
+                    "Category": "Open Data", 
+                    "Cors": "unknown", 
+                    "Description": "Find Local Business", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.yelp.com/developers/documentation/v3"    
+                }
             }
         }
     },
@@ -3643,7 +3910,36 @@
         "Open Source Projects": {
             "id": 29,
             "subCategories": {
-                
+                "Creative Commons Catalog": {
+                    "id": 1,
+                    "API": "Creative Commons Catalog",
+                    "AUTH": "OAuth",
+                    "Category": "Open Source Projects", 
+                    "Cors": "yes", 
+                    "Description": "Search among openly licensed and public domain works", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.creativecommons.engineering/"    
+                },
+                "Drupal.org": {
+                    "id": 2,
+                    "API": "Drupal.org",
+                    "AUTH": "",
+                    "Category": "Open Source Projects", 
+                    "Cors": "unknown", 
+                    "Description": "Drupal.org", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.drupal.org/drupalorg/docs/api"    
+                },
+                "Evil Insult Generator": {
+                    "id": 3,
+                    "API": "Evil Insult Generator",
+                    "AUTH": "",
+                    "Category": "Open Source Projects", 
+                    "Cors": "yes", 
+                    "Description": "Evil Insults", 
+                    "HTTPS": "true", 
+                    "URL": "https://evilinsult.com/api"    
+                }
             }
         }
     },
@@ -3651,7 +3947,36 @@
         "Patent": {
             "id": 30,
             "subCategories": {
-                
+                "EPO": {
+                    "id": 1,
+                    "API": "Evil Insult Generator",
+                    "AUTH": "OAuth",
+                    "Category": "Patent", 
+                    "Cors": "unknown", 
+                    "Description": "European patent search system api", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.epo.org/"    
+                },
+                "TIPO": {
+                    "id": 2,
+                    "API": "TIPO",
+                    "AUTH": "apiKey",
+                    "Category": "Patent", 
+                    "Cors": "unknown", 
+                    "Description": "Taiwan patent search system api", 
+                    "HTTPS": "true", 
+                    "URL": "https://tiponet.tipo.gov.tw/Gazette/OpenData/OD/OD05.aspx?QryDS=API00"    
+                },
+                "USPTO": {
+                    "id": 3,
+                    "API": "USPTO",
+                    "AUTH": "",
+                    "Category": "Patent", 
+                    "Cors": "unknown", 
+                    "Description": "USA patent api services", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.uspto.gov/learning-and-resources/open-data-and-mobility"    
+                }
             }
         }
     },

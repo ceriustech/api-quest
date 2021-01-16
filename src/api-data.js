@@ -1,5 +1,7 @@
 import axios from "axios";
 
+import apiData from "../src/Data/api-data.json";
+
 export const APICategories = () => {
   return axios
     .get(`https://api.publicapis.org/categories`)
@@ -30,4 +32,10 @@ export const subCategoryList = (category) => {
 //   fetch(`https://api.publicapis.org/entries?category=${subCategory}&https=true`)
 //     .then((response) => response.json())
 //     .then((apiInfo) => console.log(apiInfo));
+// };
+
+// const apiInfo2 = (subCategory) => {
+//   fetch(apiData)
+//     .then((response) => response.json())
+//     .then((data) => console.log(`From the JSON FILE: ${data}`));
 // };
