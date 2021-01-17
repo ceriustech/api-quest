@@ -5224,7 +5224,326 @@
         "Transportation": {
             "id": 41,
             "subCategories": {
-                
+                "ADS-B Exchange": {
+                    "id": 1,
+                    "API": "ADS-B Exchange",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Access real-time and historical data of any and all airborne aircraft", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.adsbexchange.com/data/"    
+                },
+                "Amadeus Travel Innovation Sandbox": {
+                    "id": 2,
+                    "API": "Amadeus Travel Innovation Sandbox",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Travel Search - Limited usage", 
+                    "HTTPS": "true", 
+                    "URL": "https://sandbox.amadeus.com/"    
+                },
+                "BlaBlaCar": {
+                    "id": 3,
+                    "API": "BlaBlaCar",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Search car sharing trips", 
+                    "HTTPS": "true", 
+                    "URL": "https://dev.blablacar.com"    
+                },
+                "Community Transit": {
+                    "id": 4,
+                    "API": "Community Transit",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Transitland API", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/transitland/transitland-datastore/blob/master/README.md#api-endpoints"    
+                },
+                "GraphHopper": {
+                    "id": 5,
+                    "API": "GraphHopper",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "A-to-B routing with turn-by-turn instructions", 
+                    "HTTPS": "true", 
+                    "URL": "https://graphhopper.com/api/1/docs/"    
+                },
+                "Icelandic APIs": {
+                    "id": 6,
+                    "API": "Icelandic APIs",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Open APIs that deliver services in or regarding Iceland", 
+                    "HTTPS": "true", 
+                    "URL": "http://docs.apis.is/"    
+                },
+                "Izi": {
+                    "id": 7,
+                    "API": "Izi",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Audio guide for travellers", 
+                    "HTTPS": "true", 
+                    "URL": "http://api-docs.izi.travel/"    
+                },
+                "Navitia": {
+                    "id": 8,
+                    "API": "Navitia",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "The open API for building cool stuff with transport data", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.navitia.io/"    
+                },
+                "Open Charge Map": {
+                    "id": 9,
+                    "API": "Open Charge Map",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Global public registry of electric vehicle charging locations", 
+                    "HTTPS": "true", 
+                    "URL": "https://openchargemap.org/site/develop/api"    
+                },
+                "REFUGE Restrooms": {
+                    "id": 10,
+                    "API": "REFUGE Restrooms",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Provides safe restroom access for transgender, intersex and gender nonconforming individuals", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.refugerestrooms.org/api/docs/#!/restrooms"    
+                },
+                "Schiphol Airport": {
+                    "id": 11,
+                    "API": "Schiphol Airport",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Schiphol", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.schiphol.nl/"    
+                },
+                "TransitLand": {
+                    "id": 12,
+                    "API": "TransitLand",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Transit Aggregation", 
+                    "HTTPS": "true", 
+                    "URL": "https://transit.land/documentation/datastore/api-endpoints.html"    
+                },
+                "Transport for Auckland, New Zealand": {
+                    "id": 13,
+                    "API": "Transport for Auckland, New Zealand",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Auckland Transport", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.at.govt.nz/"    
+                },
+                "Transport for Belgium": {
+                    "id": 14,
+                    "API": "Transport for Belgium",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Belgian transport API", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/derhuerst/vbb-rest/blob/3/docs/index.md"    
+                },
+                "Transport for Berlin, Germany": {
+                    "id": 15,
+                    "API": "Transport for Berlin, Germany",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Third-party VBB API", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.adsbexchange.com/data/"    
+                },
+                "Transport for Bordeaux, France": {
+                    "id": 16,
+                    "API": "Transport for Bordeaux, France",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Bordeaux Métropole public transport and more (France)", 
+                    "HTTPS": "true", 
+                    "URL": "https://opendata.bordeaux-metropole.fr/explore/"    
+                },
+                "Transport for Budapest, Hungary": {
+                    "id": 17,
+                    "API": "Transport for Budapest, Hungary",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Budapest public transport API", 
+                    "HTTPS": "true", 
+                    "URL": "https://bkkfutar.docs.apiary.io"    
+                },
+                "Transport for Czech Republic": {
+                    "id": 18,
+                    "API": "Transport for Czech Republic",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Czech transport API", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.chaps.cz/eng/products/idos-internet"    
+                },
+                "Transport for Finland": {
+                    "id": 19,
+                    "API": "Transport for Finland",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Finnish transport API", 
+                    "HTTPS": "true", 
+                    "URL": "https://digitransit.fi/en/developers/ "    
+                },
+                "Transport for India": {
+                    "id": 20,
+                    "API": "Transport for India",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "India Public Transport API", 
+                    "HTTPS": "true", 
+                    "URL": "https://data.gov.in/sector/transport"    
+                },
+                "Transport for Lisbon, Portugal": {
+                    "id": 21,
+                    "API": "Transport for Lisbon, Portugal",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Data about buses routes, parking and traffic", 
+                    "HTTPS": "true", 
+                    "URL": "https://emel.city-platform.com/opendata/"    
+                },
+                "Transport for London, England": {
+                    "id": 22,
+                    "API": "Transport for London, England",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "TfL API", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.tfl.gov.uk"    
+                },
+                "Transport for Manchester, England": {
+                    "id": 23,
+                    "API": "Transport for Manchester, England",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "no", 
+                    "Description": "TfGM transport network data", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.tfgm.com/"    
+                },
+                "Transport for Sweden": {
+                    "id": 24,
+                    "API": "Transport for Sweden",
+                    "AUTH": "OAuth",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Public Transport consumer", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.trafiklab.se/api"    
+                },
+                "Transport for Switzerland": {
+                    "id": 25,
+                    "API": "Transport for Switzerland",
+                    "AUTH": "apiKey",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Official Swiss Public Transport Open Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://opentransportdata.swiss/en/"    
+                },
+                "Transport for Switzerland": {
+                    "id": 26,
+                    "API": "Transport for Switzerland",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Swiss public transport API", 
+                    "HTTPS": "true", 
+                    "URL": "https://transport.opendata.ch/"    
+                },
+                "Transport for The Netherlands": {
+                    "id": 27,
+                    "API": "Transport for The Netherlands",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "OVAPI, country-wide public transport", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"    
+                },
+                "Transport for Toronto, Canada": {
+                    "id": 28,
+                    "API": "Transport for Toronto, Canada",
+                    "AUTH": "",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "TTC", 
+                    "HTTPS": "true", 
+                    "URL": "https://myttc.ca/developers"    
+                },
+                "Transport for Vancouver, Canada": {
+                    "id": 29,
+                    "API": "Transport for Vancouver, Canada",
+                    "AUTH": "OAuth",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "TransLink", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.translink.ca/"    
+                },
+                "Transport for Washington, US": {
+                    "id": 30,
+                    "API": "Transport for Washington, US",
+                    "AUTH": "OAuth",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Washington Metro transport API", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.wmata.com/"    
+                },
+                "Uber": {
+                    "id": 31,
+                    "API": "Uber",
+                    "AUTH": "OAuth",
+                    "Category": "Transportation", 
+                    "Cors": "yes", 
+                    "Description": "Uber ride requests and price estimation", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.uber.com/products"    
+                },
+                "WhereIsMyTransport": {
+                    "id": 32,
+                    "API": "WhereIsMyTransport",
+                    "AUTH": "OAuth",
+                    "Category": "Transportation", 
+                    "Cors": "unknown", 
+                    "Description": "Platform for public transport data in emerging cities", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.whereismytransport.com/"    
+                }
             }
         }
     },
@@ -5232,7 +5551,46 @@
         "URL Shorteners": {
             "id": 42,
             "subCategories": {
-                
+                "WhereIsMyTransport": {
+                    "id": 1,
+                    "API": "Bitly",
+                    "AUTH": "OAuth",
+                    "Category": "URL Shorteners", 
+                    "Cors": "unknown", 
+                    "Description": "URL shortener and link management", 
+                    "HTTPS": "true", 
+                    "URL": "http://dev.bitly.com/get_started.html"    
+                },
+                "CleanURI": {
+                    "id": 2,
+                    "API": "CleanURI",
+                    "AUTH": "No",
+                    "Category": "URL Shorteners", 
+                    "Cors": "yes", 
+                    "Description": "URL shortener service", 
+                    "HTTPS": "true", 
+                    "URL": "https://cleanuri.com/docs"    
+                },
+                "ClickMeter": {
+                    "id": 3,
+                    "API": "ClickMeter",
+                    "AUTH": "apiKey",
+                    "Category": "URL Shorteners", 
+                    "Cors": "unknown", 
+                    "Description": "Monitor, compare and optimize your marketing links", 
+                    "HTTPS": "true", 
+                    "URL": "https://support.clickmeter.com/hc/en-us/categories/201474986"    
+                },
+                "Rebrandly": {
+                    "id": 4,
+                    "API": "Rebrandly",
+                    "AUTH": "apiKey",
+                    "Category": "URL Shorteners", 
+                    "Cors": "unknown", 
+                    "Description": "Custom URL shortener for sharing branded links", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.rebrandly.com/v1/docs"    
+                }
             }
         }
     },
@@ -5240,7 +5598,56 @@
         "Vehicle": {
             "id": 43,
             "subCategories": {
-                
+                "Brazilian Vehicles and Prices": {
+                    "id": 1,
+                    "API": "Brazilian Vehicles and Prices",
+                    "AUTH": "",
+                    "Category": "Vehicle", 
+                    "Cors": "unknown", 
+                    "Description": "Vehicles information from Fundação Instituto de Pesquisas Econômicas - Fipe", 
+                    "HTTPS": "true", 
+                    "URL": "https://deividfortuna.github.io/fipe/"    
+                },
+                "Kelley Blue Book": {
+                    "id": 2,
+                    "API": "Kelley Blue Book",
+                    "AUTH": "apiKey",
+                    "Category": "Vehicle", 
+                    "Cors": "no", 
+                    "Description": "Vehicle info, pricing, configuration, plus much more", 
+                    "HTTPS": "true", 
+                    "URL": "http://developer.kbb.com/#!/data/1-Default"    
+                },
+                "Mercedes-Benz": {
+                    "id": 3,
+                    "API": "Mercedes-Benz",
+                    "AUTH": "apiKey",
+                    "Category": "Vehicle", 
+                    "Cors": "no", 
+                    "Description": "Telematics data, remotely access vehicle functions, car configurator, locate service dealers", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.mercedes-benz.com/apis"    
+                },
+                "NHTSA": {
+                    "id": 4,
+                    "API": "NHTSA",
+                    "AUTH": "",
+                    "Category": "Vehicle", 
+                    "Cors": "unknown", 
+                    "Description": "NHTSA Product Information Catalog and Vehicle Listing", 
+                    "HTTPS": "true", 
+                    "URL": "https://vpic.nhtsa.dot.gov/api/"    
+                },
+                "Smartcar": {
+                    "id": 5,
+                    "API": "Smartcar",
+                    "AUTH": "OAuth",
+                    "Category": "Vehicle", 
+                    "Cors": "yes", 
+                    "Description": "Lock and unlock vehicles and get data like odometer reading and location. Works on most new cars", 
+                    "HTTPS": "true", 
+                    "URL": "https://smartcar.com/docs/"    
+                }
             }
         }
     },
@@ -5248,7 +5655,156 @@
         "Video": {
             "id":44,
             "subCategories": {
-                
+                "An API of Ice And Fire": {
+                    "id": 1,
+                    "API": "An API of Ice And Fire",
+                    "AUTH": "",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Game Of Thrones API", 
+                    "HTTPS": "true", 
+                    "URL": "https://anapioficeandfire.com/"    
+                },
+                "Breaking Bad": {
+                    "id": 2,
+                    "API": "Breaking Bad",
+                    "AUTH": "",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Breaking Bad API", 
+                    "HTTPS": "true", 
+                    "URL": "https://breakingbadapi.com/documentation"    
+                },
+                "Breaking Bad Quotes": {
+                    "id": 3,
+                    "API": "Breaking Bad Quotes",
+                    "AUTH": "",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Some Breaking Bad quotes", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/shevabam/breaking-bad-quotes"    
+                },
+                "Dailymotion": {
+                    "id": 4,
+                    "API": "An API of Ice And Fire",
+                    "AUTH": "OAuth",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Dailymotion Developer API", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.dailymotion.com/"    
+                },
+                "Final Space": {
+                    "id": 5,
+                    "API": "An API of Ice And Fire",
+                    "AUTH": "",
+                    "Category": "Video", 
+                    "Cors": "yes", 
+                    "Description": "Final Space API", 
+                    "HTTPS": "true", 
+                    "URL": "https://finalspaceapi.com/docs/"    
+                },
+                "Harry Potter": {
+                    "id": 6,
+                    "API": "Harry Potter",
+                    "AUTH": "apiKey",
+                    "Category": "Video", 
+                    "Cors": "yes", 
+                    "Description": "Harry Potter API", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.potterapi.com/"    
+                },
+                "Open Movie Database": {
+                    "id": 7,
+                    "API": "Open Movie Database",
+                    "AUTH": "apiKey",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Movie information", 
+                    "HTTPS": "true", 
+                    "URL": "http://www.omdbapi.com/"    
+                },
+                "Ron Swanson Quotes": {
+                    "id": 8,
+                    "API": "Ron Swanson Quotes",
+                    "AUTH": "",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Television", 
+                    "HTTPS": "true", 
+                    "URL": "https://github.com/jamesseanwright/ron-swanson-quotes#ron-swanson-quotes-api"    
+                },
+                "SWAPI": {
+                    "id": 9,
+                    "API": "SWAPI",
+                    "AUTH": "",
+                    "Category": "Video", 
+                    "Cors": "yes", 
+                    "Description": "All things Star Wars", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.swapi.tech"    
+                },
+                "The Lord of the Rings": {
+                    "id": 10,
+                    "API": "The Lord of the Rings",
+                    "AUTH": "apiKey",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "The Lord of the Rings API", 
+                    "HTTPS": "true", 
+                    "URL": "https://the-one-api.dev/"    
+                },
+                "TMDb": {
+                    "id": 11,
+                    "API": "TMDb",
+                    "AUTH": "apiKey",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Community-based movie data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.themoviedb.org/documentation/api"    
+                },
+                "Trakt": {
+                    "id": 12,
+                    "API": "Trakt",
+                    "AUTH": "apiKey",
+                    "Category": "Video", 
+                    "Cors": "yes", 
+                    "Description": "Movie and TV Data", 
+                    "HTTPS": "true", 
+                    "URL": "https://trakt.tv/b/api-docs"    
+                },
+                "TVDB": {
+                    "id": 13,
+                    "API": "TVDB",
+                    "AUTH": "apiKey",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Television data", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.thetvdb.com/swagger"    
+                },
+                "Vimeo": {
+                    "id": 14,
+                    "API": "Vimeo",
+                    "AUTH": "OAuth",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Vimeo Developer API", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.vimeo.com/"    
+                },
+                "YouTube": {
+                    "id": 15,
+                    "API": "YouTube",
+                    "AUTH": "OAuth",
+                    "Category": "Video", 
+                    "Cors": "unknown", 
+                    "Description": "Add YouTube functionality to your sites and apps", 
+                    "HTTPS": "true", 
+                    "URL": "https://developers.google.com/youtube/"    
+                }
             }
         }
     },
@@ -5256,7 +5812,96 @@
         "Weather": {
             "id": 45,
             "subCategories": {
-                
+                "APIXU": {
+                    "id": 1,
+                    "API": "APIXU",
+                    "AUTH": "apiKey",
+                    "Category": "Weather", 
+                    "Cors": "unknown", 
+                    "Description": "Weather", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.apixu.com/doc/request.aspx"    
+                },
+                "MetaWeather": {
+                    "id": 2,
+                    "API": "MetaWeather",
+                    "AUTH": "",
+                    "Category": "Weather", 
+                    "Cors": "no", 
+                    "Description": "Weather", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.metaweather.com/api/"    
+                },
+                "Meteorologisk Institutt": {
+                    "id": 3,
+                    "API": "Meteorologisk Institutt",
+                    "AUTH": "",
+                    "Category": "Weather", 
+                    "Cors": "unknown", 
+                    "Description": "Weather and climate data", 
+                    "HTTPS": "true", 
+                    "URL": "https://api.met.no/weatherapi/documentation"    
+                },
+                "NOAA Climate Data": {
+                    "id": 4,
+                    "API": "NOAA Climate Data",
+                    "AUTH": "apiKey",
+                    "Category": "Weather", 
+                    "Cors": "unknown", 
+                    "Description": "Weather and climate data", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.ncdc.noaa.gov/cdo-web/"    
+                },
+                "OpenUV": {
+                    "id": 5,
+                    "API": "OpenUV",
+                    "AUTH": "apiKey",
+                    "Category": "Weather", 
+                    "Cors": "unknown", 
+                    "Description": "Real-time UV Index Forecast", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.openuv.io"    
+                },
+                "OpenWeatherMap": {
+                    "id": 6,
+                    "API": "OpenWeatherMap",
+                    "AUTH": "apiKey",
+                    "Category": "Weather", 
+                    "Cors": "unknown", 
+                    "Description": "Weather", 
+                    "HTTPS": "true", 
+                    "URL": "https://openweathermap.org/api"    
+                },
+                "Storm Glass": {
+                    "id": 7,
+                    "API": "Storm Glass",
+                    "AUTH": "apiKey",
+                    "Category": "Weather", 
+                    "Cors": "yes", 
+                    "Description": "Global marine weather from multiple sources", 
+                    "HTTPS": "true", 
+                    "URL": "https://stormglass.io/"    
+                },
+                "Weatherbit": {
+                    "id": 8,
+                    "API": "Weatherbit",
+                    "AUTH": "apiKey",
+                    "Category": "Weather", 
+                    "Cors": "unknown", 
+                    "Description": "Weather", 
+                    "HTTPS": "true", 
+                    "URL": "https://www.weatherbit.io/api"    
+                },
+                "Yahoo! Weather": {
+                    "id": 9,
+                    "API": "Yahoo! Weather",
+                    "AUTH": "apiKey",
+                    "Category": "Weather", 
+                    "Cors": "unknown", 
+                    "Description": "Weather", 
+                    "HTTPS": "true", 
+                    "URL": "https://developer.yahoo.com/weather/"    
+                }
             }
         }
     }
