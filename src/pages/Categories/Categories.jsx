@@ -9,7 +9,8 @@ import CardList from "../../Components/Card-List/Card-List";
 const CategoriesPage = () => {
   const [categories, setCategories] = useState([]);
   const [search, setSearch] = useState("");
-
+  
+ 
   const categoryList = useEffect(() => {
     APICategories().then((data) => setCategories(data));
     subCategoryList("animals").then((data) => {
@@ -22,7 +23,7 @@ const CategoriesPage = () => {
   const handleInputSearchChange = (e) => {
     e.preventDefault();
     setSearch(e.target.value);
-  };
+  };              
 
   return (
     <div className="main-content_wrapper">

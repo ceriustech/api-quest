@@ -21,6 +21,7 @@ const HomePage = () => {
     iconSize: {
       width: 20,
       height: 20  
+      
     }
   }
 
