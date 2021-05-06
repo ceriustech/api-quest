@@ -3,6 +3,7 @@
 	background-color: #fff;
 	padding-left: 10px;
 	border-radius: 15px;
+	width: 70%;
 }
 
 .sub-category-info {
@@ -15,18 +16,16 @@
 .sub-category-info p {
 	color: var(--text-primary);
 }
-.sub-category-info:hover {
-	cursor: pointer;
-}
 
 .sub-category-info-text {
 	font-size: 1.25em;
 	font-weight: 600;
-	margin: 0;
+	margin: 0 5px;
 	padding: 5px;
 }
 .sub-category-info-text:nth-child(6):hover {
 	color: var(--alt-color-secondary);
+	cursor: pointer;
 }
 
 .sub-category-info-text:nth-child(1) {

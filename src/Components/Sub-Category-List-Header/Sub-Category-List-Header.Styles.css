@@ -2,6 +2,7 @@
 	color: var(--text-tertiary);
 	font-size: 12px;
 	padding: 0 10px;
+	width: 70%;
 }
 
 .sub-category-list-header-info {
@@ -12,7 +13,7 @@
 .sub-category-list-header-text {
 	font-size: 1.5em;
 	font-weight: 600;
-	margin: 0;
+	margin: 0 5px;
 	padding: 5px;
 }
 
