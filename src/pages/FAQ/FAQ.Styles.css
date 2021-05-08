@@ -1,45 +1,43 @@
 .faq-page_content {
-  background-color: #fff;
-  border-radius: 10px;
-  font-size: 12px;
-  padding: 35px;
-  margin: 15px;
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: 12px;
+	padding: 35px;
+	margin: 15px;
 }
 
 .faq-header {
-  border-bottom: 2px solid #e63956;
-  color: var(--text-tertiary);
-  font-size: 2.25em;
-  font-weight: bold;
-  line-height: 0.85;
-  margin: 0 0 40px 0;
-  padding-bottom: 5px;
-  width: 13.75em;
+	color: var(--text-tertiary);
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 0.85;
+	margin: 20px 15px;
+	padding-bottom: 5px;
 }
 
 .faq-info_container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
-  grid-gap: 25px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
+	grid-gap: 25px;
 }
 
 .faq-info_text {
-  color: var(--text-tertiary);
+	color: var(--text-tertiary);
 }
 
 .faq-info-header {
-  display: flex;
-  align-items: baseline;
+	display: flex;
+	align-items: baseline;
 }
 
 .faq-info_text h2 {
-  font-size: 2em;
-  margin: 0.25em 0.25em;
+	font-size: 2em;
+	margin: 0.25em 0.25em;
 }
 
 .faq-info_text p {
-  font-size: 1.35em;
-  line-height: 1.5;
-  margin: 0;
-  padding-left: 1.5em;
+	font-size: 1.35em;
+	line-height: 1.5;
+	margin: 0;
+	padding-left: 1.5em;
 }
