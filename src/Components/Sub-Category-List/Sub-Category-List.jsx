@@ -5,7 +5,7 @@ import SubCategory from '../Sub-Category/Sub-Category';
 
 import './Sub-Category-List.Styles.css';
 
-const SubCategoryList = (props) => {
+const SubCategoryList = () => {
 	return (
 		<div className="sub-category-list-container">
 			<SubCategoryListHeader />

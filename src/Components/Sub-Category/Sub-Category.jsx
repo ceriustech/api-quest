@@ -1,11 +1,10 @@
 import React from 'react';
 
-
 import URLButtons from '../Buttons/URL-Buttons';
 
-import './Sub-Category.Styles.css';
+import '../../Styles/Sub-Category/Sub-Category.scss';
 
-const SubCategory = (props) => {
+const SubCategory = () => {
 	return (
 		<section className="sub-category-container">
 			<div className="sub-category-info">
@@ -16,8 +15,8 @@ const SubCategory = (props) => {
 				<p className="sub-category-info-text">Yes</p>
 				<p className="sub-category-info-text">Yes</p>
 				<p className="sub-category-info-text">Yes</p>
-				
-					<URLButtons />
+
+				<URLButtons />
 			</div>
 		</section>
 	);

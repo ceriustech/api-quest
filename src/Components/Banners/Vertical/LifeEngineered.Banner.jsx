@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../../../Styles/Banners/Vertical/Lifengineered.scss';
+
 const LifengineeredVerticalBanner = () => {
 	return (
 		<div className="le-banner-container">
