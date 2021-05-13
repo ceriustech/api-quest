@@ -1,0 +1,35 @@
+.cta-button {
+	background-color: #fff;
+	border: 1px solid #e63956;
+	border-radius: 20px;
+	color: var(--alt-color-primary) !important;
+	font-size: 1.5em !important;
+	font-weight: 600 !important;
+	padding: 12px 64px;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background-color: var(--bg-secondary);
+		color: #fff !important;
+		cursor: pointer;
+	}
+}
+
+.custom-button {
+	background-color: #fff;
+	border: 1px solid #f9b234;
+	border-radius: 20px;
+	color: var(--alt-color-tertiary) !important;
+	font-size: 1.5em !important;
+	font-weight: 600 !important;
+	padding: 12px 64px;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+
+	&:hover {
+		background-color: var(--bg-tertiary);
+		color: #fff !important;
+		cursor: pointer;
+	}
+}

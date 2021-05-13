@@ -1,0 +1,36 @@
+.button-link-container {
+	background-color: #f5f9fe;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	font-size: 12px;
+	position: relative;
+	text-decoration: none;
+	width: 136px;
+	height: 35px;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	.button-link {
+		text-decoration: none;
+		.button-link_p {
+			color: #3cc0f8 !important;
+			display: flex;
+			font-size: 1.25em;
+			line-height: 1.25;
+			margin: 0 !important;
+			position: absolute;
+			left: 18px;
+			top: 4px;
+			.button-link-span_left {
+			}
+
+			.button-link-span_right {
+				position: relative;
+				bottom: 2px;
+			}
+		}
+	}
+}

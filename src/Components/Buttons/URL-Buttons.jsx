@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './URL-Buttons.styles.css';
+import '../../Styles/Buttons/URL-Button.scss';
 import ArrowLeftIcon from '@material-ui/icons/ArrowLeft';
 
 const URLButtons = () => {
