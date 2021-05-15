@@ -2,7 +2,7 @@ import React from 'react';
 
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 
-import './FAQ.Styles.css';
+import '../../Styles/FAQ/FAQ.scss';
 
 const FAQPage = () => (
 	<div className="main-content_wrapper">
@@ -115,7 +115,7 @@ const FAQPage = () => (
 						<h2>How do you gather data for the api's?</h2>
 					</div>
 					<p>
-						We've created our on api for api's that serve up all the data for
+						We've created our own api for api's that serve up all the data for
 						the api's on the site. This decision was made so that we can
 						maintain ownership and control over the data. Creating our own api
 						also gives us the ability to add and subtract from the list as

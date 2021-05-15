@@ -1,0 +1,47 @@
+.main-content_wrapper {
+	border-radius: 10px;
+	font-size: 12px;
+	padding: 3.5em 3.5em 1em;
+	margin: 15px;
+
+	.faq-header {
+		color: var(--text-tertiary);
+		font-size: 1.75em;
+		font-weight: bold;
+		line-height: 0.85;
+		margin: 20px 15px;
+		padding-bottom: 5px;
+	}
+
+	.faq-page_content {
+		background-color: #fff;
+		border-radius: 10px;
+		padding: 2.5em;
+		.faq-info_container {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
+			grid-gap: 30px;
+
+			.faq-info_text {
+				color: var(--text-tertiary);
+
+				.faq-info-header {
+					display: flex;
+					align-items: baseline;
+
+					h2 {
+						font-size: 1.5em;
+						margin: 0.25em 0.25em;
+					}
+				}
+
+				p {
+					font-size: 1.35em;
+					line-height: 1.5;
+					margin: 0;
+					padding-left: 1.5em;
+				}
+			}
+		}
+	}
+}

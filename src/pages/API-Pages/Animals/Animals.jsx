@@ -4,7 +4,7 @@ import { subCategoryList } from '../../../api-data';
 
 import SubCategoryList from '../../../Components/Sub-Category-List/Sub-Category-List';
 
-const Animals = (props) => {
+const Animals = () => {
 	const [subCategory, setSubCategory] = useState([]);
 
 	const path = window.location.pathname.replace('/', '');
@@ -24,6 +24,7 @@ const Animals = (props) => {
 				<h1>Animals Page</h1>
 				<SubCategoryList urlPath={'path'} />
 			</section>
+			<section className="ad-section"></section>
 		</div>
 	);
 };
