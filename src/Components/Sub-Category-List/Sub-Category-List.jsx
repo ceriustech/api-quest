@@ -3,7 +3,7 @@ import React from 'react';
 import SubCategoryListHeader from '../Sub-Category-List-Header/Sub-Category-List-Header';
 import SubCategory from '../Sub-Category/Sub-Category';
 
-import './Sub-Category-List.Styles.css';
+import '../../Styles/Sub-Category-List/Sub-Category-List.scss';
 
 const SubCategoryList = () => {
 	return (
