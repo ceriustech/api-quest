@@ -1,6 +1,10 @@
 .le-banner-container {
 	background-color: #000;
 	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	align-items: center;
 	height: 100%;
 	padding: 1.5em;
 	position: relative;
@@ -15,11 +19,18 @@
 		z-index: 1;
 	}
 
+	p {
+		color: #fff;
+		font-size: 1.75em;
+		margin: 0 0 0.5em;
+	}
+
 	.le-banner-content {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 		font-size: 12px;
+		padding-top: 2em;
 
 		.le-banner-header {
 			p {
@@ -41,11 +52,20 @@
 		}
 
 		.le-banner-mssg {
+			font-size: 12px;
+			margin: 0 0 2em;
 			text-align: center;
 			p {
 				color: #fff;
 				font-size: 2em;
-				margin: 0;
+				margin: 0 0 1em;
+			}
+			p:nth-child(1) {
+				margin-top: 1em;
+			}
+			p:nth-child(2) {
+				font-size: 3em;
+				font-weight: 600;
 			}
 
 			p:nth-child(2) span {

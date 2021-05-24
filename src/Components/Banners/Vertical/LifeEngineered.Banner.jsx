@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
+import CountdownClock from '../../CountdownClock/CountdownClock';
 import '../../../Styles/Banners/Vertical/Lifengineered.scss';
 
 const LifengineeredVerticalBanner = () => {
@@ -30,6 +31,8 @@ const LifengineeredVerticalBanner = () => {
 					</p>
 				</div>
 			</div>
+			<p>Starts in:</p>
+			<CountdownClock />
 		</div>
 	);
 };
