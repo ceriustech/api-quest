@@ -4,6 +4,7 @@ import { subCategoryList } from '../../../api-data';
 
 import SubCategoryList from '../../../Components/Sub-Category-List/Sub-Category-List';
 import LifengineeredBanner from '../../../Components/Banners/Vertical/LifeEngineered.Banner';
+import SearchField from '../../../Components/Search-Field/Search-Field';
 
 import '../../../Styles/Sub-Category-Page/Sub-Category-Page.scss';
 
@@ -24,6 +25,7 @@ const Animals = () => {
 	return (
 		<div className="main-content_wrapper animals">
 			<h1>Animals Page</h1>
+			<SearchField />
 			<div className="sub-category-content-container">
 				<section className="sub-category-content">
 					<SubCategoryList urlPath={'path'} />

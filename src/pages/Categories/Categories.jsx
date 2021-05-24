@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
+import HandleInputChange from '../../Helper-Functions/HandleInputChange/HandleInputChange';
+
 import { APICategories, subCategoryList } from '../../api-data';
 
 import '../../Styles/Categories/Categories.scss';

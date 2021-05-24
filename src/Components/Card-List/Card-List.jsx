@@ -5,11 +5,10 @@ import { categoryinfo } from '../../Data/category.data.js';
 
 import '../../Styles/Card-List/Card-List.scss';
 
-const CardList = (props) => {
-	console.log(props);
+const CardList = ({ categories }) => {
 	return (
 		<div className="card-list">
-			{props.categories.map((category, index) => {
+			{categories.map((category, index) => {
 				if (!categoryinfo[category]) {
 					return null;
 				}
