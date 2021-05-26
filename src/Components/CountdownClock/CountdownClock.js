@@ -26,8 +26,6 @@ const CountdownClock = () => {
 		return timeLeft;
 	};
 
-	console.log(calculateTimeLeft());
-
 	const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
 	useEffect(() => {
@@ -41,35 +39,35 @@ const CountdownClock = () => {
 			{calculateTimeLeft !== 0 ? (
 				<div className="countdown-clock">
 					<div className="countdown-clock-placement">
-						<p id="timer-days" class="countdown-lock-number">
+						<p id="timer-days" className="countdown-lock-number">
 							{timeLeft.days}
 							<span>:</span>
 						</p>
-						<p class="countdown-clock-label">Day</p>
+						<p className="countdown-clock-label">Day</p>
 					</div>
 					<div className="countdown-clock-placement">
-						<p id="timer-hours" class="countdown-lock-number">
+						<p id="timer-hours" className="countdown-lock-number">
 							{timeLeft.hours < 10 ? '0' + timeLeft.hours : timeLeft.hours}
 							<span>:</span>
 						</p>
-						<p class="countdown-clock-label">HR</p>
+						<p className="countdown-clock-label">HR</p>
 					</div>
 					<div className="countdown-clock-placement">
-						<p id="timer-hours" class="countdown-lock-number">
+						<p id="timer-hours" className="countdown-lock-number">
 							{timeLeft.minutes < 10
 								? '0' + timeLeft.minutes
 								: timeLeft.minutes}
 							<span>:</span>
 						</p>
-						<p class="countdown-clock-label">MIN</p>
+						<p className="countdown-clock-label">MIN</p>
 					</div>
 					<div className="countdown-clock-placement">
-						<p id="timer-hours" class="countdown-lock-number">
+						<p id="timer-hours" className="countdown-lock-number">
 							{timeLeft.seconds < 10
 								? '0' + timeLeft.seconds
 								: timeLeft.seconds}
 						</p>
-						<p class="countdown-clock-label">SEC</p>
+						<p className="countdown-clock-label">SEC</p>
 					</div>
 				</div>
 			) : (
