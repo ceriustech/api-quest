@@ -1,0 +1,10 @@
+.mobile-sub-category-list-container {
+	border-radius: 8px;
+	padding: 10px 15px;
+
+	&.mobile-sub-category-list-container {
+		@media screen and (min-width: 768px) {
+			display: none;
+		}
+	}
+}
