@@ -67,7 +67,37 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-
 <!-- Comment -->
 
 ## New comment
+
+You have
+
+- Categories
+  - For each category, there is a api url to retrieve information from
+
+Create own api
+
+- Categories
+
+  - for each category, there is an individual API
+
+- Average User will browse through the categories
+  - Find a category they like
+  - Look through the category's subcategories
+  - Go to a subcatgory's api url
+  - Thats the end
+
+Create a mongoose Model
+
+- id - index, ObjectId
+- category - index, string
+- sub category - index string
+- name - "Cat Facts",
+- AUTH - boolean
+- cors - boolean
+- HTTPS - boolean
+- Description - string
+- URL - string
+
+Admin Page for adding new APIs
