@@ -4,7 +4,7 @@ import Card from '../Card/Card';
 import { categoryinfo } from '../../Data/category.data.js';
 
 import '../../Styles/Card-List/Card-List.scss';
-//test
+
 const CardList = ({ categories }) => {
 	return (
 		<div className="card-list">
